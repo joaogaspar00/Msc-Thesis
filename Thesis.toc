@@ -1,0 +1,54 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{Acknowledgments}{vii}{section*.1}%
+\contentsline {section}{Resumo}{ix}{section*.2}%
+\contentsline {section}{Abstract}{xi}{section*.3}%
+\contentsline {section}{List of Tables}{xv}{section*.5}%
+\contentsline {section}{List of Figures}{xvii}{section*.7}%
+\contentsline {section}{Nomenclature}{xix}{section*.9}%
+\contentsline {section}{Glossary}{xix}{section*.10}%
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Topic Overview}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Objectives}{2}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Thesis Outline}{2}{section.1.4}%
+\contentsline {chapter}{\numberline {2}Literature Review}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Space Race and Vehicles Reusability}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Autorotation for Space Vehicles}{3}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Rotary Wing Recovery System In the Early Ages of Space Exploration}{3}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2}Recent Projects}{4}{subsection.2.2.2}%
+\contentsline {subsubsection}{\gls {armada}}{5}{section*.12}%
+\contentsline {subsubsection}{Hummingbird}{7}{section*.16}%
+\contentsline {subsubsection}{DEADALUS}{8}{section*.18}%
+\contentsline {subsection}{\numberline {2.2.3}Why using rotary wings for space vehicle recovery?}{9}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Autorotation Phenomena}{10}{section.2.3}%
+\contentsline {section}{\numberline {2.4}State-of-art Overview and Conclusions}{10}{section.2.4}%
+\contentsline {chapter}{\numberline {3}Autorotation Mathematical Model}{11}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Vehicle Model}{11}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Model simplications and assumptions}{12}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Reference Frames}{12}{subsection.3.1.2}%
+\contentsline {subsection}{\numberline {3.1.3}System's Degrees of Freedom}{15}{subsection.3.1.3}%
+\contentsline {section}{\numberline {3.2}7-DOF Vehicle Dynamics}{16}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Vehicle Motion}{16}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Rotor Motion}{18}{subsection.3.2.2}%
+\contentsline {subsection}{\numberline {3.2.3}Full system}{19}{subsection.3.2.3}%
+\contentsline {subsection}{\numberline {3.2.4}Moment of Inertia}{20}{subsection.3.2.4}%
+\contentsline {section}{\numberline {3.3}Blade Element Theory (BET)}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Blade forces and moments}{21}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Velocities}{22}{subsection.3.3.2}%
+\contentsline {subsubsection}{Induced Velocity}{23}{section*.29}%
+\contentsline {section}{\numberline {3.4}AERODAS Model}{24}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Prandtl Tip Losses}{28}{subsection.3.4.1}%
+\contentsline {section}{\numberline {3.5}Atmosphere Model}{28}{section.3.5}%
+\contentsline {chapter}{\numberline {4}Model}{29}{chapter.4}%
+\contentsline {chapter}{\numberline {5}Computational Methodology}{30}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Solvers}{30}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Application Development and Workflow}{30}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Experimental tests}{30}{section.5.3}%
+\contentsline {chapter}{\numberline {6}Results}{31}{chapter.6}%
+\contentsline {chapter}{\numberline {7}Conclusions}{32}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Achievements}{32}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Future Work}{32}{section.7.2}%
+\contentsline {chapter}{Bibliography}{33}{section*.32}%
+\contentsline {chapter}{\numberline {A}AERODAS Model Data from XFLR5}{A.1}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Dataset for AERODAS model}{A.1}{section.A.1}%
+\contentsline {section}{\numberline {A.2}Simulation Data as Model Inputs}{A.1}{section.A.2}%
