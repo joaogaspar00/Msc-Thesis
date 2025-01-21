@@ -1,70 +1,69 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: Thesis.aux
-Reallocating 'name_of_file' (item size: 1) to 14 items.
-The style file: abbrvunsrtnat.bst
+Reallocating 'name_of_file' (item size: 1) to 9 items.
+The style file: IEEEtran.bst
 Reallocating 'name_of_file' (item size: 1) to 23 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
 Database file #1: Thesis_Bibliography_DB.bib
 Warning--I didn't find a database entry for "noauthor_daedalus_nodate"
-Warning--empty year in noauthor_armada_nodate
+-- IEEEtran.bst version 1.14 (2015/08/26) by Michael Shell.
+-- http://www.michaelshell.org/tex/ieeetran/bibtex/
+-- See the "IEEEtran_bst_HOWTO.pdf" manual for usage information.
 Warning--empty journal in steiner_rotary_nodate
 Warning--empty year in steiner_rotary_nodate
-Warning--empty year in steiner_rotary_nodate
-Warning--empty year in noauthor_apollo_nodate
 Warning--empty journal in maurer_project_nodate
-Warning--empty year in maurer_project_nodate
 Warning--empty year in maurer_project_nodate
 Warning--empty journal in riegler_daedalus_2018
 Warning--empty journal in riegler_project_nodate
 Warning--empty year in riegler_project_nodate
-Warning--empty year in riegler_project_nodate
-Warning--empty year in noauthor_european_nodate
-Warning--empty year in noauthor_spacex_nodate
-Warning--empty year in noauthor_blueorigin_nodate
-Warning--empty publisher in soler_fundamentals_2014
+Warning--missing publisher in soler_fundamentals_2014
 Warning--empty journal in spera_models_2008
-Warning--empty year in noauthor_iso_nodate
-Warning--empty year in noauthor_earth_nodate
-Warning--empty journal in white_earth_2021
-You've used 26 entries,
-            2481 wiz_defined-function locations,
-            700 strings with 9699 characters,
-and the built_in function-call counts, 9170 in all, are:
-= -- 705
-> -- 559
-< -- 13
-+ -- 230
-- -- 172
-* -- 742
-:= -- 1464
-add.period$ -- 96
-call.type$ -- 26
-change.case$ -- 50
-chr.to.int$ -- 20
-cite$ -- 53
-duplicate$ -- 463
-empty$ -- 829
-format.name$ -- 199
-if$ -- 1934
-int.to.chr$ -- 7
-int.to.str$ -- 27
-missing$ -- 22
-newline$ -- 150
-num.names$ -- 57
-pop$ -- 277
+
+Done.
+You've used 29 entries,
+            4087 wiz_defined-function locations,
+            971 strings with 12866 characters,
+and the built_in function-call counts, 13794 in all, are:
+= -- 885
+> -- 385
+< -- 31
++ -- 192
+- -- 85
+* -- 755
+:= -- 2118
+add.period$ -- 61
+call.type$ -- 29
+change.case$ -- 29
+chr.to.int$ -- 72
+cite$ -- 38
+duplicate$ -- 1134
+empty$ -- 1352
+format.name$ -- 96
+if$ -- 3104
+int.to.chr$ -- 0
+int.to.str$ -- 29
+missing$ -- 254
+newline$ -- 142
+num.names$ -- 19
+pop$ -- 782
 preamble$ -- 1
-purify$ -- 26
-quote$ -- 0
-skip$ -- 272
+purify$ -- 0
+quote$ -- 2
+skip$ -- 948
 stack$ -- 0
-substring$ -- 116
-swap$ -- 73
-text.length$ -- 2
+substring$ -- 163
+swap$ -- 708
+text.length$ -- 7
 text.prefix$ -- 0
-top$ -- 0
-type$ -- 167
-warning$ -- 20
-while$ -- 43
-width$ -- 0
-write$ -- 355
-(There were 21 warnings)
+top$ -- 5
+type$ -- 29
+warning$ -- 9
+while$ -- 30
+width$ -- 31
+write$ -- 269
+(There were 10 warnings)

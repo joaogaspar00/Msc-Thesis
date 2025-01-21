@@ -276,6 +276,10 @@ INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\mathtools\mathtools.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\mathtools\mhsetup.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\mathtools\mhsetup.sty
 INPUT .\Thesis_Nomenclature.tex
 INPUT .\Thesis_Nomenclature.tex
 INPUT .\Thesis_Nomenclature.tex
@@ -706,7 +710,6 @@ INPUT Thesis_Conclusions.tex
 INPUT .\Thesis.bbl
 INPUT .\Thesis.bbl
 INPUT Thesis.bbl
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT .\Thesis_Appendix_AerodasModel.tex
 INPUT .\Thesis_Appendix_AerodasModel.tex
 INPUT .\Thesis_Appendix_AerodasModel.tex
@@ -755,8 +758,6 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb

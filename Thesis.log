@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.7)  21 JAN 2025 14:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.7)  21 JAN 2025 16:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -693,14 +693,30 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_unit_tmp_int=\count371
 \l__siunitx_unit_position_int=\count372
 \l__siunitx_unit_total_int=\count373
+) (C:\Program Files\MiKTeX\tex/latex/mathtools\mathtools.sty
+Package: mathtools 2024/10/04 v1.31 mathematical typesetting tools
+ (C:\Program Files\MiKTeX\tex/latex/mathtools\mhsetup.sty
+Package: mhsetup 2021/03/18 v1.4 programming setup (MH)
+)
+\g_MT_multlinerow_int=\count374
+\l_MT_multwidth_dim=\dimen275
+\origjot=\skip94
+\l_MT_shortvdotswithinadjustabove_dim=\dimen276
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen277
+\l_MT_above_intertext_sep=\dimen278
+\l_MT_below_intertext_sep=\dimen279
+\l_MT_above_shortintertext_sep=\dimen280
+\l_MT_below_shortintertext_sep=\dimen281
+\xmathstrut@box=\box79
+\xmathstrut@dim=\dimen282
 )) (Thesis_Nomenclature.tex) (Thesis_Glossary.tex)
 LaTeX Font Info:    Trying to load font information for OT1+phv on input line 94.
  (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 ) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count374
-\l__pdf_internal_box=\box79
+\l__color_backend_stack_int=\count375
+\l__pdf_internal_box=\box80
 ) (Thesis.aux)
 \openout1 = `Thesis.aux'.
 
@@ -759,16 +775,16 @@ LaTeX Font Info:    ... okay on input line 94.
 
 (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count375
-\scratchdimen=\dimen275
-\scratchbox=\box80
-\nofMPsegments=\count376
-\nofMParguments=\count377
+\scratchcounter=\count376
+\scratchdimen=\dimen283
+\scratchbox=\box81
+\nofMPsegments=\count377
+\nofMParguments=\count378
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count378
-\MPscratchDim=\dimen276
-\MPnumerator=\count379
-\makeMPintoPDFobject=\count380
+\MPscratchCnt=\count379
+\MPscratchDim=\dimen284
+\MPnumerator=\count380
+\makeMPintoPDFobject=\count381
 \everyMPtoPDFconversion=\toks53
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -802,12 +818,12 @@ File: translations-basic-dictionary-english.trsl (english translation file `tran
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 94.
  (Thesis_FrontCover.tex
 Package pdftex.def Info: Option `bb' equivalent to `viewport' with the pdftex driver on input line 15.
-<Figures/IST_A_CMYK_POS.pdf, id=195, 845.0471pt x 597.51233pt>
+<Figures/IST_A_CMYK_POS.pdf, id=199, 845.0471pt x 597.51233pt>
 File: Figures/IST_A_CMYK_POS.pdf Graphic file (type pdf)
 <use Figures/IST_A_CMYK_POS.pdf>
 Package pdftex.def Info: Figures/IST_A_CMYK_POS.pdf  used on input line 15.
 (pdftex.def)             Requested size: -78.38533pt x -90.76195pt.
-<Figures/Airbus_A350.jpg, id=196, 1027.84pt x 770.88pt>
+<Figures/Airbus_A350.jpg, id=200, 1027.84pt x 770.88pt>
 File: Figures/Airbus_A350.jpg Graphic file (type jpg)
 <use Figures/Airbus_A350.jpg>
 Package pdftex.def Info: Figures/Airbus_A350.jpg  used on input line 22.
@@ -930,7 +946,7 @@ Package epstopdf Info: Source file: <Figures/literature_review/rotochute_prototy
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/literature_review/rotochute_prototype-eps-converted-to.pdf Figures/literature_review/rotochute_prototype.eps>
 (epstopdf)             \includegraphics on input line 39.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/literature_review/rotochute_prototype-eps-converted-to.pdf, id=434, 643.40375pt x 483.8075pt>
+<Figures/literature_review/rotochute_prototype-eps-converted-to.pdf, id=439, 643.40375pt x 483.8075pt>
 File: Figures/literature_review/rotochute_prototype-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/literature_review/rotochute_prototype-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/literature_review/rotochute_prototype-eps-converted-to.pdf  used on input line 39.
@@ -943,7 +959,7 @@ Package pdftex.def Info: Figures/literature_review/rotochute_prototype-eps-conve
 ]
 
 [4 <./Figures/literature_review/rotochute_prototype-eps-converted-to.pdf>]
-<Figures/literature_review/armada_concept_vehicle.png, id=454, 607.51968pt x 490.08093pt>
+<Figures/literature_review/armada_concept_vehicle.png, id=459, 607.51968pt x 490.08093pt>
 File: Figures/literature_review/armada_concept_vehicle.png Graphic file (type png)
 <use Figures/literature_review/armada_concept_vehicle.png>
 Package pdftex.def Info: Figures/literature_review/armada_concept_vehicle.png  used on input line 68.
@@ -951,17 +967,17 @@ Package pdftex.def Info: Figures/literature_review/armada_concept_vehicle.png  u
 
 
 [5 <./Figures/literature_review/armada_concept_vehicle.png>]
-<Figures/literature_review/armada_software.png, id=467, 642.14906pt x 573.64313pt>
+<Figures/literature_review/armada_software.png, id=472, 642.14906pt x 573.64313pt>
 File: Figures/literature_review/armada_software.png Graphic file (type png)
 <use Figures/literature_review/armada_software.png>
 Package pdftex.def Info: Figures/literature_review/armada_software.png  used on input line 81.
 (pdftex.def)             Requested size: 170.71652pt x 152.50487pt.
-<Figures/literature_review/armada_supersonic_model.png, id=472, 700.86844pt x 493.845pt>
+<Figures/literature_review/armada_supersonic_model.png, id=477, 700.86844pt x 493.845pt>
 File: Figures/literature_review/armada_supersonic_model.png Graphic file (type png)
 <use Figures/literature_review/armada_supersonic_model.png>
 Package pdftex.def Info: Figures/literature_review/armada_supersonic_model.png  used on input line 93.
 (pdftex.def)             Requested size: 242.28111pt x 170.71652pt.
-<Figures/literature_review/armada_subsonic_model.png, id=473, 631.60968pt x 554.07pt>
+<Figures/literature_review/armada_subsonic_model.png, id=478, 631.60968pt x 554.07pt>
 File: Figures/literature_review/armada_subsonic_model.png Graphic file (type png)
 <use Figures/literature_review/armada_subsonic_model.png>
 Package pdftex.def Info: Figures/literature_review/armada_subsonic_model.png  used on input line 96.
@@ -969,7 +985,7 @@ Package pdftex.def Info: Figures/literature_review/armada_subsonic_model.png  us
 
 
 [6 <./Figures/literature_review/armada_software.png> <./Figures/literature_review/armada_supersonic_model.png> <./Figures/literature_review/armada_subsonic_model.png>]
-<Figures/literature_review/Hummingbird_operation.png, id=485, 1062.21844pt x 596.98032pt>
+<Figures/literature_review/Hummingbird_operation.png, id=490, 1062.21844pt x 596.98032pt>
 File: Figures/literature_review/Hummingbird_operation.png Graphic file (type png)
 <use Figures/literature_review/Hummingbird_operation.png>
 Package pdftex.def Info: Figures/literature_review/Hummingbird_operation.png  used on input line 115.
@@ -977,12 +993,12 @@ Package pdftex.def Info: Figures/literature_review/Hummingbird_operation.png  us
 
 
 [7 <./Figures/literature_review/Hummingbird_operation.png>]
-<Figures/literature_review/REXUS-Rocket-composition_W640.jpg, id=497, 642.4pt x 171.64125pt>
+<Figures/literature_review/REXUS-Rocket-composition_W640.jpg, id=502, 642.4pt x 171.64125pt>
 File: Figures/literature_review/REXUS-Rocket-composition_W640.jpg Graphic file (type jpg)
 <use Figures/literature_review/REXUS-Rocket-composition_W640.jpg>
 Package pdftex.def Info: Figures/literature_review/REXUS-Rocket-composition_W640.jpg  used on input line 129.
 (pdftex.def)             Requested size: 284.52756pt x 76.0226pt.
-<Figures/literature_review/ffu_rexus.png, id=502, 633.11531pt x 656.4525pt>
+<Figures/literature_review/ffu_rexus.png, id=507, 633.11531pt x 656.4525pt>
 File: Figures/literature_review/ffu_rexus.png Graphic file (type png)
 <use Figures/literature_review/ffu_rexus.png>
 Package pdftex.def Info: Figures/literature_review/ffu_rexus.png  used on input line 142.
@@ -994,7 +1010,7 @@ Package natbib Warning: Citation `noauthor_daedalus_nodate' on page 8 undefined 
 
 Package natbib Warning: Citation `noauthor_daedalus_nodate' on page 8 undefined on input line 142.
 
-<Figures/literature_review/space_seed_prototype.png, id=503, 331.99031pt x 310.91156pt>
+<Figures/literature_review/space_seed_prototype.png, id=508, 331.99031pt x 310.91156pt>
 File: Figures/literature_review/space_seed_prototype.png Graphic file (type png)
 <use Figures/literature_review/space_seed_prototype.png>
 Package pdftex.def Info: Figures/literature_review/space_seed_prototype.png  used on input line 145.
@@ -1007,17 +1023,17 @@ Package pdftex.def Info: Figures/literature_review/space_seed_prototype.png  use
 
 [10] (Thesis_model.tex
 Chapter 3.
-<Figures/implementation/model/ariane_6.jpg, id=540, 722.7pt x 2162.0775pt>
+<Figures/implementation/model/ariane_6.jpg, id=545, 722.7pt x 2162.0775pt>
 File: Figures/implementation/model/ariane_6.jpg Graphic file (type jpg)
 <use Figures/implementation/model/ariane_6.jpg>
 Package pdftex.def Info: Figures/implementation/model/ariane_6.jpg  used on input line 25.
 (pdftex.def)             Requested size: 66.57301pt x 199.16928pt.
-<Figures/implementation/model/falcon_9.jpg, id=543, 1370.11874pt x 2055.68pt>
+<Figures/implementation/model/falcon_9.jpg, id=548, 1370.11874pt x 2055.68pt>
 File: Figures/implementation/model/falcon_9.jpg Graphic file (type jpg)
 <use Figures/implementation/model/falcon_9.jpg>
 Package pdftex.def Info: Figures/implementation/model/falcon_9.jpg  used on input line 28.
 (pdftex.def)             Requested size: 132.7341pt x 199.16928pt.
-<Figures/implementation/model/newshepard.png, id=546, 694.595pt x 1956.30875pt>
+<Figures/implementation/model/newshepard.png, id=551, 694.595pt x 1956.30875pt>
 File: Figures/implementation/model/newshepard.png Graphic file (type png)
 <use Figures/implementation/model/newshepard.png>
 Package pdftex.def Info: Figures/implementation/model/newshepard.png  used on input line 31.
@@ -1028,12 +1044,12 @@ Package pdftex.def Info: Figures/implementation/model/newshepard.png  used on in
 
 
  <./Figures/implementation/model/ariane_6.jpg> <./Figures/implementation/model/falcon_9.jpg> <./Figures/implementation/model/newshepard.png>]
-<Figures/implementation/model/vehicle.png, id=565, 492.312pt x 474.792pt>
+<Figures/implementation/model/vehicle.png, id=570, 492.312pt x 474.792pt>
 File: Figures/implementation/model/vehicle.png Graphic file (type png)
 <use Figures/implementation/model/vehicle.png>
 Package pdftex.def Info: Figures/implementation/model/vehicle.png  used on input line 45.
 (pdftex.def)             Requested size: 177.01433pt x 170.71652pt.
-<Figures/implementation/model/geometry_proprieties.png, id=566, 631.815pt x 506.328pt>
+<Figures/implementation/model/geometry_proprieties.png, id=571, 631.815pt x 506.328pt>
 File: Figures/implementation/model/geometry_proprieties.png Graphic file (type png)
 <use Figures/implementation/model/geometry_proprieties.png>
 Package pdftex.def Info: Figures/implementation/model/geometry_proprieties.png  used on input line 48.
@@ -1044,7 +1060,7 @@ File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
 )
 
 [12 <./Figures/implementation/model/vehicle.png> <./Figures/implementation/model/geometry_proprieties.png>]
-<Figures/implementation/model/reference_frames_img.png, id=581, 389.601pt x 421.575pt>
+<Figures/implementation/model/reference_frames_img.png, id=586, 389.601pt x 421.575pt>
 File: Figures/implementation/model/reference_frames_img.png Graphic file (type png)
 <use Figures/implementation/model/reference_frames_img.png>
 Package pdftex.def Info: Figures/implementation/model/reference_frames_img.png  used on input line 78.
@@ -1055,7 +1071,7 @@ LaTeX Info: Symbol \textasciiacute not provided by
 
 
 [13 <./Figures/implementation/model/reference_frames_img.png>]
-<Figures/implementation/model/rotation_frames.png, id=609, 483.99pt x 476.544pt>
+<Figures/implementation/model/rotation_frames.png, id=614, 483.99pt x 476.544pt>
 File: Figures/implementation/model/rotation_frames.png Graphic file (type png)
 <use Figures/implementation/model/rotation_frames.png>
 Package pdftex.def Info: Figures/implementation/model/rotation_frames.png  used on input line 142.
@@ -1077,7 +1093,7 @@ LaTeX Info: Symbol \textasciiacute not provided by
 [18]
 
 [19]
-<Figures/implementation/bet/blade_model.png, id=699, 473.697pt x 199.728pt>
+<Figures/implementation/bet/blade_model.png, id=704, 473.697pt x 199.728pt>
 File: Figures/implementation/bet/blade_model.png Graphic file (type png)
 <use Figures/implementation/bet/blade_model.png>
 Package pdftex.def Info: Figures/implementation/bet/blade_model.png  used on input line 452.
@@ -1085,7 +1101,7 @@ Package pdftex.def Info: Figures/implementation/bet/blade_model.png  used on inp
 
 
 [20 <./Figures/implementation/bet/blade_model.png>]
-<Figures/implementation/bet/blade_forces/multiple_blades_reference.pdf, id=712, 296.09421pt x 293.27065pt>
+<Figures/implementation/bet/blade_forces/multiple_blades_reference.pdf, id=717, 296.09421pt x 293.27065pt>
 File: Figures/implementation/bet/blade_forces/multiple_blades_reference.pdf Graphic file (type pdf)
 <use Figures/implementation/bet/blade_forces/multiple_blades_reference.pdf>
 Package pdftex.def Info: Figures/implementation/bet/blade_forces/multiple_blades_reference.pdf  used on input line 493.
@@ -1093,32 +1109,32 @@ Package pdftex.def Info: Figures/implementation/bet/blade_forces/multiple_blades
 
 
 [21 <./Figures/implementation/bet/blade_forces/multiple_blades_reference.pdf>]
-<Figures/implementation/bet/blade_forces/blade_element_forces_1.pdf, id=743, 297.04074pt x 293.8699pt>
+<Figures/implementation/bet/blade_forces/blade_element_forces_1.pdf, id=748, 297.04074pt x 293.8699pt>
 File: Figures/implementation/bet/blade_forces/blade_element_forces_1.pdf Graphic file (type pdf)
 <use Figures/implementation/bet/blade_forces/blade_element_forces_1.pdf>
 Package pdftex.def Info: Figures/implementation/bet/blade_forces/blade_element_forces_1.pdf  used on input line 527.
 (pdftex.def)             Requested size: 204.85846pt x 202.67627pt.
-<Figures/implementation/bet/blade_forces/blade_element_forces_2.pdf, id=744, 297.04074pt x 307.07524pt>
+<Figures/implementation/bet/blade_forces/blade_element_forces_2.pdf, id=749, 297.04074pt x 307.07524pt>
 File: Figures/implementation/bet/blade_forces/blade_element_forces_2.pdf Graphic file (type pdf)
 <use Figures/implementation/bet/blade_forces/blade_element_forces_2.pdf>
 Package pdftex.def Info: Figures/implementation/bet/blade_forces/blade_element_forces_2.pdf  used on input line 533.
 (pdftex.def)             Requested size: 204.85846pt x 211.78374pt.
-<Figures/implementation/bet/blade_forces/blade_element_forces_3.pdf, id=745, 297.04074pt x 293.27065pt>
+<Figures/implementation/bet/blade_forces/blade_element_forces_3.pdf, id=750, 297.04074pt x 293.27065pt>
 File: Figures/implementation/bet/blade_forces/blade_element_forces_3.pdf Graphic file (type pdf)
 <use Figures/implementation/bet/blade_forces/blade_element_forces_3.pdf>
 Package pdftex.def Info: Figures/implementation/bet/blade_forces/blade_element_forces_3.pdf  used on input line 539.
 (pdftex.def)             Requested size: 204.85846pt x 202.26297pt.
-<Figures/implementation/bet/blade_forces/blade_element_forces_4.pdf, id=746, 297.04074pt x 293.27065pt>
+<Figures/implementation/bet/blade_forces/blade_element_forces_4.pdf, id=751, 297.04074pt x 293.27065pt>
 File: Figures/implementation/bet/blade_forces/blade_element_forces_4.pdf Graphic file (type pdf)
 <use Figures/implementation/bet/blade_forces/blade_element_forces_4.pdf>
 Package pdftex.def Info: Figures/implementation/bet/blade_forces/blade_element_forces_4.pdf  used on input line 545.
 (pdftex.def)             Requested size: 204.85846pt x 202.26297pt.
-<Figures/implementation/bet/blade_forces/blade_element_forces_5.pdf, id=747, 293.59889pt x 293.08093pt>
+<Figures/implementation/bet/blade_forces/blade_element_forces_5.pdf, id=752, 293.59889pt x 293.08093pt>
 File: Figures/implementation/bet/blade_forces/blade_element_forces_5.pdf Graphic file (type pdf)
 <use Figures/implementation/bet/blade_forces/blade_element_forces_5.pdf>
 Package pdftex.def Info: Figures/implementation/bet/blade_forces/blade_element_forces_5.pdf  used on input line 556.
 (pdftex.def)             Requested size: 204.85846pt x 204.49786pt.
-<Figures/implementation/bet/blade_forces/blade_element_forces_6.pdf, id=748, 293.59889pt x 306.28629pt>
+<Figures/implementation/bet/blade_forces/blade_element_forces_6.pdf, id=753, 293.59889pt x 306.28629pt>
 File: Figures/implementation/bet/blade_forces/blade_element_forces_6.pdf Graphic file (type pdf)
 <use Figures/implementation/bet/blade_forces/blade_element_forces_6.pdf>
 Package pdftex.def Info: Figures/implementation/bet/blade_forces/blade_element_forces_6.pdf  used on input line 562.
@@ -1130,15 +1146,15 @@ Package pdftex.def Info: Figures/implementation/bet/blade_forces/blade_element_f
 [23 <./Figures/implementation/bet/blade_forces/blade_element_forces_5.pdf> <./Figures/implementation/bet/blade_forces/blade_element_forces_6.pdf>]
 
 [24]
-<Figures/implementation/bet/aerodas/aerodas_cl_model.png, id=866, 399.894pt x 487.22025pt>
+<Figures/implementation/bet/aerodas/aerodas_cl_model.png, id=872, 399.894pt x 487.22025pt>
 File: Figures/implementation/bet/aerodas/aerodas_cl_model.png Graphic file (type png)
 <use Figures/implementation/bet/aerodas/aerodas_cl_model.png>
-Package pdftex.def Info: Figures/implementation/bet/aerodas/aerodas_cl_model.png  used on input line 655.
+Package pdftex.def Info: Figures/implementation/bet/aerodas/aerodas_cl_model.png  used on input line 661.
 (pdftex.def)             Requested size: 198.50035pt x 241.84842pt.
-<Figures/implementation/bet/aerodas/aerodas_cd_model.png, id=869, 414.95026pt x 425.1885pt>
+<Figures/implementation/bet/aerodas/aerodas_cd_model.png, id=875, 414.95026pt x 425.1885pt>
 File: Figures/implementation/bet/aerodas/aerodas_cd_model.png Graphic file (type png)
 <use Figures/implementation/bet/aerodas/aerodas_cd_model.png>
-Package pdftex.def Info: Figures/implementation/bet/aerodas/aerodas_cd_model.png  used on input line 658.
+Package pdftex.def Info: Figures/implementation/bet/aerodas/aerodas_cd_model.png  used on input line 664.
 (pdftex.def)             Requested size: 236.03023pt x 241.84842pt.
 
 
@@ -1147,54 +1163,148 @@ Package pdftex.def Info: Figures/implementation/bet/aerodas/aerodas_cd_model.png
 [26]
 
 [27]
-<Figures/implementation/atmos/temperature_plot.png, id=920, 421.575pt x 316.0608pt>
+Overfull \hbox (0.14362pt too wide) in paragraph at lines 794--795
+[]\OT1/phv/m/n/10 Before the anal-y-sis, for the cur-rent ap-pli-ca-tion, []ISA model is com-puted us-ing MAT-LAB [[]] Aerospace
+ []
+
+
+
+[28]
+<Figures/implementation/atmos/temperature_plot.png, id=950, 421.575pt x 316.0608pt>
 File: Figures/implementation/atmos/temperature_plot.png Graphic file (type png)
 <use Figures/implementation/atmos/temperature_plot.png>
-Package pdftex.def Info: Figures/implementation/atmos/temperature_plot.png  used on input line 792.
+Package pdftex.def Info: Figures/implementation/atmos/temperature_plot.png  used on input line 809.
 (pdftex.def)             Requested size: 218.51521pt x 163.82689pt.
-<Figures/implementation/atmos/density_plot.png, id=921, 421.575pt x 316.0608pt>
+<Figures/implementation/atmos/density_plot.png, id=951, 421.575pt x 316.0608pt>
 File: Figures/implementation/atmos/density_plot.png Graphic file (type png)
 <use Figures/implementation/atmos/density_plot.png>
-Package pdftex.def Info: Figures/implementation/atmos/density_plot.png  used on input line 799.
+Package pdftex.def Info: Figures/implementation/atmos/density_plot.png  used on input line 816.
 (pdftex.def)             Requested size: 218.51521pt x 163.82689pt.
-)
 
-[28 <./Figures/implementation/atmos/temperature_plot.png (PNG copy)> <./Figures/implementation/atmos/density_plot.png (PNG copy)>] (Thesis_ComputationalMethodology.tex
+
+[29 <./Figures/implementation/atmos/temperature_plot.png (PNG copy)> <./Figures/implementation/atmos/density_plot.png (PNG copy)>])
+
+[30] (Thesis_ComputationalMethodology.tex
 Chapter 4.
 )
 
-[29
+[31
 
 
 ] (Thesis_Results.tex
 Chapter 5.
 )
 
-[30
+[32
 
 
 ] (Thesis_Conclusions.tex
 Chapter 6.
 )
 
-[31
+[33
 
 
 ] (Thesis.bbl
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `eng'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en-US'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
 
-[32
+
+[34
 
 
 ]
-Underfull \hbox (badness 6188) in paragraph at lines 128--133
-[]\OT1/phv/m/n/10 M. V. Cook.  \OT1/phv/m/sl/10 Flight dy-nam-ics prin-ci-ples\OT1/phv/m/n/10 .  El-se-vier aerospace en-gi-neer-ing se-ries.
- []
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `pt-BR'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `eng'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
 
 
+[35]
+** WARNING: IEEEtran.bst: No hyphenation pattern has been
+** loaded for the language `en'. Using the pattern for
+** the default language instead.
+)
 
-[33])
-
-[34] (Thesis_Appendix_AerodasModel.tex
+[36] (Thesis_Appendix_AerodasModel.tex
 Appendix A.
 )
 
@@ -1215,20 +1325,20 @@ LaTeX2e <2024-11-01>
 L3 programming layer <2024-10-09>
  ***********
 Package rerunfilecheck Info: File `Thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 67CF69C707FCCC93F40110EB1E2F3680;8496.
+(rerunfilecheck)             Checksum: 80CD056AAA1E387F86EF923D5594E31A;8652.
  ) 
 Here is how much of TeX's memory you used:
- 27882 strings out of 473702
- 543571 string characters out of 5729322
- 995058 words of memory out of 5000000
- 50195 multiletter control sequences out of 15000+600000
- 601580 words of font info for 111 fonts, out of 8000000 for 9000
+ 28465 strings out of 473702
+ 554581 string characters out of 5729322
+ 1007712 words of memory out of 5000000
+ 50764 multiletter control sequences out of 15000+600000
+ 601412 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 115i,19n,136p,2477b,1216s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\Utilizador\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Thesis.pdf (56 pages, 5454757 bytes).
+ 115i,19n,136p,2477b,1280s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\Utilizador\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on Thesis.pdf (58 pages, 5448639 bytes).
 PDF statistics:
- 1139 PDF objects out of 1200 (max. 8388607)
- 243 named destinations out of 1000 (max. 500000)
- 535 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1171 PDF objects out of 1200 (max. 8388607)
+ 251 named destinations out of 1000 (max. 500000)
+ 543 words of extra memory for PDF output out of 10000 (max. 10000000)
 

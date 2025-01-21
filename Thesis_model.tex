@@ -620,6 +620,12 @@ $$
 \end{equation}
 
 
+\section{Reynolds Number}
+
+\begin{eqnarray}
+    Re = \frac{\rho \norm{\boldsymbol{V}} c}{\mu}
+    \label{eq:reynolds_number}
+\end{eqnarray}
 
 \section{AERODAS Model}
 \label{section:aerodynamic_model}
@@ -781,9 +787,20 @@ As last topic about the 2D aerodynamic model for \gls{bet} using aerodas is to u
 \section{Atmosphere Model}
 \label{section:atmosphere_model}
 
-The 2D aerodynamic loads $\mathrm{d}L$, eq. \ref{eq:elementary_lift}, and  $\mathrm{d}D$, eq. \ref{eq:elementary_drag}, are directly proportional to the air density, $\rho$. Also, the atmospheric proprieties during the flight change with altitude. In this sense, a atmospheric model is necessary to compute the aerodynamic loads.
+The 2D aerodynamic loads $\mathrm{d}L$ and  $\mathrm{d}D$, as expressed in equations \ref{eq:elementary_lift} and \ref{eq:elementary_drag}, are directly proportional to the air density, $\rho$. Also, the atmospheric proprieties during the descent flight change with altitude, including the air density, $\rho$. In this sense, an atmospheric model is a crucial factor when computing aerodynamic loads, as it will directly impact the values of these loads. 
 
-On the literature there are many atmospheric models such as the \gls{isa} \cite{noauthor_iso_nodate}, \gls{nasa}'s \gls{eam} \cite {noauthor_earth_nodate} and \gls{e-gram} \cite{white_earth_2021}, and NRLMISES00 \cite{picone_nrlmsise00_2002}.
+On the literature there are many atmospheric models such as the \gls{isa} \cite{noauthor_iso_nodate}, \gls{nasa}'s \gls{eam} \cite{noauthor_earth_nodate} and NRLMISES00 \cite{picone_nrlmsise00_2002}. All these options seemed a good choice, but to accomplish one of  this work goals accuracy-time commitment, a critical anaylsis is necessary.
+
+Before the analysis, for the current application, \gls{isa} model is computed using MATLAB \cite{matlab_version_2024} Aerospace Toolbox \cite{noauthor_aerospace_nodate} function \textit{atmosisa} \cite{noauthor_atmosisa_nodate} and NRLMISES00 model is computed using provided fucntoin in MATLAB \cite{matlab_version_2024} Central File Exchange \cite{noauthor_atmosphere_2025}. For the \gls{eam} a MATLAB \cite{matlab_version_2024} code was created by the author. However , not all these models compute all necessary parameteres directly, namely the dynamic viscosity, $\mu$, which further used to compute Reynolds number, $Re$. Then it was introduced the Sutherland's Law to compute the dynamic viscosity
+
+\begin{equation}
+    \mu(T) = \mu_0 \left( \frac{T_0 + S}{T + S} \right) \left( \frac{T}{T_0} \right)^{3/2}.
+\end{equation}
+
+\noindent for models EAM \cite {noauthor_earth_nodate, noauthor_atmosisa_nodate} and NRLMISES00 \cite{picone_nrlmsise00_2002, noauthor_atmosphere_2025}.
+
+Once all the necessary code for running the different atmospheric models is completed, figures \ref{fig:atmos_models_comp_temp} and \ref{fig:atmos_models_comp_density} present a comparison of temperature and density between the three models for altitudes ranging from 0 to 100 \unit{\km}, respectively. This range was chosen to provide a clearer view of the plots for the different models. However, it is important to note that the models are not valid for all altitudes. For instance, the \gls{isa} model is valid only between sea level and the mesopause (0 to approximately 85 \unit{\km}) and the NRLMISES00 model is valid up to 1000~\unit{\km}. With \gls{eam} the height is not at limited by the model, however it only showed good agreement with the other models up to 50 \unit{\km} for the temperature profile as it can be seen in figure \ref{fig:atmos_models_comp_temp}.
+
 
 \begin{figure}[!htb]
 	\centering
@@ -802,6 +819,9 @@ On the literature there are many atmospheric models such as the \gls{isa} \cite{
 	\end{minipage}
 \end{figure}
 
+For the density profile, all the three models shwo a good agreement with minor a relative minor error between them. However, for the temperature profile, the analysis is not so straightforward. In the lower altitudes (up to 10 km), all models exhibit a roughly linear decrease in temperature, although NRLMSISE-00 shows slight irregularities. Between 10 and 20 km, \gls{isa} displays the characteristic plateau of the tropopause, while \gls{eam} and NRLMSISE-00 present smoother transitions. Above 20 km, significant differences become apparent: NRLMSISE-00 accurately captures the sharp temperature increase in the thermosphere, reflecting its detailed physical basis, whereas \gls{isa} maintains a simplified, smoothed profile, lacking this feature. \gls{eam} diverges from \gls{isa} but does not fully replicate the extreme rise observed in NRLMSISE-00. Overall, \gls{isa} serves as a practical but simplified model, NRLMSISE-00 provides higher accuracy at extreme altitudes, and \gls{eam} strikes a balance between simplicity and realism. This comparison underscores the distinct strengths and limitations of each model in representing atmospheric temperature variations.
+
+Further anaylsis relevante to the atmospheric models performance is presented in table \ref{tab:atmos_model_speed}, Where the execution time of diferent number of functions calls are done. From this table, it is possible to understande that the NRLMISE00 model creates a huge impact when a simulation has a low descent ratio. This is because the NRLMISE00 model is more complex and computationally expensive than the other two.
 
 \begin{table}[!htb]
     \centering
@@ -812,16 +832,18 @@ On the literature there are many atmospheric models such as the \gls{isa} \cite{
     >{\columncolor[HTML]{FFFFFF}}r }
     \hline
     {\color[HTML]{000000} No. Function Calls} & \multicolumn{1}{r}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{000000} EAM \cite{noauthor_iso_nodate}}} & \multicolumn{1}{r}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{000000} ISA \cite{noauthor_earth_nodate}}} & \multicolumn{1}{r}{\cellcolor[HTML]{FFFFFF}{\color[HTML]{000000} NRLMISES00 \cite{picone_nrlmsise00_2002}}} \\ \hline
-    {\color[HTML]{000000} 1}                  & {\color[HTML]{000000} 0.8 \unit{\m\second}}                                                                                           & {\color[HTML]{000000} 25.1 \unit{\m\second}}                                                                                        & {\color[HTML]{000000} 46.6 \unit{\m\second}}                                                                                                  \\
-    {\color[HTML]{000000} 10}                 & {\color[HTML]{000000} 1.0 \unit{\m\second}}                                                                                           & {\color[HTML]{000000} 5.1 \unit{\m\second}}                                                                                           & {\color[HTML]{000000} 25.0 \unit{\m\second}}                                                                                                 \\
-    {\color[HTML]{000000} 100}                & {\color[HTML]{000000} 0.1 \unit{\m\second}}                                                                                           & {\color[HTML]{000000} 19.1 \unit{\m\second}}                                                                                          & {\color[HTML]{000000} 173.7 m\unit{\m\second}}                                                                                                \\
-    {\color[HTML]{000000} 1000}               & {\color[HTML]{000000} 0.4 \unit{\m\second}}                                                                                           & {\color[HTML]{000000} 173.9 m\unit{\m\second}}                                                                                         & {\color[HTML]{000000} 1.6 \unit{\second}}                                                                                                   \\
-    {\color[HTML]{000000} 10000}              & {\color[HTML]{000000} 3.0 \unit{\m\second}}                                                                                           & {\color[HTML]{000000} 1.3 \unit{\second}}                                                                                             & {\color[HTML]{000000} 21.0 \unit{\second}}                                                                                                  \\
-    {\color[HTML]{000000} 100000}             & {\color[HTML]{000000} 28.1 \unit{\second}}                                                                                          & {\color[HTML]{000000} 18.1 \unit{\second}}                                                                                           & {\color[HTML]{000000} 3.7 \unit{\minute}}                                                                                                 \\ \hline
+    {\color[HTML]{000000} 1}                  & {\color[HTML]{000000} 0.8 \unit{\ms}}                                                                                           & {\color[HTML]{000000} 25.1 \unit{\ms}}                                                                                        & {\color[HTML]{000000} 46.6 \unit{\ms}}                                                                                                  \\
+    {\color[HTML]{000000} 10}                 & {\color[HTML]{000000} 1.0 \unit{\ms}}                                                                                           & {\color[HTML]{000000} 5.1 \unit{\ms}}                                                                                           & {\color[HTML]{000000} 25.0 \unit{\ms}}                                                                                                 \\
+    {\color[HTML]{000000} 100}                & {\color[HTML]{000000} 0.1 \unit{\ms}}                                                                                           & {\color[HTML]{000000} 19.1 \unit{\ms}}                                                                                          & {\color[HTML]{000000} 173.7 \unit{\ms}}                                                                                                \\
+    {\color[HTML]{000000} 1000}               & {\color[HTML]{000000} 0.4 \unit{\ms}}                                                                                           & {\color[HTML]{000000} 173.9 \unit{\ms}}                                                                                         & {\color[HTML]{000000} 1.6 \unit{\s}}                                                                                                   \\
+    {\color[HTML]{000000} 10000}              & {\color[HTML]{000000} 3.0 \unit{\ms}}                                                                                           & {\color[HTML]{000000} 1.3 \unit{\s}}                                                                                             & {\color[HTML]{000000} 21.0 \unit{\s}}                                                                                                  \\
+    {\color[HTML]{000000} 100000}             & {\color[HTML]{000000} 28.1 \unit{\ms}}                                                                                          & {\color[HTML]{000000} 18.1 \unit{\s}}                                                                                           & {\color[HTML]{000000} 3.7 \unit{\minute}}                                                                                                 \\ \hline
     \end{tabular}
     \caption{Computational times for different number of function calls for the three atmospheric models.}
+    \label{tab:atmos_model_speed}
 \end{table} 
 
+Taking into considerantion both profile and computational anaylis clearily theres some advantages of using all the models. \gls{eam} is quite accurate and fast for low altitudes, once \gls{isa} is in accordance to the others models for altitudes until 80 \unit{\km} and realtive fast, and finally the NRLMISE00 model is the slowest computationally but provides higher varitions in certain atmosphere regions. For the final implementation, the choice of the model considered in this work, \gls{isa} is the choosen model for all the analysis presented furter in this work, once it provides quite fast computational times and a wide range of altitudes, namely the range of the DAEDALUS \cite{riegler_daedalus_2018} project used in next section to validate the model.
 
 
 
