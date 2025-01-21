@@ -23,45 +23,48 @@ Warning--empty year in noauthor_spacex_nodate
 Warning--empty year in noauthor_blueorigin_nodate
 Warning--empty publisher in soler_fundamentals_2014
 Warning--empty journal in spera_models_2008
-You've used 22 entries,
+Warning--empty year in noauthor_iso_nodate
+Warning--empty year in noauthor_earth_nodate
+Warning--empty journal in white_earth_2021
+You've used 26 entries,
             2481 wiz_defined-function locations,
-            681 strings with 9112 characters,
-and the built_in function-call counts, 8049 in all, are:
-= -- 610
-> -- 517
-< -- 12
-+ -- 208
-- -- 160
-* -- 659
-:= -- 1308
-add.period$ -- 84
-call.type$ -- 22
-change.case$ -- 42
-chr.to.int$ -- 18
-cite$ -- 44
-duplicate$ -- 399
-empty$ -- 708
-format.name$ -- 183
-if$ -- 1687
-int.to.chr$ -- 5
-int.to.str$ -- 23
-missing$ -- 20
-newline$ -- 130
-num.names$ -- 51
-pop$ -- 237
+            700 strings with 9699 characters,
+and the built_in function-call counts, 9170 in all, are:
+= -- 705
+> -- 559
+< -- 13
++ -- 230
+- -- 172
+* -- 742
+:= -- 1464
+add.period$ -- 96
+call.type$ -- 26
+change.case$ -- 50
+chr.to.int$ -- 20
+cite$ -- 53
+duplicate$ -- 463
+empty$ -- 829
+format.name$ -- 199
+if$ -- 1934
+int.to.chr$ -- 7
+int.to.str$ -- 27
+missing$ -- 22
+newline$ -- 150
+num.names$ -- 57
+pop$ -- 277
 preamble$ -- 1
-purify$ -- 22
+purify$ -- 26
 quote$ -- 0
-skip$ -- 226
+skip$ -- 272
 stack$ -- 0
-substring$ -- 106
-swap$ -- 63
+substring$ -- 116
+swap$ -- 73
 text.length$ -- 2
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 139
-warning$ -- 17
-while$ -- 39
+type$ -- 167
+warning$ -- 20
+while$ -- 43
 width$ -- 0
-write$ -- 307
-(There were 18 warnings)
+write$ -- 355
+(There were 21 warnings)

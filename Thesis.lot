@@ -3,7 +3,7 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \contentsline {table}{\numberline {3.1}{\ignorespaces AERODAS model main equations \cite {spera_models_2008}}}{26}{table.caption.31}%
-\addvspace {10\p@ }
+\contentsline {table}{\numberline {3.2}{\ignorespaces Computational times for different number of function calls for the three atmospheric models.}}{28}{table.caption.33}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

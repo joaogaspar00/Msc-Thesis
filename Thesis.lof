@@ -35,7 +35,8 @@
 \contentsline {figure}{\numberline {3.15}{\ignorespaces AERODAS model curves}}{25}{figure.caption.30}%
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {AERODAS model lift coefficient,$C_l$, as functio of angle of attack,$\alpha $, from \cite {spera_models_2008}}}}{25}{subfigure.15.1}%
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {AERODAS model drag coefficient,$C_d$, as functio of angle of attack,$\alpha $, from \cite {spera_models_2008}}}}{25}{subfigure.15.2}%
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Temperature Comparison}}{28}{figure.caption.32}%
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Density Comparison}}{28}{figure.caption.32}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }
 \addvspace {10\p@ }

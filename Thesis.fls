@@ -1,6 +1,6 @@
-PWD c:\PARAROTOR-Project\pararotor-MscThesis
+PWD c:\Users\Utilizador\OneDrive\Ambiente de Trabalho\LIFE PROJECT\Msc-Thesis
 INPUT C:\Users\Utilizador\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
-INPUT c:\PARAROTOR-Project\pararotor-MscThesis\Thesis.tex
+INPUT c:\Users\Utilizador\OneDrive\Ambiente de Trabalho\LIFE PROJECT\Msc-Thesis\Thesis.tex
 OUTPUT Thesis.log
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
 INPUT C:\Program Files\MiKTeX\tex\latex\base\report.cls
@@ -268,6 +268,14 @@ INPUT C:\Program Files\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\ulem\ulem.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\ulem\ulem.sty
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
 INPUT .\Thesis_Nomenclature.tex
 INPUT .\Thesis_Nomenclature.tex
 INPUT .\Thesis_Nomenclature.tex
@@ -296,8 +304,6 @@ INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\grfext\grfext.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\grfext\grfext.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
@@ -315,6 +321,9 @@ INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\graphics\lscape.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
+INPUT C:\Program Files\MiKTeX\tex\latex\translations\dicts\translations-basic-dictionary-english.trsl
 INPUT .\Thesis_FrontCover.tex
 INPUT .\Thesis_FrontCover.tex
 INPUT .\Thesis_FrontCover.tex
@@ -527,11 +536,11 @@ INPUT .\Figures\literature_review\space_seed_prototype.png
 INPUT .\Figures\literature_review\space_seed_prototype.png
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT .\Thesis_Implementation.tex
-INPUT .\Thesis_Implementation.tex
-INPUT .\Thesis_Implementation.tex
-INPUT .\Thesis_Implementation.tex
-INPUT Thesis_Implementation.tex
+INPUT .\Thesis_model.tex
+INPUT .\Thesis_model.tex
+INPUT .\Thesis_model.tex
+INPUT .\Thesis_model.tex
+INPUT Thesis_model.tex
 INPUT .\Figures\implementation\model\ariane_6.jpg
 INPUT .\Figures\implementation\model\ariane_6.jpg
 INPUT .\Figures\implementation\model\ariane_6.jpg
@@ -667,9 +676,20 @@ INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
 INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
 INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
 INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
-INPUT .\Thesis_draf_model.tex
-INPUT .\Thesis_draf_model.tex
-INPUT Thesis_draf_model.tex
+INPUT .\Figures\implementation\atmos\temperature_plot.png
+INPUT .\Figures\implementation\atmos\temperature_plot.png
+INPUT .\Figures\implementation\atmos\temperature_plot.png
+INPUT .\Figures\implementation\atmos\temperature_plot.png
+INPUT .\Figures\implementation\atmos\temperature_plot.png
+INPUT .\Figures\implementation\atmos\temperature_plot.png
+INPUT .\Figures\implementation\atmos\temperature_plot.png
+INPUT .\Figures\implementation\atmos\density_plot.png
+INPUT .\Figures\implementation\atmos\density_plot.png
+INPUT .\Figures\implementation\atmos\density_plot.png
+INPUT .\Figures\implementation\atmos\density_plot.png
+INPUT .\Figures\implementation\atmos\density_plot.png
+INPUT .\Figures\implementation\atmos\density_plot.png
+INPUT .\Figures\implementation\atmos\density_plot.png
 INPUT .\Thesis_ComputationalMethodology.tex
 INPUT .\Thesis_ComputationalMethodology.tex
 INPUT Thesis_ComputationalMethodology.tex

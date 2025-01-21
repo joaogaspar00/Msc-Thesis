@@ -1,4 +1,4 @@
-\begin{thebibliography}{22}
+\begin{thebibliography}{26}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -163,5 +163,29 @@ D.~A. Spera and J.~Technology.
 \newblock Models of {Lift} and {Drag} {Coefﬁcients} of {Stalled} and
   {Unstalled} {Airfoils} in {Wind} {Turbines} and {Wind} {Tunnels}.
 \newblock 2008.
+
+\bibitem[noa({\natexlab{f}})]{noauthor_iso_nodate}
+{ISO} 2533:1975, {\natexlab{f}}.
+\newblock URL \url{https://www.iso.org/standard/7472.html}.
+
+\bibitem[noa({\natexlab{g}})]{noauthor_earth_nodate}
+Earth {Atmosphere} {Model} - {Metric} {Units}, {\natexlab{g}}.
+\newblock URL \url{https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html}.
+
+\bibitem[White and Hoffman(2021)]{white_earth_2021}
+P.~W. White and J.~Hoffman.
+\newblock Earth {Global} {Reference} {Atmospheric} {Model} ({Earth}-{GRAM}):
+  {User} {Guide}.
+\newblock 2021.
+
+\bibitem[Picone et~al.(2002)Picone, Hedin, Drob, and
+  Aikin]{picone_nrlmsise00_2002}
+J.~M. Picone, A.~E. Hedin, D.~P. Drob, and A.~C. Aikin.
+\newblock {NRLMSISE}‐00 empirical model of the atmosphere: {Statistical}
+  comparisons and scientific issues.
+\newblock \emph{Journal of Geophysical Research: Space Physics}, 107\penalty0
+  (A12), Dec. 2002.
+\newblock ISSN 0148-0227.
+\newblock \doi{10.1029/2002JA009430}.
 
 \end{thebibliography}

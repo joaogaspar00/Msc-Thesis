@@ -12,6 +12,9 @@
 \glossaryentry{RXSM?\glossentry{rxsm}|setentrycounter[]{page}"\glsnumberformat}{i}
 \glossaryentry{DOF?\glossentry{dof}|setentrycounter[]{page}"\glsnumberformat}{i}
 \glossaryentry{CG?\glossentry{cg}|setentrycounter[]{page}"\glsnumberformat}{i}
+\glossaryentry{ISA?\glossentry{isa}|setentrycounter[]{page}"\glsnumberformat}{i}
+\glossaryentry{EAM?\glossentry{eam}|setentrycounter[]{page}"\glsnumberformat}{i}
+\glossaryentry{Earth-GRAM?\glossentry{e-gram}|setentrycounter[]{page}"\glsnumberformat}{i}
 \glossaryentry{FFU?\glossentry{ffu}|setentrycounter[]{page}"\glsnumberformat}{xvii}
 \glossaryentry{VTC?\glossentry{vtc}|setentrycounter[]{page}"\glsnumberformat}{1}
 \glossaryentry{ARMADA?\glossentry{armada}|setentrycounter[]{page}"\glsnumberformat}{2}
@@ -64,3 +67,7 @@
 \glossaryentry{BET?\glossentry{bet}|setentrycounter[]{page}"\glsnumberformat}{24}
 \glossaryentry{BET?\glossentry{bet}|setentrycounter[]{page}"\glsnumberformat}{24}
 \glossaryentry{BET?\glossentry{bet}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{ISA?\glossentry{isa}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{NASA?\glossentry{nasa}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{EAM?\glossentry{eam}|setentrycounter[]{page}"\glsnumberformat}{28}
+\glossaryentry{Earth-GRAM?\glossentry{e-gram}|setentrycounter[]{page}"\glsnumberformat}{28}
