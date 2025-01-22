@@ -422,21 +422,64 @@ For the forces and moments
 \end{equation}
 
 
-\subsection{Moment of Inertia}
+
+\subsection{Dynamic Equations}
+
+\begin{equation}
+    \boldsymbol{F} = \frac{\mathrm{d}}{\mathrm{d}t} \left( M \boldsymbol{V} \right)^e = \frac{\mathrm{d}}{\mathrm{d}t} \left( M \boldsymbol{V} \right)^b + \boldsymbol{\omega} \times \left( \left[\boldsymbol{I}\right] \boldsymbol{\omega} \right)^b
+\end{equation}
 
 
 \begin{equation}
-    \mathbf{I}=\left[\begin{array}{c c c}{{I_{x x}}}&{{-I_{x y}}}&{{-I_{x z}}}\\ {{-I_{x y}}}&{{I_{y y}}}&{{I_{-y z}}}\\ {{-I_{x z}}}&{{-I_{y z}}}&{{I_{z z}}}\end{array}\right]
+    \boldsymbol{M} = \frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\boldsymbol{I}\right] \boldsymbol{\omega} \right)^e = \frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\boldsymbol{I}\right] \boldsymbol{\omega} \right)^b + \boldsymbol{\omega} \times \left( \left[\boldsymbol{I}\right] \boldsymbol{\omega} \right)^b 
 \end{equation}
+
+\subsection{Inertia Tensor}
+
+The angular momentum is to angular velocity what linear momentum is to linear velocity. Just as mass quantifies the resistance of an object to changes in its position, the inertia tensor, $\left[\mathbf{I}\right]$, measures an object's resistance to changes in its rotational motion. mathematically, the inertia tensor, $\left[\mathbf{I}\right]$, is a symmetric 3 by 3 matrix 
+
+\begin{equation}
+    \left[\mathbf{I}\right]=\left[\begin{array}{c c c}{{I_{x x}}}&{{-I_{x y}}}&{{-I_{x z}}}\\ {{-I_{x y}}}&{{I_{y y}}}&{{I_{-y z}}}\\ {{-I_{x z}}}&{{-I_{y z}}}&{{I_{z z}}}\end{array}\right]
+\end{equation}
+
+where the matrix elements are the moments of inertia, about a reference frame $O_{xyz}$, as computed as equations \ref{eq:ele_tensor_inertia1} and \ref{eq:ele_tensor_inertia2}
 
 \begin{equation}
     I_{xx} = \smallint  \left( y^2 + z^2 \right) \mathrm{d}m \quad \text{and} \quad I_{yy} = \smallint  \left( x^2 + z^2 \right) \mathrm{d}m \quad \text{and} \quad I_{zz} = \smallint  \left( x^2 + y^2 \right) \mathrm{d}m
+    \label{eq:ele_tensor_inertia1}
 \end{equation}
 
 
 \begin{equation}
     I_{xy} = \smallint  xy \, \mathrm{d}m \quad \text{and} \quad I_{xz} = \smallint  xz \, \mathrm{d}m \quad \text{and} \quad I_{yz} = \smallint  yz \, \mathrm{d}m
+    \label{eq:ele_tensor_inertia2}
 \end{equation}
+
+In this study, the system is considered as a point mass and a rotor which means that only the rotor's mass is accounted into the inertia tensor. The rotor is composed by $N_b$ blades, with $m_b$ mass, which, by simplification, are considered as thin-plates for the inertia tensor calculation. In its principal axes centered in blade's center of mass, a thin-plate with its longer side along $y$-axes (meaning the blade span, $b$), its shorter side along $x$-axis (meaning the airfoil chord, $c$) and its thickness along $z$-axis (meaning the airfoil thickness, $t$). The inertia tensor of a flate plate in its principal axes is computed as in equation \ref{eq:inertia_tensor_principalaxes}
+
+\begin{equation}
+    \left[\mathbf{I}\right]' = 
+    \begin{bmatrix}
+        \frac{1}{12}m_b(b^2+t^2) & 0 & 0\\
+        0 & \frac{1}{12}m_b(c^2+t^2) & 0\\
+        0 & 0 & \frac{1}{12}m_b(b^2+c^2)\\
+    \end{bmatrix}
+    \label{eq:inertia_tensor_principalaxes}
+\end{equation}
+
+For a rotor with multiple blades with a root distance from the blade to the rotor center, a transformation process must be introduced. The blades are separated by an angle of
+
+\begin{equation}
+    \psi = \frac{2\pi}{N_b}
+\end{equation}
+
+and, considering one of the blade's reference frame aligned with rotor's referece frame, introducing the rotation matrix along $z$-axis and considering the parallel axis theorem the total inertia frame of the rotor in rotor frame isa
+
+\begin{equation}
+    \left[\mathbf{I}\right]^r = \sum_{n=1}^{N_b} \boldsymbol{R}_n^*\left[(n-1)\psi\right] \left\{ \left[\mathbf{I}\right]' + m_b \epsilon^2 \boldsymbol{I} \right\} \boldsymbol{R}_n^*\left[(n-1)\psi\right]^T
+\end{equation}
+
+
 
 
 
@@ -791,7 +834,7 @@ The 2D aerodynamic loads $\mathrm{d}L$ and  $\mathrm{d}D$, as expressed in equat
 
 On the literature there are many atmospheric models such as the \gls{isa} \cite{noauthor_iso_nodate}, \gls{nasa}'s \gls{eam} \cite{noauthor_earth_nodate} and NRLMISES00 \cite{picone_nrlmsise00_2002}. All these options seemed a good choice, but to accomplish one of  this work goals accuracy-time commitment, a critical anaylsis is necessary.
 
-Before the analysis, for the current application, \gls{isa} model is computed using MATLAB \cite{matlab_version_2024} Aerospace Toolbox \cite{noauthor_aerospace_nodate} function \textit{atmosisa} \cite{noauthor_atmosisa_nodate} and NRLMISES00 model is computed using provided fucntoin in MATLAB \cite{matlab_version_2024} Central File Exchange \cite{noauthor_atmosphere_2025}. For the \gls{eam} a MATLAB \cite{matlab_version_2024} code was created by the author. However , not all these models compute all necessary parameteres directly, namely the dynamic viscosity, $\mu$, which further used to compute Reynolds number, $Re$. Then it was introduced the Sutherland's Law to compute the dynamic viscosity
+Before the analysis, for the current application, \gls{isa} model is computed using MATLAB \cite{matlab_version_2024} Aerospace Toolbox \cite{noauthor_aerospace_nodate} function \textit{atmosisa} \cite{noauthor_atmosisa_nodate} and NRLMISES00 model is computed using provided function in MATLAB \cite{matlab_version_2024} Central File Exchange \cite{noauthor_atmosphere_2025}. For the \gls{eam} a MATLAB \cite{matlab_version_2024} code was created by the author. However , not all these models compute all necessary parameteres directly, namely the dynamic viscosity, $\mu$, which further used to compute Reynolds number, $Re$. Then it was introduced the Sutherland's Law to compute the dynamic viscosity
 
 \begin{equation}
     \mu(T) = \mu_0 \left( \frac{T_0 + S}{T + S} \right) \left( \frac{T}{T_0} \right)^{3/2}.

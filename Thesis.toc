@@ -31,15 +31,16 @@
 \contentsline {subsection}{\numberline {3.2.1}Vehicle Motion}{16}{subsection.3.2.1}%
 \contentsline {subsection}{\numberline {3.2.2}Rotor Motion}{18}{subsection.3.2.2}%
 \contentsline {subsection}{\numberline {3.2.3}Full system}{19}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Moment of Inertia}{20}{subsection.3.2.4}%
-\contentsline {section}{\numberline {3.3}Blade Element Theory (BET)}{20}{section.3.3}%
+\contentsline {subsection}{\numberline {3.2.4}Dynamic Equations}{20}{subsection.3.2.4}%
+\contentsline {subsection}{\numberline {3.2.5}Inertia Tensor}{20}{subsection.3.2.5}%
+\contentsline {section}{\numberline {3.3}Blade Element Theory (BET)}{21}{section.3.3}%
 \contentsline {subsection}{\numberline {3.3.1}Blade forces and moments}{21}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Velocities}{22}{subsection.3.3.2}%
-\contentsline {subsubsection}{Induced Velocity}{23}{section*.29}%
-\contentsline {section}{\numberline {3.4}Reynolds Number}{24}{section.3.4}%
-\contentsline {section}{\numberline {3.5}AERODAS Model}{24}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Prandtl Tip Losses}{28}{subsection.3.5.1}%
-\contentsline {section}{\numberline {3.6}Atmosphere Model}{28}{section.3.6}%
+\contentsline {subsection}{\numberline {3.3.2}Velocities}{23}{subsection.3.3.2}%
+\contentsline {subsubsection}{Induced Velocity}{24}{section*.29}%
+\contentsline {section}{\numberline {3.4}Reynolds Number}{25}{section.3.4}%
+\contentsline {section}{\numberline {3.5}AERODAS Model}{25}{section.3.5}%
+\contentsline {subsection}{\numberline {3.5.1}Prandtl Tip Losses}{29}{subsection.3.5.1}%
+\contentsline {section}{\numberline {3.6}Atmosphere Model}{29}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Computational Methodology}{31}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Solvers}{31}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Application Development and Workflow}{31}{section.4.2}%
