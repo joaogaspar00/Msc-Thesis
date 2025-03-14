@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.7)  14 MAR 2025 11:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.7)  14 MAR 2025 11:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -607,10 +607,8 @@ File: pppdftex.def 2024/10/28 v0.6c Pdfpages driver for pdfTeX (AM)
 \c@AM@survey=\count348
 \AM@templatesizebox=\box65
 ) (C:\Program Files\MiKTeX\tex/latex/algorithms\algorithm.sty
-Package: algorith Style `algorithm' - floating enviro
-nment
-
-(C:\Program Files\MiKTeX\tex/latex/float\float.sty
+Package: algorithm 2009/08/24 v0.1 Document Style `algorithm' - floating environment
+ (C:\Program Files\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count349
 \float@exts=\toks47
@@ -620,11 +618,9 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 )
 \@float@every@algorithm=\toks49
 \c@algorithm=\count350
-)
-(C:\Program Files\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
+) (C:\Program Files\MiKTeX\tex/latex/algorithmicx\algpseudocode.sty
 Package: algpseudocode 
-
-(C:\Program Files\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
+ (C:\Program Files\MiKTeX\tex/latex/algorithmicx\algorithmicx.sty
 Package: algorithmicx 2005/04/27 v1.2 Algorithmicx
 
 Document Style algorithmicx 1.2 - a greatly improved `algorithmic' style
@@ -666,10 +662,8 @@ Package: siunitx 2025-01-17 v3.4.2 A comprehensive (SI) units package
 \l__siunitx_angle_marker_box=\box68
 \l__siunitx_angle_unit_box=\box69
 \l__siunitx_compound_count_int=\count369
-
-(C:\Program Files\MiKTeX\tex/latex/translations\translations.sty
-Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
- (CN)
+ (C:\Program Files\MiKTeX\tex/latex/translations\translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages (CN)
 )
 \l__siunitx_table_tmp_box=\box70
 \l__siunitx_table_tmp_dim=\dimen268
@@ -684,27 +678,19 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
 \l__siunitx_unit_tmp_int=\count370
 \l__siunitx_unit_position_int=\count371
 \l__siunitx_unit_total_int=\count372
-))
-(Thesis_Nomenclature.tex) (Thesis_Glossary.tex)
-LaTeX Font Info:    Trying to load font information for OT1+phv on input line 9
-4.
-
-(C:\Program Files\MiKTeX\tex/latex/psnfss\ot1phv.fd
+)) (Thesis_Nomenclature.tex) (Thesis_Glossary.tex)
+LaTeX Font Info:    Trying to load font information for OT1+phv on input line 94.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\ot1phv.fd
 File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
-)
-(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count373
 \l__pdf_internal_box=\box76
 ) (Thesis.aux)
-Runaway argument?
-{fig:Inert 
-! File ended while scanning use of \@newl@bel.
-<inserted text> 
-                \par 
-l.94 \begin{document}
-                     
-? ine 94.
+\openout1 = `Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
@@ -721,7 +707,7 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
 LaTeX Font Info:    ... okay on input line 94.
-
+ (Thesis.glsdefs)
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1213,33 +1199,33 @@ File: Figures/comp_method/sim_B/U_P-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/U_P-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/U_P-eps-converted-to.pdf  used on input line 161.
 (pdftex.def)             Requested size: 223.07211pt x 167.43933pt.
-Package epstopdf Info: Source file: <Figures/comp_method/sim_B/cl.eps>
-(epstopdf)                    date: 2025-03-14 11:31:46
-(epstopdf)                    size: 168252 bytes
-(epstopdf)             Output file: <Figures/comp_method/sim_B/cl-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-03-14 11:43:41
-(epstopdf)                    size: 144375 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/cl-eps-converted-to.pdf Figures/comp_method/sim_B/cl.eps>
+Package epstopdf Info: Source file: <Figures/comp_method/sim_B/alpha.eps>
+(epstopdf)                    date: 2025-03-14 11:31:43
+(epstopdf)                    size: 142932 bytes
+(epstopdf)             Output file: <Figures/comp_method/sim_B/alpha-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 11:59:15
+(epstopdf)                    size: 119473 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/alpha-eps-converted-to.pdf Figures/comp_method/sim_B/alpha.eps>
 (epstopdf)             \includegraphics on input line 171.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/cl-eps-converted-to.pdf, id=913, 422.57875pt x 317.185pt>
-File: Figures/comp_method/sim_B/cl-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/comp_method/sim_B/cl-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/comp_method/sim_B/cl-eps-converted-to.pdf  used on input line 171.
+<Figures/comp_method/sim_B/alpha-eps-converted-to.pdf, id=913, 422.57875pt x 317.185pt>
+File: Figures/comp_method/sim_B/alpha-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/comp_method/sim_B/alpha-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/comp_method/sim_B/alpha-eps-converted-to.pdf  used on input line 171.
 (pdftex.def)             Requested size: 223.07211pt x 167.43933pt.
-Package epstopdf Info: Source file: <Figures/comp_method/sim_B/cd.eps>
-(epstopdf)                    date: 2025-03-14 11:31:48
-(epstopdf)                    size: 135240 bytes
-(epstopdf)             Output file: <Figures/comp_method/sim_B/cd-eps-converted-to.pdf>
-(epstopdf)                    date: 2025-03-14 11:43:42
-(epstopdf)                    size: 112890 bytes
-(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/cd-eps-converted-to.pdf Figures/comp_method/sim_B/cd.eps>
+Package epstopdf Info: Source file: <Figures/comp_method/sim_B/phi.eps>
+(epstopdf)                    date: 2025-03-14 11:31:40
+(epstopdf)                    size: 143197 bytes
+(epstopdf)             Output file: <Figures/comp_method/sim_B/phi-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-14 11:59:22
+(epstopdf)                    size: 119797 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/phi-eps-converted-to.pdf Figures/comp_method/sim_B/phi.eps>
 (epstopdf)             \includegraphics on input line 180.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/cd-eps-converted-to.pdf, id=914, 422.57875pt x 317.185pt>
-File: Figures/comp_method/sim_B/cd-eps-converted-to.pdf Graphic file (type pdf)
-<use Figures/comp_method/sim_B/cd-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/comp_method/sim_B/cd-eps-converted-to.pdf  used on input line 180.
+<Figures/comp_method/sim_B/phi-eps-converted-to.pdf, id=914, 422.57875pt x 317.185pt>
+File: Figures/comp_method/sim_B/phi-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/comp_method/sim_B/phi-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/comp_method/sim_B/phi-eps-converted-to.pdf  used on input line 180.
 (pdftex.def)             Requested size: 223.07211pt x 167.43933pt.
 Package epstopdf Info: Source file: <Figures/comp_method/sim_B/cl.eps>
 (epstopdf)                    date: 2025-03-14 11:31:46
@@ -1250,6 +1236,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/cl.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/cl-eps-converted-to.pdf Figures/comp_method/sim_B/cl.eps>
 (epstopdf)             \includegraphics on input line 191.
 Package epstopdf Info: Output file is already uptodate.
+<Figures/comp_method/sim_B/cl-eps-converted-to.pdf, id=915, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/cl-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/cl-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/cl-eps-converted-to.pdf  used on input line 191.
@@ -1263,6 +1250,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/cd.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/cd-eps-converted-to.pdf Figures/comp_method/sim_B/cd.eps>
 (epstopdf)             \includegraphics on input line 200.
 Package epstopdf Info: Output file is already uptodate.
+<Figures/comp_method/sim_B/cd-eps-converted-to.pdf, id=916, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/cd-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/cd-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/cd-eps-converted-to.pdf  used on input line 200.
@@ -1274,9 +1262,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 
 
-[30 <./Figures/comp_method/sim_B/U_T-eps-converted-to.pdf> <./Figures/comp_method/sim_B/U_R-eps-converted-to.pdf> <./Figures/comp_method/sim_B/U_P-eps-converted-to.pdf> <./Figures/comp_method/sim_B/cl-eps-converted-to.pdf> <./Figures/comp_method/sim_B/cd-eps-converted-to.pdf>]
+[30 <./Figures/comp_method/sim_B/U_T-eps-converted-to.pdf> <./Figures/comp_method/sim_B/U_R-eps-converted-to.pdf> <./Figures/comp_method/sim_B/U_P-eps-converted-to.pdf> <./Figures/comp_method/sim_B/alpha-eps-converted-to.pdf> <./Figures/comp_method/sim_B/phi-eps-converted-to.pdf>]
 
-[31]
+[31 <./Figures/comp_method/sim_B/cl-eps-converted-to.pdf> <./Figures/comp_method/sim_B/cd-eps-converted-to.pdf>]
 
 [32
 
@@ -1346,17 +1334,17 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 ### simple group (level 1) entered at line 103 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 27885 strings out of 473702
- 542581 string characters out of 5729322
- 991860 words of memory out of 5000000
- 50206 multiletter control sequences out of 15000+600000
+ 27903 strings out of 473702
+ 543474 string characters out of 5729322
+ 991889 words of memory out of 5000000
+ 50221 multiletter control sequences out of 15000+600000
  596577 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,12n,136p,2477b,1415s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Thesis.pdf (62 pages, 5742176 bytes).
+Output written on Thesis.pdf (62 pages, 5977722 bytes).
 PDF statistics:
- 1168 PDF objects out of 1200 (max. 8388607)
+ 1182 PDF objects out of 1200 (max. 8388607)
  252 named destinations out of 1000 (max. 500000)
- 543 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 553 words of extra memory for PDF output out of 10000 (max. 10000000)
 

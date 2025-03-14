@@ -289,6 +289,9 @@ INPUT .\Thesis.aux
 INPUT .\Thesis.aux
 INPUT Thesis.aux
 OUTPUT Thesis.aux
+INPUT .\Thesis.glsdefs
+INPUT .\Thesis.glsdefs
+INPUT Thesis.glsdefs
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -692,6 +695,30 @@ INPUT .\Figures\comp_method\sim_B\U_P-eps-converted-to.pdf
 INPUT .\Figures\comp_method\sim_B\U_P-eps-converted-to.pdf
 INPUT .\Figures\comp_method\sim_B\U_P-eps-converted-to.pdf
 INPUT .\Figures\comp_method\sim_B\U_P-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\alpha.eps
+INPUT .\Figures\comp_method\sim_B\alpha.eps
+INPUT .\Figures\comp_method\sim_B\alpha.eps
+INPUT .\Figures\comp_method\sim_B\alpha.eps
+INPUT .\Figures\comp_method\sim_B\alpha.eps
+INPUT .\Figures\comp_method\sim_B\alpha-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\alpha-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\alpha.eps
+INPUT .\Figures\comp_method\sim_B\alpha-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\alpha-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\alpha-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\alpha-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\phi.eps
+INPUT .\Figures\comp_method\sim_B\phi.eps
+INPUT .\Figures\comp_method\sim_B\phi.eps
+INPUT .\Figures\comp_method\sim_B\phi.eps
+INPUT .\Figures\comp_method\sim_B\phi.eps
+INPUT .\Figures\comp_method\sim_B\phi-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\phi-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\phi.eps
+INPUT .\Figures\comp_method\sim_B\phi-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\phi-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\phi-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\phi-eps-converted-to.pdf
 INPUT .\Figures\comp_method\sim_B\cl.eps
 INPUT .\Figures\comp_method\sim_B\cl.eps
 INPUT .\Figures\comp_method\sim_B\cl.eps
@@ -714,26 +741,6 @@ INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
 INPUT .\Figures\comp_method\sim_B\cd.eps
 INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
 INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
-INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
-INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
-INPUT .\Figures\comp_method\sim_B\cl.eps
-INPUT .\Figures\comp_method\sim_B\cl.eps
-INPUT .\Figures\comp_method\sim_B\cl.eps
-INPUT .\Figures\comp_method\sim_B\cl.eps
-INPUT .\Figures\comp_method\sim_B\cl.eps
-INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
-INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
-INPUT .\Figures\comp_method\sim_B\cl.eps
-INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
-INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
-INPUT .\Figures\comp_method\sim_B\cd.eps
-INPUT .\Figures\comp_method\sim_B\cd.eps
-INPUT .\Figures\comp_method\sim_B\cd.eps
-INPUT .\Figures\comp_method\sim_B\cd.eps
-INPUT .\Figures\comp_method\sim_B\cd.eps
-INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
-INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
-INPUT .\Figures\comp_method\sim_B\cd.eps
 INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
 INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
 INPUT .\Thesis_Conclusions.tex
