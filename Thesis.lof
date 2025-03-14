@@ -17,22 +17,27 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Thin-plate position according to the principal axes ($O'$) inside the rotor' and blade's coordinate system, $O^r$ and $O^b$, respectively.}}{14}{figure.caption.26}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces \gls {bet} model with an highlight blade element in red. The blade reference frame (in blue) and the element reference frame (in green) are shown. Also the $n$-element velocity vector $\mathbf {U}^e_n$ in element reference frame is shown.}}{15}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Blade element with flow enviroment and forces aplied.}}{15}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Blade element with flow enviroment and forces aplied.}}{16}{figure.caption.28}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Blade element with flow enviroment and forces aplied.}}{18}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Reference frame rotation Euler angles, adapted from \cite {schwab_how_2006}}}{19}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces NeuralFoil confidence level for NACA 0012 airfoil for Reyndols number from $10^3$ to $10^9$}}{21}{figure.caption.31}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Temperature Comparison}}{23}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Density Comparison}}{23}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Prandtl Tip Loss function versus radial position for two- and four-bladed rotor}}{25}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Prandtl Tip Loss Function}}{25}{figure.caption.35}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Reference frame rotation Euler angles, adapted from \cite {schwab_how_2006}}}{20}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces AERODAS model for lift coefficient, from \cite {spera_models_2008}}}{22}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces AERODAS model for drag coefficient, from \cite {spera_models_2008}}}{22}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces NeuralFoil confidence level for NACA 0012 airfoil for Reyndols number from $10^3$ to $10^9$}}{25}{figure.caption.36}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Temperature Comparison}}{26}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Density Comparison}}{26}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Temperature Comparison}}{26}{figure.caption.37}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Temperature Comparison}}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Density Comparison}}{27}{figure.caption.38}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Prandtl Tip Loss function versus radial position for two- and four-bladed rotor}}{29}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Prandtl Tip Loss Function}}{29}{figure.caption.41}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Computational implementation flowchart}}{28}{figure.caption.36}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Tangencial Velocity}}{30}{figure.caption.39}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Radial Velocity}}{30}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Vertical Velocity}}{30}{figure.caption.40}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Angle Of Attack}}{30}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Incidence angle}}{30}{figure.caption.41}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Lift Coefficient}}{31}{figure.caption.42}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Drag Coefficient}}{31}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Computational implementation flowchart}}{32}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tangencial Velocity}}{34}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Radial Velocity}}{34}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Vertical Velocity}}{34}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Angle Of Attack}}{34}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Incidence angle}}{34}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Lift Coefficient}}{35}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Drag Coefficient}}{35}{figure.caption.48}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

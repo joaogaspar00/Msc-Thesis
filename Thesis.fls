@@ -599,6 +599,32 @@ INPUT .\Figures\background\rotation_matrices\rotation_frames.png
 INPUT .\Figures\background\rotation_matrices\rotation_frames.png
 INPUT .\Figures\background\rotation_matrices\rotation_frames.png
 INPUT .\Figures\background\rotation_matrices\rotation_frames.png
+INPUT .\Figures\background\aero\liftmodel_aerodas.eps
+INPUT .\Figures\background\aero\liftmodel_aerodas.eps
+INPUT .\Figures\background\aero\liftmodel_aerodas.eps
+INPUT .\Figures\background\aero\liftmodel_aerodas.eps
+INPUT .\Figures\background\aero\liftmodel_aerodas.eps
+INPUT .\Figures\background\aero\liftmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\liftmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\liftmodel_aerodas.eps
+INPUT .\Figures\background\aero\liftmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\liftmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\liftmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\liftmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\dragmodel_aerodas.eps
+INPUT .\Figures\background\aero\dragmodel_aerodas.eps
+INPUT .\Figures\background\aero\dragmodel_aerodas.eps
+INPUT .\Figures\background\aero\dragmodel_aerodas.eps
+INPUT .\Figures\background\aero\dragmodel_aerodas.eps
+INPUT .\Figures\background\aero\dragmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\dragmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\dragmodel_aerodas.eps
+INPUT .\Figures\background\aero\dragmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\dragmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\dragmodel_aerodas-eps-converted-to.pdf
+INPUT .\Figures\background\aero\dragmodel_aerodas-eps-converted-to.pdf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
 INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
 INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
 INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
@@ -606,6 +632,42 @@ INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
 INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
 INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
 INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
+INPUT .\Figures\background\aero\aero_model_1e4.eps
+INPUT .\Figures\background\aero\aero_model_1e4.eps
+INPUT .\Figures\background\aero\aero_model_1e4.eps
+INPUT .\Figures\background\aero\aero_model_1e4.eps
+INPUT .\Figures\background\aero\aero_model_1e4.eps
+INPUT .\Figures\background\aero\aero_model_1e4-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e4-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e4.eps
+INPUT .\Figures\background\aero\aero_model_1e4-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e4-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e4-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e4-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e5.eps
+INPUT .\Figures\background\aero\aero_model_1e5.eps
+INPUT .\Figures\background\aero\aero_model_1e5.eps
+INPUT .\Figures\background\aero\aero_model_1e5.eps
+INPUT .\Figures\background\aero\aero_model_1e5.eps
+INPUT .\Figures\background\aero\aero_model_1e5-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e5-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e5.eps
+INPUT .\Figures\background\aero\aero_model_1e5-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e5-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e5-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e5-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e6.eps
+INPUT .\Figures\background\aero\aero_model_1e6.eps
+INPUT .\Figures\background\aero\aero_model_1e6.eps
+INPUT .\Figures\background\aero\aero_model_1e6.eps
+INPUT .\Figures\background\aero\aero_model_1e6.eps
+INPUT .\Figures\background\aero\aero_model_1e6-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e6-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e6.eps
+INPUT .\Figures\background\aero\aero_model_1e6-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e6-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e6-eps-converted-to.pdf
+INPUT .\Figures\background\aero\aero_model_1e6-eps-converted-to.pdf
 INPUT .\Figures\background\atmos\temperature_plot.png
 INPUT .\Figures\background\atmos\temperature_plot.png
 INPUT .\Figures\background\atmos\temperature_plot.png
@@ -769,26 +831,40 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb

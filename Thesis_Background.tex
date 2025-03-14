@@ -11,14 +11,16 @@
 \chapter{Background}
 \label{chapter:background}
 
-Insert your chapter material here.
+In previous section, the importance of the topic of this thesis was discussed. In this chapter, the background of the topic is further presented where the problema is physically and mathematically define and the theory is explored. The main goal of this chapter is to provide a solid foundation for the reader to understand the problem and the proposed approach.
 
+A key starting point is to define the body, in this case the spacecraft model to be analyzed. The spacecraft is considered a point-mass, with a rotor coupling, with no physical considerations rather then the application of the the forces and moments acting on it. The spacecraft is nevertheless able to translate and rotate in space, meaning that a \gls{6dof} dynamic model is considered.
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Theoretical Overview}
-\label{section:theory}
+In terms of the applied forces, once it is considered the recovery of a spacecraft the Earth's gravity force is considered applied at the point mass model, meaning no rotation will occur due to gravity. Other important force is the rotor force. The rotor force is also applied at the point mass model and it will be the only force appplying a torque to the aircraft.
 
-\textcolor{blue}{Modelo de baixa fidelidade, porque nao CFD}
+\textcolor{blue}{The drag force\dots}
+
+The rotor is considered to be a rigid disk body which generates forces and moments when rotating.
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Vehicle Dynamics}
@@ -94,8 +96,12 @@ and, considering one of the blade's reference frame aligned with rotor's referec
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\section{Blade Element Theory}
+\section{Rotor's Dynamics}
+\label{section:rotor_dynamics}
+
+\subsection{Blade Element Theory}
 \label{section:bet}
+
 
 \begin{figure}[!htb]
     \centering
@@ -346,13 +352,171 @@ As seen in section \ref{section:bet}, the \gls{bet} is a based model, in short w
 
 Also \gls{bet} has critical consideration rather the number of elements used to define a blade. The higher the number of elements and azimutal discretization, the higher the number of calculations needed to be perform a rotor analysis. This means that for a time-dependent model as a free-fall considered in this work, more critical it is, in term of computational time, to perform any simulation. So a fast model should be considered.
 
+
 \textcolor{blue}{altos angulos de ataque}
 
-For choosing a airfoil analysis, one must consider the rotor dynamics. In this study, the rotor is under the phenomena of autorotation which has its displacement mainly in descent direction, then some considerations should be made about the angles of attack. On blade's root, the angular velocity is smaller when compared to the blade's tip. Meaning, the inflow angle is mainly composed by a vertical component rather than a horizontal component. So, a wider range of angles of attack should be considered. Also, if it is considered a pure vertical descent mode and small rotor angular velocity, the angles of attack while certainly be near 90$^{\circ}$ meaning that the rotor will work on a stall model. A reference to the pitch angle, $\theta$, and the blade twist should be made, however for thin airfoils it is known that for angles near 20$\sim$30$^\circ$, depending on thickness and camber, the airfoils starts to operate as a flate plate on stall mode, with completely separate boundary layers.
+For choosing a airfoil analysis, one must consider the rotor dynamics. In this study, the rotor is under the phenomena of autorotation which has its displacement mainly in descent direction, then some considerations should be made about the angles of attack. On blade's root, the angular velocity is smaller when compared to the blade's tip. Meaning, the inflow angle is mainly composed by a vertical component rather than a horizontal component. So, a wider range of angles of attack should be considered. Also, if it is considered a pure vertical descent mode and small rotor angular velocity, the angles of attack while certainly be near 90 \unit{\deg} meaning that the rotor will work on a stall model. A reference to the pitch angle, $\theta$, and the blade twist should be made, however for thin airfoils it is known that for angles near 20 $\sim$ 30 \unit{\deg}, depending on thickness and camber, the airfoils starts to operate as a flate plate on stall mode, with completely separate boundary layers. Lastly, concerning the rotor dynamics, once it is considered the horizontal translation of the vehicle, there will exists a reverse flow region where the angles of attack are expected to be higher than 90$^{\circ}$.
+
+
+\textcolor{blue}{Números de Reynolds} 
+
+The other input concerning the 2D aerodynamic model for $C_l$ and $C_d$ is the Reynolds number, $Re$, computed as presented in Eq. \ref{eq:reynolds_number}. The Reynolds number is directly proportional to two variables that will change with altitude: density, $\rho$, and dynamic viscosity, $\mu$; these variables are computed in the domain of the atmospheric model that is further presented in section \ref{section:atmosphere_model} it will be shown that for the altitudes considered in this work, the Reynolds number is expected to change. Also the velocity component at each section, $||\mathbf{U}^a_n||$, will have diferent values due to the rotor's angular velocity, $\Omega$, and the and vehicle velocity vector, $\mathbf{V}$, changes, and it is also expected to vary, in this case from 0 \unit{m/s}, when the rotor starts, to a defined value when it achieves the phenomena of autorotation.
+
+\textcolor{blue}{Definição do range de angulos de ataque e de números de reynolds} 
+
+So, for both angle of attack, $\alpha$, and Reynolds number, $Re$, a range of values should be defined. For the angle of attack, the aerodynamic model should be able to performa calculations for values ranging 
+
+\begin{equation}
+    \alpha \in [-180, 180] ^{\circ},
+\end{equation}
+
+and for Reynolds numbers
+
+\begin{equation}
+    Re \in [10^3, 10^7].
+\end{equation}
+
+\subsection{AERODAS}
+\label{sec:aerodas}
+
+\textcolor{blue}{Apresentação do AERODAS modelos aerodinâmico} 
+
+Spera (2008) \cite{spera_models_2008} developed an aerodynamic model  maned AERODAS, for to predict lift and drag coefficients for stallel and unstalled airfoils. The development of horizontal-axis wind turbines is described as a result of a Department of Energy-sponsored and NASA-led federal effort that ran from 1973 to 1995. This study develops an empirical model for airfoil lift and drag by fitting test data with algebraic equations, rather than using aerodynamic theory. It includes a wide range of conditions such as different airfoils, Reynolds numbers, and angles of attack, and also models circular cylinders and thin plates. Key improvements include expanding the test data set to cover more airfoils and configurations. Unlike previous models, it uses empirical equations derived from actual airfoil behavior at high angles of attack in the post-stall regime, rather than assuming flat plate behavior.
+
+The model also considers airfoil thickness in addition to aspect ratio and angle of attack. Its accuracy is evaluated by calculating the mean and standard deviation of the lift and drag data across various airfoils. Finally, the model is applied in Blade Element Momentum (BEM) analysis to predict wind turbine power and fan performance, and its results are compared with measured data to evaluate its effective
+ness.
+
+Going deeper into the mathematical prespective, the AERODAS model main goal is to get the lift, $C_l$, and drag, $C_d$, curves as function of angle of attack, $\alpha$, Fig. \ref{fig:aerodas_cl_model} and Fig. \ref{fig:aerodas_cd_model} presents the considered curves and highlight the major considerations about the model. In \cite{spera_models_2008}, the main equations for the model are presented in Tab. \ref{tab:aerodas_key_equation}. The key point of AERODAS model is separate the lift and drag curve with equations for pre-stall and post stall regimes.
+
+
+\begin{figure}[!htb]
+	\centering
+	\begin{minipage}{0.45\textwidth}
+		\centering
+		\includegraphics[height=7cm]{Figures/background/aero/liftmodel_aerodas.eps}
+		\caption{AERODAS model for lift coefficient, from \cite{spera_models_2008}}
+		\label{fig:aerodas_cl_model}
+	\end{minipage}
+	\hfill
+    \begin{minipage}{0.45\textwidth}
+		\centering
+		\includegraphics[height=7cm]{Figures/background/aero/dragmodel_aerodas.eps}
+		\caption{AERODAS model for drag coefficient, from \cite{spera_models_2008}}
+		\label{fig:aerodas_cd_model}
+	\end{minipage}
+\end{figure}
+
+\begin{table}[!htb]
+    \centering
+    \renewcommand{\arraystretch}{2.5} % Aumenta o espaço entre as linhas
+    \footnotesize % Reduz o tamanho da fonte (use \footnotesize ou \scriptsize se quiser menor ainda)
+    \begin{tabular}{llll}
+        \hline
+        Mode                        & Coefficient                                     & Condition                                   & Equation                                                                                                                    \\ \hline
+        \multirow{4}{*}{Pre-stall}  & \multicolumn{1}{c}{\multirow{2}{*}{Lift $CL1$}} & $\alpha \geq A0$                            & $C L1=S1\cdot\left(\alpha-A0\right)-R C L1\left(\frac{\alpha-A0}{A C L1-A0}\right)^{N1}$                                    \\
+                                    & \multicolumn{1}{c}{}                            & $\alpha < A0$                               & $CL1=S1\cdot(\alpha-A0)+R C L1\left(\frac{A0-\alpha}{A C L1-A0}\right)^{N1}$                                                \\ \cline{2-4} 
+                                    & \multirow{2}{*}{Drag $CD1$}                     & $(2 A0 - ACD1) \leq \alpha \leq ACD1$       & $C D1=C D0+\left(C D1\operatorname*{max}-C D0\right)\left({\frac{\alpha-A0}{A C D1-A0}}\right)^{M}$                         \\
+                                    &                                                 & $\alpha < (2 A0 - ACD1)$ or $\alpha > ACD1$ & $CD1=0$                                                                                                                     \\ \hline
+        \multirow{7}{*}{Post-stall} & \multicolumn{1}{c}{\multirow{4}{*}{Lift $CL2$}} & $0 < \alpha < ACL1$                         & $CL2=0$                                                                                                                     \\
+                                    & \multicolumn{1}{c}{}                            & $ACL1 \leq \alpha \leq 92^{\circ}$          & $CL2=-0.032\left(\alpha-92.0\right) - RCL2\cdot\left({\frac{92.0-\alpha}{51.0}}\right)^{N2}$                                \\
+                                    & \multicolumn{1}{c}{}                            & $\alpha > 92^{\circ}$                       & $CL2=-0.032\left(\alpha-92.0\right) + RCL2 \cdot \left(\frac{\alpha-92.0}{51.0}\right)^{N2}$                                \\
+                                    & \multicolumn{1}{c}{}                            & $\alpha < 0$                                & $CL2[\alpha] = - CL2[-\alpha + 2 \cdot A0]$                                                                                 \\ \cline{2-4} 
+                                    & \multirow{3}{*}{Drag $CD2$}                     & $(2A0-ACL1) \leq \alpha \leq ACL1$          & $CD2 = 0$                                                                                                                   \\
+                                    &                                                 & $\alpha \geq ACD1$                          & $CD2 = CD1_{max}+\left( CD2_{max} - CD1_{max}\right) \cdot \sin\left({\frac{\alpha-A C D1}{90.0-A C D1}} \cdot 90\right)$ \\
+                                    &                                                 & $\alpha \leq (2A0 - ACD1)$                  & $CD2\big[ \alpha \big] = CD2 \big[- \alpha + A0\big]$                                                                       \\ \hline
+        \end{tabular}
+    \caption{AERODAS model main equations \cite{spera_models_2008}}
+    \label{tab:aerodas_key_equation}
+\end{table}
+
+\subsubsection{Pre-Stall Maximum Lift and Drag}
+
+For lift it is defined mathematical expressions for pre-stall, $CL1$, considering \cite{spera_models_2008} uses a proposed model by Viterna, where it consideres a linear variation for the lift coefficient, $S1$, and while $\alpha$ increases approaching the stall angle $ACL1$, the function uses a reduction from extension of linear segment of lift curve to $CL1max$ (maxima $C_l$ value, before stall), $RCL1$,
+
+
+\begin{equation}
+    RCL1 = S1 \cdot (ACL1 - A0) - CL1max
+\end{equation}
+
+and exponent defining shape of lift curve at $ACL1max$, $N1$,
+
+\begin{equation}
+    N1 = 1 + \frac{CL1max}{RCL1} 
+\end{equation}
+
+In post-stall regime, the lift curve, $CL2$, is modeled by an equation of the same shape as in the pre-stall regime, but with a reversed slope. In this case, the reduction from extension of linear segment of lift curve to $CL2max$
+
+\begin{equation}
+    RCL2 = 1.632- CL2max
+\end{equation}
+
+and exponent defining shape of lift curve at $CL2_{max}$, $N1$,
+
+\begin{equation}
+    N2 = 1 + \frac{CL2}{RCL2}
+\end{equation}
+
+
+\textcolor{blue}{equações de drag}
+
+For drag coefficient, its behavior is usually defined considering a quadatic expression \cite{spera_models_2008}. So, AEDODAS model uses 
+
+\begin{equation}
+    M = 2
+\end{equation}
+
+\subsubsection{Post-Stall Maximum Lift and Drag}
+
+The mais goal of AERODAS is to compute the post-stall coefficients of which theres no available experimental data. So to extrapolate data, AERODAS uses two parameteres defining the maximum lift, $CL2max$, and drag, $CD2max$, to compute post-stall curves. To accomplish this goal \cite{spera_models_2008} considers  that this coefficients are functions of thickness-to-chord ratio, $t/c$ , and its aspect ratio, $AR$.
+
+\begin{equation}
+    CL2max = F1  \left[ t/c \right] \cdot F2 \left[ AR \right] \quad \text{and} \quad CD2max= G1 \left[ t/c \right] \cdot G2 \left[ AR \right]
+\end{equation}
+
+For lift coefficient, empirical equations developed follows:
+
+\begin{equation}
+    F1=1.190\cdot\left[1.0-\left(t/c\right)^{2}\right] \quad \text{and} \quad F2= 0.65 + 0.35\,\mathrm{exp}\left[-\left(9.0\slash{A}R\right)^{2.3}\right]
+\end{equation}
+
+For instance, the empirical equations for maximum drag are
+
+\begin{equation}
+    G_1 = 2.300\cdot\,\mathrm{exp}\left\{-\left[0.65\left(\frac{t}{c}\right)\right]^{0.90}\right\} \quad \text{and} \quad G_2 = 0.52 + 0.48\,\mathrm{exp}\left[-\left(\frac{6.5}{A R}\right)^{1.1}\right]
+\end{equation}
+
+
+
+\subsubsection{Lift and Drag Model Configurations}
+
+Once the model consideres coefficients equations in the pre-stall and post-stall regimes separately, it is necessary to select the correct one. This consideration is necessary once for $\alpha \geq ACL1$ (post-stall regime) theres is an overlap between the $CL1$ and $CL2$. For $\alpha < ACL1$ (pre-stall regime), $CL2$ is consider 0, then $CL1$ is the correct expresstion, for the pre-stall regime.
+
+If $\alpha \geq A0$
+
+\begin{equation}
+    C L=\operatorname*{max}(CL1, CL2)
+\end{equation}
+
+If $\alpha \leq A0$
+
+\begin{equation}
+    CL = \operatorname*{min}(CL1 , CL2) \quad \text{and} \quad CD = \operatorname*{max}(CD1, CD2)
+\end{equation}
+
+
+
+
+\textcolor{blue}{Explicar capacidades e deficiencias} 
+
+\textcolor{blue}{Apresentação do NeuralFoil e vantagens na utilização como base de dados para o AERODAS} 
 
 So, in this sense, to lead with this problems NeuralFoil \cite{sharpe_neuralfoil_nodate} presents a simple solution under the Aerosandbox package \cite{sharpe_aerosandbox_nodate,sharpe_accelerating_nodate}. NeuralFoil is a neural-network based model for 2D airfoils, which is able to predict the drag and lift coefficients for a wide range of airfoils, Reynolds and Mach numbers, and angles of attack. This model is based on a set neural-networks pre-trained with XFOIL meaning that the model is able to predict the drag and lift coefficients inside the scope where XFOIL presents not only numeric convergency but also physical convergency. 
 
 An output parameter from the NeuralFoil (and from any neural-network) is the confidence level of the ouput. These parameter is presented in figure figure \ref{fig:neuralfoil_confidence}, where the black region is the range where the model is able to predict the drag and lift coefficients with a confidence level of 95\%. 
+
+NeuralFoil \cite{sharpe_neuralfoil_nodate} is a fast and reliable model to predict the drag and lift coefficients for 2D airfoils inside the black region in figure \ref{fig:neuralfoil_confidence}, however there is a need to amplify the aerodynamic model with a certain good accuracy for the post-stall regime.
+
+\textcolor{blue}{Drawbacks do neuralfoil – confiança da rede neuronal para os grandes angulos de ataque}\\
 
 \begin{figure}[!htb]
     \centering
@@ -373,17 +537,39 @@ Analysing the figure \ref{fig:neuralfoil_confidence}, it is possible to state so
 \end{enumerate}
 
 
-NeuralFoil \cite{sharpe_neuralfoil_nodate} is a fast and reliable model to predict the drag and lift coefficients for 2D airfoils inside the black region in figure \ref{fig:neuralfoil_confidence}, however there is a need to amplify the aerodynamic model with a certain good accuracy for the post-stall regime.
-
-
-\textcolor{blue}{Definição do range de angulos de ataque e de números de reynolds}\\
-\textcolor{blue}{Apresentação do AERODAS modelos aerodinâmico}\\
-\textcolor{blue}{Explicar capacidades e deficiencias}\\
-\textcolor{blue}{Apresentação do NeuralFoil e vantagens na utilização como base de dados para o AERODAS}\\
-\textcolor{blue}{Drawbacks do neuralfoil – confiança da rede neuronal para os grandes angulos de ataque}\\
 \textcolor{blue}{Definição do intervalo de confiança do neural foil}\\
+
+\begin{figure}[!htb]
+	\centering
+	\begin{minipage}{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/background/aero/aero_model_1e4.eps}
+		\caption{Temperature Comparison}
+		\label{fig:aero_model_1e4}
+	\end{minipage}
+	\hfill
+	\begin{minipage}{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/background/aero/aero_model_1e5.eps}
+		\caption{Density Comparison}
+		\label{fig:aero_model_1e5}
+	\end{minipage}
+    \hfill
+    \begin{minipage}{0.3\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{Figures/background/aero/aero_model_1e6.eps}
+		\caption{Temperature Comparison}
+		\label{fig:aero_model_1e6}
+	\end{minipage}
+\end{figure}
+
 \textcolor{blue}{Ligação com o AERODAS – NEURALFOIL}\\
+
 \textcolor{blue}{Resultados para 2 perfis diferentes}\\
+
+
+
+
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

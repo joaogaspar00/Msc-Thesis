@@ -1,4 +1,4 @@
-\begin{thebibliography}{48}
+\begin{thebibliography}{49}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -267,6 +267,12 @@ A.~L. Schwab and J.~P. Meijaard.
 \newblock \doi{10.1115/DETC2006-99307}.
 \newblock URL
   \url{https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2006/42568/259/318134}.
+
+\bibitem[Spera and Technology(2008)]{spera_models_2008}
+D.~A. Spera and J.~Technology.
+\newblock Models of {Lift} and {Drag} {Coefﬁcients} of {Stalled} and
+  {Unstalled} {Airfoils} in {Wind} {Turbines} and {Wind} {Tunnels}.
+\newblock 2008.
 
 \bibitem[Sharpe and Hansman()]{sharpe_neuralfoil_nodate}
 P.~Sharpe and R.~J. Hansman.

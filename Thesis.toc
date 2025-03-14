@@ -20,34 +20,38 @@
 \contentsline {section}{\numberline {1.4}Objectives}{10}{section.1.4}%
 \contentsline {section}{\numberline {1.5}Thesis Outline}{11}{section.1.5}%
 \contentsline {chapter}{\numberline {2}Background}{13}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Theoretical Overview}{13}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Vehicle Dynamics}{13}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Inertia Tensor}{13}{subsection.2.2.1}%
-\contentsline {section}{\numberline {2.3}Blade Element Theory}{15}{section.2.3}%
-\contentsline {subsection}{\numberline {2.3.1} Pitch and Incidence Angle, Angle of Attack,}{18}{subsection.2.3.1}%
-\contentsline {subsection}{\numberline {2.3.2}The Element's Velocity}{19}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Rotation matrices}{19}{section.2.4}%
-\contentsline {section}{\numberline {2.5}2D Aerodynamic Model}{20}{section.2.5}%
-\contentsline {section}{\numberline {2.6}Atmosphere Model}{22}{section.2.6}%
-\contentsline {section}{\numberline {2.7}Prandtl Tip Losses Factor}{24}{section.2.7}%
-\contentsline {chapter}{\numberline {3}Computational Methods}{27}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Numerical Integration}{27}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Runge-Kutta 4th Order for Vehicle Dynamics}{27}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Integration Methods for Blade Loads}{27}{subsection.3.1.2}%
-\contentsline {section}{\numberline {3.2}Simulator Development}{28}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Simulation flowchart}{28}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Application Interface}{28}{subsection.3.2.2}%
-\contentsline {section}{\numberline {3.3}Model Validation and Verification}{28}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Validation and Verification with wind tunnel data}{28}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Project Daedalus}{29}{subsection.3.3.2}%
-\contentsline {subsection}{\numberline {3.3.3}Previous Work Comparison}{29}{subsection.3.3.3}%
-\contentsline {section}{\numberline {3.4}Mesh Study}{29}{section.3.4}%
-\contentsline {subsection}{\numberline {3.4.1}Time Step}{31}{subsection.3.4.1}%
-\contentsline {subsection}{\numberline {3.4.2}Azimtutal Distribution}{31}{subsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.4.3}Blade Discretization}{31}{subsection.3.4.3}%
-\contentsline {chapter}{\numberline {4}Conclusions}{33}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Achievements}{33}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Future Work}{33}{section.4.2}%
-\contentsline {chapter}{Bibliography}{35}{section*.43}%
-\contentsline {chapter}{\numberline {A}Vector calculus}{39}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Vector identities}{39}{section.A.1}%
+\contentsline {section}{\numberline {2.1}Vehicle Dynamics}{13}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}Inertia Tensor}{13}{subsection.2.1.1}%
+\contentsline {section}{\numberline {2.2}Rotor's Dynamics}{15}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Blade Element Theory}{15}{subsection.2.2.1}%
+\contentsline {subsection}{\numberline {2.2.2} Pitch and Incidence Angle, Angle of Attack,}{18}{subsection.2.2.2}%
+\contentsline {subsection}{\numberline {2.2.3}The Element's Velocity}{19}{subsection.2.2.3}%
+\contentsline {section}{\numberline {2.3}Rotation matrices}{19}{section.2.3}%
+\contentsline {section}{\numberline {2.4}2D Aerodynamic Model}{20}{section.2.4}%
+\contentsline {subsection}{\numberline {2.4.1}AERODAS}{21}{subsection.2.4.1}%
+\contentsline {subsubsection}{Pre-Stall Maximum Lift and Drag}{22}{section*.33}%
+\contentsline {subsubsection}{Post-Stall Maximum Lift and Drag}{24}{section*.34}%
+\contentsline {subsubsection}{Lift and Drag Model Configurations}{24}{section*.35}%
+\contentsline {section}{\numberline {2.5}Atmosphere Model}{26}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Prandtl Tip Losses Factor}{28}{section.2.6}%
+\contentsline {chapter}{\numberline {3}Computational Methods}{31}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Numerical Integration}{31}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Runge-Kutta 4th Order for Vehicle Dynamics}{31}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Integration Methods for Blade Loads}{31}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Simulator Development}{32}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Simulation flowchart}{32}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Application Interface}{32}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Model Validation and Verification}{32}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Validation and Verification with wind tunnel data}{32}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Project Daedalus}{33}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Previous Work Comparison}{33}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Mesh Study}{33}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Time Step}{35}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Azimtutal Distribution}{35}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Blade Discretization}{35}{subsection.3.4.3}%
+\contentsline {chapter}{\numberline {4}Conclusions}{37}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Achievements}{37}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Future Work}{37}{section.4.2}%
+\contentsline {chapter}{Bibliography}{39}{section*.49}%
+\contentsline {chapter}{\numberline {A}Vector calculus}{43}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Vector identities}{43}{section.A.1}%
