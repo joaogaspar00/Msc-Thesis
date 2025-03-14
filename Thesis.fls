@@ -16,10 +16,6 @@ INPUT C:\Program Files\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\natbib\natbib.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\notoccite\notoccite.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\notoccite\notoccite.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\import\import.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\import\import.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\aspectratio\ar.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\aspectratio\ar.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\base\inputenc.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\babel\babel.sty
@@ -171,6 +167,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\caption\caption3.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\caption\ltcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\aspectratio\ar.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\aspectratio\ar.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\dcolumn.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\dcolumn.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\tools\array.sty
@@ -265,21 +263,12 @@ INPUT C:\Program Files\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\ulem\ulem.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\ulem\ulem.sty
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\mathtools\mathtools.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\mathtools\mhsetup.sty
-INPUT C:\Program Files\MiKTeX\tex\latex\mathtools\mhsetup.sty
 INPUT .\Thesis_Nomenclature.tex
 INPUT .\Thesis_Nomenclature.tex
 INPUT .\Thesis_Nomenclature.tex
@@ -300,9 +289,6 @@ INPUT .\Thesis.aux
 INPUT .\Thesis.aux
 INPUT Thesis.aux
 OUTPUT Thesis.aux
-INPUT .\Thesis.glsdefs
-INPUT .\Thesis.glsdefs
-INPUT Thesis.glsdefs
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
 INPUT C:\Program Files\MiKTeX\tex\context\base\mkii\supp-pdf.mkii
@@ -444,7 +430,16 @@ OUTPUT Thesis.lot
 INPUT .\Thesis.lof
 INPUT .\Thesis.lof
 INPUT Thesis.lof
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
 OUTPUT Thesis.lof
+INPUT .\Thesis.nls
+INPUT .\Thesis.nls
+INPUT Thesis.nls
+INPUT .\Thesis.acr
+INPUT .\Thesis.acr
+INPUT Thesis.acr
 INPUT .\Thesis_Introduction.tex
 INPUT .\Thesis_Introduction.tex
 INPUT .\Thesis_Introduction.tex
@@ -452,256 +447,295 @@ INPUT .\Thesis_Introduction.tex
 INPUT Thesis_Introduction.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT .\Thesis_LiteratureReview.tex
-INPUT .\Thesis_LiteratureReview.tex
-INPUT .\Thesis_LiteratureReview.tex
-INPUT .\Thesis_LiteratureReview.tex
-INPUT Thesis_LiteratureReview.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvro7t.tfm
-INPUT .\Figures\literature_review\rotochute_prototype.eps
-INPUT .\Figures\literature_review\rotochute_prototype.eps
-INPUT .\Figures\literature_review\rotochute_prototype.eps
-INPUT .\Figures\literature_review\rotochute_prototype.eps
-INPUT .\Figures\literature_review\rotochute_prototype.eps
-INPUT .\Figures\literature_review\rotochute_prototype-eps-converted-to.pdf
-INPUT .\Figures\literature_review\rotochute_prototype-eps-converted-to.pdf
-INPUT .\Figures\literature_review\rotochute_prototype.eps
-INPUT .\Figures\literature_review\rotochute_prototype-eps-converted-to.pdf
-INPUT .\Figures\literature_review\rotochute_prototype-eps-converted-to.pdf
-INPUT .\Figures\literature_review\rotochute_prototype-eps-converted-to.pdf
-INPUT .\Figures\literature_review\rotochute_prototype-eps-converted-to.pdf
+INPUT .\Figures\introduction\rotochute_prototype.eps
+INPUT .\Figures\introduction\rotochute_prototype.eps
+INPUT .\Figures\introduction\rotochute_prototype.eps
+INPUT .\Figures\introduction\rotochute_prototype.eps
+INPUT .\Figures\introduction\rotochute_prototype.eps
+INPUT .\Figures\introduction\rotochute_prototype-eps-converted-to.pdf
+INPUT .\Figures\introduction\rotochute_prototype-eps-converted-to.pdf
+INPUT .\Figures\introduction\rotochute_prototype.eps
+INPUT .\Figures\introduction\rotochute_prototype-eps-converted-to.pdf
+INPUT .\Figures\introduction\rotochute_prototype-eps-converted-to.pdf
+INPUT .\Figures\introduction\rotochute_prototype-eps-converted-to.pdf
+INPUT .\Figures\introduction\rotochute_prototype-eps-converted-to.pdf
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvro7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvro8r.tfm
-INPUT .\Figures\literature_review\armada_concept_vehicle.png
-INPUT .\Figures\literature_review\armada_concept_vehicle.png
-INPUT .\Figures\literature_review\armada_concept_vehicle.png
-INPUT .\Figures\literature_review\armada_concept_vehicle.png
-INPUT .\Figures\literature_review\armada_concept_vehicle.png
-INPUT .\Figures\literature_review\armada_concept_vehicle.png
-INPUT .\Figures\literature_review\armada_concept_vehicle.png
-INPUT .\Figures\literature_review\armada_software.png
-INPUT .\Figures\literature_review\armada_software.png
-INPUT .\Figures\literature_review\armada_software.png
-INPUT .\Figures\literature_review\armada_software.png
-INPUT .\Figures\literature_review\armada_software.png
-INPUT .\Figures\literature_review\armada_software.png
-INPUT .\Figures\literature_review\armada_software.png
-INPUT .\Figures\literature_review\armada_supersonic_model.png
-INPUT .\Figures\literature_review\armada_supersonic_model.png
-INPUT .\Figures\literature_review\armada_supersonic_model.png
-INPUT .\Figures\literature_review\armada_supersonic_model.png
-INPUT .\Figures\literature_review\armada_supersonic_model.png
-INPUT .\Figures\literature_review\armada_supersonic_model.png
-INPUT .\Figures\literature_review\armada_supersonic_model.png
+INPUT .\Figures\introduction\helicopter maneuver.png
+INPUT .\Figures\introduction\helicopter maneuver.png
+INPUT .\Figures\introduction\helicopter maneuver.png
+INPUT .\Figures\introduction\helicopter maneuver.png
+INPUT .\Figures\introduction\helicopter maneuver.png
+INPUT .\Figures\introduction\helicopter maneuver.png
+INPUT .\Figures\introduction\helicopter maneuver.png
+INPUT .\Figures\introduction\armada_concept_vehicle.png
+INPUT .\Figures\introduction\armada_concept_vehicle.png
+INPUT .\Figures\introduction\armada_concept_vehicle.png
+INPUT .\Figures\introduction\armada_concept_vehicle.png
+INPUT .\Figures\introduction\armada_concept_vehicle.png
+INPUT .\Figures\introduction\armada_concept_vehicle.png
+INPUT .\Figures\introduction\armada_concept_vehicle.png
+INPUT .\Figures\introduction\armada_software.png
+INPUT .\Figures\introduction\armada_software.png
+INPUT .\Figures\introduction\armada_software.png
+INPUT .\Figures\introduction\armada_software.png
+INPUT .\Figures\introduction\armada_software.png
+INPUT .\Figures\introduction\armada_software.png
+INPUT .\Figures\introduction\armada_software.png
+INPUT .\Figures\introduction\armada_supersonic_model.png
+INPUT .\Figures\introduction\armada_supersonic_model.png
+INPUT .\Figures\introduction\armada_supersonic_model.png
+INPUT .\Figures\introduction\armada_supersonic_model.png
+INPUT .\Figures\introduction\armada_supersonic_model.png
+INPUT .\Figures\introduction\armada_supersonic_model.png
+INPUT .\Figures\introduction\armada_supersonic_model.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
-INPUT .\Figures\literature_review\armada_subsonic_model.png
-INPUT .\Figures\literature_review\armada_subsonic_model.png
-INPUT .\Figures\literature_review\armada_subsonic_model.png
-INPUT .\Figures\literature_review\armada_subsonic_model.png
-INPUT .\Figures\literature_review\armada_subsonic_model.png
-INPUT .\Figures\literature_review\armada_subsonic_model.png
-INPUT .\Figures\literature_review\armada_subsonic_model.png
+INPUT .\Figures\introduction\armada_subsonic_model.png
+INPUT .\Figures\introduction\armada_subsonic_model.png
+INPUT .\Figures\introduction\armada_subsonic_model.png
+INPUT .\Figures\introduction\armada_subsonic_model.png
+INPUT .\Figures\introduction\armada_subsonic_model.png
+INPUT .\Figures\introduction\armada_subsonic_model.png
+INPUT .\Figures\introduction\armada_subsonic_model.png
+INPUT .\Figures\introduction\Hummingbird_operation.png
+INPUT .\Figures\introduction\Hummingbird_operation.png
+INPUT .\Figures\introduction\Hummingbird_operation.png
+INPUT .\Figures\introduction\Hummingbird_operation.png
+INPUT .\Figures\introduction\Hummingbird_operation.png
+INPUT .\Figures\introduction\Hummingbird_operation.png
+INPUT .\Figures\introduction\Hummingbird_operation.png
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT .\Figures\literature_review\Hummingbird_operation.png
-INPUT .\Figures\literature_review\Hummingbird_operation.png
-INPUT .\Figures\literature_review\Hummingbird_operation.png
-INPUT .\Figures\literature_review\Hummingbird_operation.png
-INPUT .\Figures\literature_review\Hummingbird_operation.png
-INPUT .\Figures\literature_review\Hummingbird_operation.png
-INPUT .\Figures\literature_review\Hummingbird_operation.png
-INPUT .\Figures\literature_review\REXUS-Rocket-composition_W640.jpg
-INPUT .\Figures\literature_review\REXUS-Rocket-composition_W640.jpg
-INPUT .\Figures\literature_review\REXUS-Rocket-composition_W640.jpg
-INPUT .\Figures\literature_review\REXUS-Rocket-composition_W640.jpg
-INPUT .\Figures\literature_review\REXUS-Rocket-composition_W640.jpg
-INPUT .\Figures\literature_review\REXUS-Rocket-composition_W640.jpg
-INPUT .\Figures\literature_review\REXUS-Rocket-composition_W640.jpg
-INPUT .\Figures\literature_review\ffu_rexus.png
-INPUT .\Figures\literature_review\ffu_rexus.png
-INPUT .\Figures\literature_review\ffu_rexus.png
-INPUT .\Figures\literature_review\ffu_rexus.png
-INPUT .\Figures\literature_review\ffu_rexus.png
-INPUT .\Figures\literature_review\ffu_rexus.png
-INPUT .\Figures\literature_review\ffu_rexus.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
-INPUT .\Figures\literature_review\space_seed_prototype.png
-INPUT .\Figures\literature_review\space_seed_prototype.png
-INPUT .\Figures\literature_review\space_seed_prototype.png
-INPUT .\Figures\literature_review\space_seed_prototype.png
-INPUT .\Figures\literature_review\space_seed_prototype.png
-INPUT .\Figures\literature_review\space_seed_prototype.png
-INPUT .\Figures\literature_review\space_seed_prototype.png
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT .\Thesis_model.tex
-INPUT .\Thesis_model.tex
-INPUT .\Thesis_model.tex
-INPUT .\Thesis_model.tex
-INPUT Thesis_model.tex
-INPUT .\Figures\implementation\model\ariane_6.jpg
-INPUT .\Figures\implementation\model\ariane_6.jpg
-INPUT .\Figures\implementation\model\ariane_6.jpg
-INPUT .\Figures\implementation\model\ariane_6.jpg
-INPUT .\Figures\implementation\model\ariane_6.jpg
-INPUT .\Figures\implementation\model\ariane_6.jpg
-INPUT .\Figures\implementation\model\ariane_6.jpg
-INPUT .\Figures\implementation\model\falcon_9.jpg
-INPUT .\Figures\implementation\model\falcon_9.jpg
-INPUT .\Figures\implementation\model\falcon_9.jpg
-INPUT .\Figures\implementation\model\falcon_9.jpg
-INPUT .\Figures\implementation\model\falcon_9.jpg
-INPUT .\Figures\implementation\model\falcon_9.jpg
-INPUT .\Figures\implementation\model\falcon_9.jpg
-INPUT .\Figures\implementation\model\newshepard.png
-INPUT .\Figures\implementation\model\newshepard.png
-INPUT .\Figures\implementation\model\newshepard.png
-INPUT .\Figures\implementation\model\newshepard.png
-INPUT .\Figures\implementation\model\newshepard.png
-INPUT .\Figures\implementation\model\newshepard.png
-INPUT .\Figures\implementation\model\newshepard.png
-INPUT .\Figures\implementation\model\vehicle.png
-INPUT .\Figures\implementation\model\vehicle.png
-INPUT .\Figures\implementation\model\vehicle.png
-INPUT .\Figures\implementation\model\vehicle.png
-INPUT .\Figures\implementation\model\vehicle.png
-INPUT .\Figures\implementation\model\vehicle.png
-INPUT .\Figures\implementation\model\vehicle.png
-INPUT .\Figures\implementation\model\geometry_proprieties.png
-INPUT .\Figures\implementation\model\geometry_proprieties.png
-INPUT .\Figures\implementation\model\geometry_proprieties.png
-INPUT .\Figures\implementation\model\geometry_proprieties.png
-INPUT .\Figures\implementation\model\geometry_proprieties.png
-INPUT .\Figures\implementation\model\geometry_proprieties.png
-INPUT .\Figures\implementation\model\geometry_proprieties.png
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
-INPUT .\Figures\implementation\model\reference_frames_img.png
-INPUT .\Figures\implementation\model\reference_frames_img.png
-INPUT .\Figures\implementation\model\reference_frames_img.png
-INPUT .\Figures\implementation\model\reference_frames_img.png
-INPUT .\Figures\implementation\model\reference_frames_img.png
-INPUT .\Figures\implementation\model\reference_frames_img.png
-INPUT .\Figures\implementation\model\reference_frames_img.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8r.tfm
+INPUT .\Figures\introduction\REXUS-Rocket-composition_W640.jpg
+INPUT .\Figures\introduction\REXUS-Rocket-composition_W640.jpg
+INPUT .\Figures\introduction\REXUS-Rocket-composition_W640.jpg
+INPUT .\Figures\introduction\REXUS-Rocket-composition_W640.jpg
+INPUT .\Figures\introduction\REXUS-Rocket-composition_W640.jpg
+INPUT .\Figures\introduction\REXUS-Rocket-composition_W640.jpg
+INPUT .\Figures\introduction\REXUS-Rocket-composition_W640.jpg
+INPUT .\Figures\introduction\ffu_rexus.png
+INPUT .\Figures\introduction\ffu_rexus.png
+INPUT .\Figures\introduction\ffu_rexus.png
+INPUT .\Figures\introduction\ffu_rexus.png
+INPUT .\Figures\introduction\ffu_rexus.png
+INPUT .\Figures\introduction\ffu_rexus.png
+INPUT .\Figures\introduction\ffu_rexus.png
+INPUT .\Figures\introduction\space_seed_prototype.png
+INPUT .\Figures\introduction\space_seed_prototype.png
+INPUT .\Figures\introduction\space_seed_prototype.png
+INPUT .\Figures\introduction\space_seed_prototype.png
+INPUT .\Figures\introduction\space_seed_prototype.png
+INPUT .\Figures\introduction\space_seed_prototype.png
+INPUT .\Figures\introduction\space_seed_prototype.png
+INPUT .\Thesis_Background.tex
+INPUT .\Thesis_Background.tex
+INPUT .\Thesis_Background.tex
+INPUT .\Thesis_Background.tex
+INPUT Thesis_Background.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
-INPUT .\Figures\implementation\model\rotation_frames.png
-INPUT .\Figures\implementation\model\rotation_frames.png
-INPUT .\Figures\implementation\model\rotation_frames.png
-INPUT .\Figures\implementation\model\rotation_frames.png
-INPUT .\Figures\implementation\model\rotation_frames.png
-INPUT .\Figures\implementation\model\rotation_frames.png
-INPUT .\Figures\implementation\model\rotation_frames.png
-INPUT .\Figures\implementation\bet\blade_model.png
-INPUT .\Figures\implementation\bet\blade_model.png
-INPUT .\Figures\implementation\bet\blade_model.png
-INPUT .\Figures\implementation\bet\blade_model.png
-INPUT .\Figures\implementation\bet\blade_model.png
-INPUT .\Figures\implementation\bet\blade_model.png
-INPUT .\Figures\implementation\bet\blade_model.png
-INPUT .\Figures\implementation\bet\blade_forces\multiple_blades_reference.pdf
-INPUT .\Figures\implementation\bet\blade_forces\multiple_blades_reference.pdf
-INPUT .\Figures\implementation\bet\blade_forces\multiple_blades_reference.pdf
-INPUT .\Figures\implementation\bet\blade_forces\multiple_blades_reference.pdf
-INPUT .\Figures\implementation\bet\blade_forces\multiple_blades_reference.pdf
-INPUT .\Figures\implementation\bet\blade_forces\multiple_blades_reference.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_1.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_1.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_1.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_1.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_1.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_1.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_2.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_2.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_2.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_2.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_2.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_2.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_3.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_3.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_3.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_3.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_3.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_3.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_4.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_4.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_4.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_4.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_4.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_4.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_5.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_5.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_5.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_5.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_5.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_5.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_6.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_6.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_6.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_6.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_6.pdf
-INPUT .\Figures\implementation\bet\blade_forces\blade_element_forces_6.pdf
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cl_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cl_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cl_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cl_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cl_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cl_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cl_model.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx8.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx6.tfm
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
-INPUT .\Figures\implementation\bet\aerodas\aerodas_cd_model.png
-INPUT .\Figures\implementation\atmos\temperature_plot.png
-INPUT .\Figures\implementation\atmos\temperature_plot.png
-INPUT .\Figures\implementation\atmos\temperature_plot.png
-INPUT .\Figures\implementation\atmos\temperature_plot.png
-INPUT .\Figures\implementation\atmos\temperature_plot.png
-INPUT .\Figures\implementation\atmos\temperature_plot.png
-INPUT .\Figures\implementation\atmos\temperature_plot.png
-INPUT .\Figures\implementation\atmos\density_plot.png
-INPUT .\Figures\implementation\atmos\density_plot.png
-INPUT .\Figures\implementation\atmos\density_plot.png
-INPUT .\Figures\implementation\atmos\density_plot.png
-INPUT .\Figures\implementation\atmos\density_plot.png
-INPUT .\Figures\implementation\atmos\density_plot.png
-INPUT .\Figures\implementation\atmos\density_plot.png
-INPUT .\Thesis_ComputationalMethodology.tex
-INPUT .\Thesis_ComputationalMethodology.tex
-INPUT Thesis_ComputationalMethodology.tex
-INPUT .\Thesis_Results.tex
-INPUT .\Thesis_Results.tex
-INPUT .\Thesis_Results.tex
-INPUT .\Thesis_Results.tex
-INPUT Thesis_Results.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
+INPUT .\Figures\background\inertia\inertia_scheme.png
+INPUT .\Figures\background\inertia\inertia_scheme.png
+INPUT .\Figures\background\inertia\inertia_scheme.png
+INPUT .\Figures\background\inertia\inertia_scheme.png
+INPUT .\Figures\background\inertia\inertia_scheme.png
+INPUT .\Figures\background\inertia\inertia_scheme.png
+INPUT .\Figures\background\inertia\inertia_scheme.png
+INPUT .\Figures\background\bet\blade.png
+INPUT .\Figures\background\bet\blade.png
+INPUT .\Figures\background\bet\blade.png
+INPUT .\Figures\background\bet\blade.png
+INPUT .\Figures\background\bet\blade.png
+INPUT .\Figures\background\bet\blade.png
+INPUT .\Figures\background\bet\blade.png
+INPUT .\Figures\background\bet\element.png
+INPUT .\Figures\background\bet\element.png
+INPUT .\Figures\background\bet\element.png
+INPUT .\Figures\background\bet\element.png
+INPUT .\Figures\background\bet\element.png
+INPUT .\Figures\background\bet\element.png
+INPUT .\Figures\background\bet\element.png
+INPUT .\Figures\background\bet\phi_angle.png
+INPUT .\Figures\background\bet\phi_angle.png
+INPUT .\Figures\background\bet\phi_angle.png
+INPUT .\Figures\background\bet\phi_angle.png
+INPUT .\Figures\background\bet\phi_angle.png
+INPUT .\Figures\background\bet\phi_angle.png
+INPUT .\Figures\background\bet\phi_angle.png
+INPUT .\Figures\background\rotation_matrices\rotation_frames.png
+INPUT .\Figures\background\rotation_matrices\rotation_frames.png
+INPUT .\Figures\background\rotation_matrices\rotation_frames.png
+INPUT .\Figures\background\rotation_matrices\rotation_frames.png
+INPUT .\Figures\background\rotation_matrices\rotation_frames.png
+INPUT .\Figures\background\rotation_matrices\rotation_frames.png
+INPUT .\Figures\background\rotation_matrices\rotation_frames.png
+INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
+INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
+INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
+INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
+INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
+INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
+INPUT .\Figures\background\aero\NeuralFoil_Confidence_2D_black.png
+INPUT .\Figures\background\atmos\temperature_plot.png
+INPUT .\Figures\background\atmos\temperature_plot.png
+INPUT .\Figures\background\atmos\temperature_plot.png
+INPUT .\Figures\background\atmos\temperature_plot.png
+INPUT .\Figures\background\atmos\temperature_plot.png
+INPUT .\Figures\background\atmos\temperature_plot.png
+INPUT .\Figures\background\atmos\temperature_plot.png
+INPUT .\Figures\background\atmos\density_plot.png
+INPUT .\Figures\background\atmos\density_plot.png
+INPUT .\Figures\background\atmos\density_plot.png
+INPUT .\Figures\background\atmos\density_plot.png
+INPUT .\Figures\background\atmos\density_plot.png
+INPUT .\Figures\background\atmos\density_plot.png
+INPUT .\Figures\background\atmos\density_plot.png
+INPUT .\Figures\background\tiplosses\prandtltiploss.eps
+INPUT .\Figures\background\tiplosses\prandtltiploss.eps
+INPUT .\Figures\background\tiplosses\prandtltiploss.eps
+INPUT .\Figures\background\tiplosses\prandtltiploss.eps
+INPUT .\Figures\background\tiplosses\prandtltiploss.eps
+INPUT .\Figures\background\tiplosses\prandtltiploss-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiploss-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiploss.eps
+INPUT .\Figures\background\tiplosses\prandtltiploss-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiploss-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiploss-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiploss-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction.eps
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction.eps
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction.eps
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction.eps
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction.eps
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction.eps
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction-eps-converted-to.pdf
+INPUT .\Figures\background\tiplosses\prandtltiplossfunction-eps-converted-to.pdf
+INPUT .\Thesis_ComputationalMethods.tex
+INPUT .\Thesis_ComputationalMethods.tex
+INPUT Thesis_ComputationalMethods.tex
+INPUT .\Figures\comp_method\simulation_flowchart.png
+INPUT .\Figures\comp_method\simulation_flowchart.png
+INPUT .\Figures\comp_method\simulation_flowchart.png
+INPUT .\Figures\comp_method\simulation_flowchart.png
+INPUT .\Figures\comp_method\simulation_flowchart.png
+INPUT .\Figures\comp_method\simulation_flowchart.png
+INPUT .\Figures\comp_method\simulation_flowchart.png
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
+INPUT .\Figures\comp_method\sim_B\U_T.eps
+INPUT .\Figures\comp_method\sim_B\U_T.eps
+INPUT .\Figures\comp_method\sim_B\U_T.eps
+INPUT .\Figures\comp_method\sim_B\U_T.eps
+INPUT .\Figures\comp_method\sim_B\U_T.eps
+INPUT .\Figures\comp_method\sim_B\U_T-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_T-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_T.eps
+INPUT .\Figures\comp_method\sim_B\U_T-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_T-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_T-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_T-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_R.eps
+INPUT .\Figures\comp_method\sim_B\U_R.eps
+INPUT .\Figures\comp_method\sim_B\U_R.eps
+INPUT .\Figures\comp_method\sim_B\U_R.eps
+INPUT .\Figures\comp_method\sim_B\U_R.eps
+INPUT .\Figures\comp_method\sim_B\U_R-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_R-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_R.eps
+INPUT .\Figures\comp_method\sim_B\U_R-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_R-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_R-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_R-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_P.eps
+INPUT .\Figures\comp_method\sim_B\U_P.eps
+INPUT .\Figures\comp_method\sim_B\U_P.eps
+INPUT .\Figures\comp_method\sim_B\U_P.eps
+INPUT .\Figures\comp_method\sim_B\U_P.eps
+INPUT .\Figures\comp_method\sim_B\U_P-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_P-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_P.eps
+INPUT .\Figures\comp_method\sim_B\U_P-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_P-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_P-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\U_P-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cl.eps
+INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cl-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cd.eps
+INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
+INPUT .\Figures\comp_method\sim_B\cd-eps-converted-to.pdf
 INPUT .\Thesis_Conclusions.tex
 INPUT .\Thesis_Conclusions.tex
 INPUT .\Thesis_Conclusions.tex
@@ -710,56 +744,46 @@ INPUT Thesis_Conclusions.tex
 INPUT .\Thesis.bbl
 INPUT .\Thesis.bbl
 INPUT Thesis.bbl
-INPUT .\Thesis_Appendix_AerodasModel.tex
-INPUT .\Thesis_Appendix_AerodasModel.tex
-INPUT .\Thesis_Appendix_AerodasModel.tex
-INPUT .\Thesis_Appendix_AerodasModel.tex
-INPUT Thesis_Appendix_AerodasModel.tex
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\omsphv.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\omsphv.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\omsphv.fd
+INPUT .\Thesis_Appendix_A.tex
+INPUT .\Thesis_Appendix_A.tex
+INPUT .\Thesis_Appendix_A.tex
+INPUT .\Thesis_Appendix_A.tex
+INPUT Thesis_Appendix_A.tex
 INPUT Thesis.aux
 INPUT .\Thesis.out
 INPUT .\Thesis.out
-INPUT C:\Users\Utilizador\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
-INPUT C:\Users\Utilizador\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi5.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmmib10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr5.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmr8.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy5.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\symbols\msbm10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmtt10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\helvetic\uhvr8a.pfb

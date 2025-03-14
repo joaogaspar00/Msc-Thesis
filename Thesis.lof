@@ -1,43 +1,38 @@
 \babel@toc {english}{}\relax 
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Parachute recovery system}}{2}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Controlled thrust vector recovery system}}{2}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces KRC-6 Rotochute Flight Test Vehicle}}{2}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Stages of helicopter emergency landing maneuver: 1) engine failure; 2) autorotation descent; 3) flare manoeuvre; 4) approaching landing site; 5) landing}}{5}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces ARMADA Autorotation system concept, from \cite {noauthor_armada_nodate} }}{5}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces ARMADA concept software, from \cite {noauthor_armada_nodate}}}{6}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces ARMADA concepts under different fight conditions, from \cite {noauthor_armada_nodate}}}{7}{figure.caption.20}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Supersonic deployment model}}}{7}{subfigure.7.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Subsonic reefing model}}}{7}{subfigure.7.2}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Concept of Operation of Project Hummingbird, from \cite {maurer_project_nodate}}}{8}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces REXUS Rocket composition, from \cite {riegler_daedalus_2018}}}{8}{figure.caption.24}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces \gls {ffu} SpaceSeeds used in DEADALUS project}}{9}{figure.caption.25}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SpaceSeeds placement inside REXUS's cone, from \cite {noauthor_daedalus_nodate}}}}{9}{subfigure.10.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SpaceSeed protoype, from \cite {riegler_project_nodate}}}}{9}{subfigure.10.2}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces KRC-6 Rotochute Flight Test Vehicle}}{4}{figure.caption.11}%
-\contentsline {figure}{\numberline {2.2}{\ignorespaces ARMADA Autorotation system concept, from \cite {noauthor_armada_nodate} }}{5}{figure.caption.13}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces ARMADA concept software, from \cite {noauthor_armada_nodate} }}{6}{figure.caption.14}%
-\contentsline {figure}{\numberline {2.4}{\ignorespaces ARMADA concepts under different fight conditions}}{6}{figure.caption.15}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Supersonic deployment model}}}{6}{subfigure.4.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Subsonic reefing model}}}{6}{subfigure.4.2}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Concept of Operation of Project Hummingbird, from \cite {maurer_project_nodate}}}{7}{figure.caption.17}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces REXUS Rocket composition, from \cite {riegler_daedalus_2018}}}{8}{figure.caption.19}%
-\contentsline {figure}{\numberline {2.7}{\ignorespaces \gls {ffu} SpaceSeeds used in DEADALUS project}}{8}{figure.caption.20}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SpaceSeeds placement inside REXUS's cone, from \cite {noauthor_daedalus_nodate}}}}{8}{subfigure.7.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SpaceSeed protoype, from \cite {riegler_project_nodate}}}}{8}{subfigure.7.2}%
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Thin-plate position according to the principal axes ($O'$) inside the rotor' and blade's coordinate system, $O^r$ and $O^b$, respectively.}}{14}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces \gls {bet} model with an highlight blade element in red. The blade reference frame (in blue) and the element reference frame (in green) are shown. Also the $n$-element velocity vector $\mathbf {U}^e_n$ in element reference frame is shown.}}{15}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Blade element with flow enviroment and forces aplied.}}{15}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Blade element with flow enviroment and forces aplied.}}{18}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Reference frame rotation Euler angles, adapted from \cite {schwab_how_2006}}}{19}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces NeuralFoil confidence level for NACA 0012 airfoil for Reyndols number from $10^3$ to $10^9$}}{21}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Temperature Comparison}}{23}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Density Comparison}}{23}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Prandtl Tip Loss function versus radial position for two- and four-bladed rotor}}{25}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Prandtl Tip Loss Function}}{25}{figure.caption.35}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Spacecraft Vehicles operating nowadays}}{11}{figure.caption.21}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Ariane 6 \cite {noauthor_european_nodate}}}}{11}{subfigure.1.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Falcon 9 \cite {noauthor_spacex_nodate}}}}{11}{subfigure.1.2}%
-\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {New Shepard \cite {noauthor_blueorigin_nodate}}}}{11}{subfigure.1.3}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Vehicle}}{12}{figure.caption.22}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Vehicle Model}}}{12}{subfigure.2.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Vehicle Geometry proprieties}}}{12}{subfigure.2.2}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Model reference frames relation - as a simplication the figure was designed considering the that the viewer is aligned with $O^v \equiv O_r$ and the $O_i$ is rotated}}{13}{figure.caption.23}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Reference frame rotation Euler angles, adapted from \cite {schwab_how_2006}}}{14}{figure.caption.24}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Image \textcolor {blue}{falta trocar as referencias dos eixos}}}{21}{figure.caption.25}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Image \textcolor {blue}{falta trocar as referencias dos eixos}}}{22}{figure.caption.26}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Image 1}}{23}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Image 2}}{23}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Image 3}}{23}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.10}{\ignorespaces Image 4}}{23}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.11}{\ignorespaces 2x2 Grid of Images \textcolor {blue}{falta trocar as referencias dos eixos}}}{23}{figure.caption.27}%
-\contentsline {figure}{\numberline {3.12}{\ignorespaces Image 1}}{24}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.13}{\ignorespaces Image 2}}{24}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.14}{\ignorespaces 1x2 Grid of Images \textcolor {blue}{falta trocar as referencias dos eixos}}}{24}{figure.caption.28}%
-\contentsline {figure}{\numberline {3.15}{\ignorespaces AERODAS model curves}}{26}{figure.caption.30}%
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {AERODAS model lift coefficient,$C_l$, as functio of angle of attack,$\alpha $, from \cite {spera_models_2008}}}}{26}{subfigure.15.1}%
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {AERODAS model drag coefficient,$C_d$, as functio of angle of attack,$\alpha $, from \cite {spera_models_2008}}}}{26}{subfigure.15.2}%
-\contentsline {figure}{\numberline {3.16}{\ignorespaces Temperature Comparison}}{30}{figure.caption.32}%
-\contentsline {figure}{\numberline {3.17}{\ignorespaces Density Comparison}}{30}{figure.caption.32}%
-\addvspace {10\p@ }
-\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Computational implementation flowchart}}{28}{figure.caption.36}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Tangencial Velocity}}{30}{figure.caption.39}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Radial Velocity}}{30}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Vertical Velocity}}{30}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Lift Coefficient}}{30}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Incidence angle}}{30}{figure.caption.41}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Lift Coefficient}}{31}{figure.caption.42}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Drag Coefficient}}{31}{figure.caption.42}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

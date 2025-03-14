@@ -188,23 +188,25 @@
 % ----------------------------------------------------------------------
 
 \input{Thesis_Introduction} % file "Thesis_Introduction.tex"
-\clearpage
+\cleardoublepage
 
-\input{Thesis_LiteratureReview} % file "Thesis_Background.tex"
-\clearpage
+\input{Thesis_Background} % file "Thesis_Background.tex"
+\cleardoublepage
 
-\input{Thesis_model} % file "Thesis_Implementation.tex"
-\clearpage
+\input{Thesis_ComputationalMethods.tex} % file "Thesis_ComputationalMethods.tex"
+\cleardoublepage
 
-\input{Thesis_ComputationalMethodology.tex} % file "Thesis_ComputationalMethodology.tex"
-\clearpage
+%\input{Thesis_new_file} % add new .tex files for new chapters
+%\cleardoublepage
 
+%\input{Thesis_new_file} % add new .tex files for new chapters
+%\cleardoublepage
 
-\input{Thesis_Results} % file "Thesis_Results.tex"
-\clearpage
+%\input{Thesis_new_file} % add new .tex files for new chapters
+%\cleardoublepage
 
 \input{Thesis_Conclusions} % file "Thesis_Conclusions.tex"
-\clearpage
+\cleardoublepage
 
 % ----------------------------------------------------------------------
 %  Bibliography
@@ -247,7 +249,7 @@
 %   http://tug.ctan.org/macros/latex/contrib/natbib/abbrvnat.bst
 %   http://tug.ctan.org/macros/latex/contrib/natbib/unsrtnat.bst
 % > unsorted with entries appearing in the order in which the citations appear, with first names and names of journals and months abbreviated.
-\bibliographystyle{IEEEtran} % <<<<< SELECT IF USING REFERENCES BY NUMBER (CITATION ORDER)
+\bibliographystyle{abbrvunsrtnat} % <<<<< SELECT IF USING REFERENCES BY NUMBER (CITATION ORDER)
 
 % External bibliography database file in the BibTeX format
 \bibliography{Thesis_Bibliography_DB} % file "Thesis_Bibliography_DB.bib"
@@ -263,19 +265,16 @@
 \appendix
 
 % add page number prefix according to apendix chapter (optional)
-\renewcommand{\thepage}{\thechapter.\arabic{page}}
+%\renewcommand{\thepage}{\thechapter.\arabic{page}}
 
 % re-set arabic numbering (A.1,A.2,...) (optional, use only if chapter prefix is added)
-\setcounter{page}{1}
-
-\input{Thesis_Appendix_AerodasModel} % file "Thesis_Appendix_A.tex"
-\cleardoublepage
+%\setcounter{page}{1}
 
 % re-set arabic numbering (B.1,B.2,...) (optional, use only if chapter prefix is added)
 %\setcounter{page}{1}
 
-%\input{Thesis_Appendix_B} % file "Thesis_Appendix_B.tex"
-%\cleardoublepage
+\input{Thesis_Appendix_A} % file "Thesis_Appendix_A.tex"
+\cleardoublepage
 
 % ----------------------------------------------------------------------
 \end{document}

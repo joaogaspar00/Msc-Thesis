@@ -5,51 +5,49 @@
 \contentsline {section}{List of Tables}{xv}{section*.5}%
 \contentsline {section}{List of Figures}{xvii}{section*.7}%
 \contentsline {section}{Nomenclature}{xix}{section*.9}%
-\contentsline {section}{Glossary}{xix}{section*.10}%
+\contentsline {section}{Glossary}{xxi}{section*.11}%
 \contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Motivation}{1}{section.1.1}%
-\contentsline {section}{\numberline {1.2}Topic Overview}{1}{section.1.2}%
-\contentsline {section}{\numberline {1.3}Objectives}{2}{section.1.3}%
-\contentsline {section}{\numberline {1.4}Thesis Outline}{2}{section.1.4}%
-\contentsline {chapter}{\numberline {2}Literature Review}{3}{chapter.2}%
-\contentsline {section}{\numberline {2.1}Space Race and Vehicles Reusability}{3}{section.2.1}%
-\contentsline {section}{\numberline {2.2}Autorotation for Space Vehicles}{3}{section.2.2}%
-\contentsline {subsection}{\numberline {2.2.1}Rotary Wing Recovery System In the Early Ages of Space Exploration}{3}{subsection.2.2.1}%
-\contentsline {subsection}{\numberline {2.2.2}Recent Projects}{4}{subsection.2.2.2}%
-\contentsline {subsubsection}{\gls {armada}}{5}{section*.12}%
-\contentsline {subsubsection}{Hummingbird}{7}{section*.16}%
-\contentsline {subsubsection}{DEADALUS}{8}{section*.18}%
-\contentsline {subsection}{\numberline {2.2.3}Why using rotary wings for space vehicle recovery?}{9}{subsection.2.2.3}%
-\contentsline {section}{\numberline {2.3}Autorotation Phenomena}{10}{section.2.3}%
-\contentsline {section}{\numberline {2.4}State-of-art Overview and Conclusions}{10}{section.2.4}%
-\contentsline {chapter}{\numberline {3}Autorotation Mathematical Model}{11}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Vehicle Model}{11}{section.3.1}%
-\contentsline {subsection}{\numberline {3.1.1}Model simplications and assumptions}{12}{subsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.1.2}Reference Frames}{12}{subsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.1.3}System's Degrees of Freedom}{15}{subsection.3.1.3}%
-\contentsline {section}{\numberline {3.2}7-DOF Vehicle Dynamics}{16}{section.3.2}%
-\contentsline {subsection}{\numberline {3.2.1}Vehicle Motion}{16}{subsection.3.2.1}%
-\contentsline {subsection}{\numberline {3.2.2}Rotor Motion}{18}{subsection.3.2.2}%
-\contentsline {subsection}{\numberline {3.2.3}Full system}{19}{subsection.3.2.3}%
-\contentsline {subsection}{\numberline {3.2.4}Dynamic Equations}{20}{subsection.3.2.4}%
-\contentsline {subsection}{\numberline {3.2.5}Inertia Tensor}{20}{subsection.3.2.5}%
-\contentsline {section}{\numberline {3.3}Blade Element Theory (BET)}{21}{section.3.3}%
-\contentsline {subsection}{\numberline {3.3.1}Blade forces and moments}{21}{subsection.3.3.1}%
-\contentsline {subsection}{\numberline {3.3.2}Velocities}{23}{subsection.3.3.2}%
-\contentsline {subsubsection}{Induced Velocity}{24}{section*.29}%
-\contentsline {section}{\numberline {3.4}Reynolds Number}{25}{section.3.4}%
-\contentsline {section}{\numberline {3.5}AERODAS Model}{25}{section.3.5}%
-\contentsline {subsection}{\numberline {3.5.1}Prandtl Tip Losses}{29}{subsection.3.5.1}%
-\contentsline {section}{\numberline {3.6}Atmosphere Model}{29}{section.3.6}%
-\contentsline {chapter}{\numberline {4}Computational Methodology}{31}{chapter.4}%
-\contentsline {section}{\numberline {4.1}Solvers}{31}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Application Development and Workflow}{31}{section.4.2}%
-\contentsline {section}{\numberline {4.3}Experimental tests}{31}{section.4.3}%
-\contentsline {chapter}{\numberline {5}Results}{32}{chapter.5}%
-\contentsline {chapter}{\numberline {6}Conclusions}{33}{chapter.6}%
-\contentsline {section}{\numberline {6.1}Achievements}{33}{section.6.1}%
-\contentsline {section}{\numberline {6.2}Future Work}{33}{section.6.2}%
-\contentsline {chapter}{Bibliography}{34}{section*.34}%
-\contentsline {chapter}{\numberline {A}AERODAS Model Data from XFLR5}{A.1}{appendix.A}%
-\contentsline {section}{\numberline {A.1}Dataset for AERODAS model}{A.1}{section.A.1}%
-\contentsline {section}{\numberline {A.2}Simulation Data as Model Inputs}{A.1}{section.A.2}%
+\contentsline {section}{\numberline {1.1}Autorotation for Space Vehicles}{2}{section.1.1}%
+\contentsline {subsection}{\numberline {1.1.1}Rotary Wing Recovery System In the Early Ages of Space Exploration}{2}{subsection.1.1.1}%
+\contentsline {subsection}{\numberline {1.1.2}Why using rotary wings for space vehicle recovery?}{3}{subsection.1.1.2}%
+\contentsline {section}{\numberline {1.2}Autorotation Overview}{4}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Helicopters Autorotation Maneuver}{4}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Projects and literature review}{4}{subsection.1.2.2}%
+\contentsline {subsubsection}{ARMADA}{5}{section*.17}%
+\contentsline {subsubsection}{Hummingbird}{7}{section*.21}%
+\contentsline {subsubsection}{DEADALUS}{8}{section*.23}%
+\contentsline {section}{\numberline {1.3}Autorotation Analysis Methodologies and Literature Review}{9}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Objectives}{10}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Thesis Outline}{11}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Background}{13}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Theoretical Overview}{13}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Vehicle Dynamics}{13}{section.2.2}%
+\contentsline {subsection}{\numberline {2.2.1}Inertia Tensor}{13}{subsection.2.2.1}%
+\contentsline {section}{\numberline {2.3}Blade Element Theory}{15}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1} Pitch and Incidence Angle, Angle of Attack,}{18}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}The Element's Velocity}{19}{subsection.2.3.2}%
+\contentsline {section}{\numberline {2.4}Rotation matrices}{19}{section.2.4}%
+\contentsline {section}{\numberline {2.5}2D Aerodynamic Model}{20}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Atmosphere Model}{22}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Prandtl Tip Losses Factor}{24}{section.2.7}%
+\contentsline {chapter}{\numberline {3}Computational Methods}{27}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Numerical Integration}{27}{section.3.1}%
+\contentsline {subsection}{\numberline {3.1.1}Runge-Kutta 4th Order for Vehicle Dynamics}{27}{subsection.3.1.1}%
+\contentsline {subsection}{\numberline {3.1.2}Integration Methods for Blade Loads}{27}{subsection.3.1.2}%
+\contentsline {section}{\numberline {3.2}Simulator Development}{28}{section.3.2}%
+\contentsline {subsection}{\numberline {3.2.1}Simulation flowchart}{28}{subsection.3.2.1}%
+\contentsline {subsection}{\numberline {3.2.2}Application Interface}{28}{subsection.3.2.2}%
+\contentsline {section}{\numberline {3.3}Model Validation and Verification}{28}{section.3.3}%
+\contentsline {subsection}{\numberline {3.3.1}Validation and Verification with wind tunnel data}{28}{subsection.3.3.1}%
+\contentsline {subsection}{\numberline {3.3.2}Project Daedalus}{29}{subsection.3.3.2}%
+\contentsline {subsection}{\numberline {3.3.3}Previous Work Comparison}{29}{subsection.3.3.3}%
+\contentsline {section}{\numberline {3.4}Mesh Study}{29}{section.3.4}%
+\contentsline {subsection}{\numberline {3.4.1}Time Step}{31}{subsection.3.4.1}%
+\contentsline {subsection}{\numberline {3.4.2}Azimtutal Distribution}{31}{subsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.4.3}Blade Discretization}{31}{subsection.3.4.3}%
+\contentsline {chapter}{\numberline {4}Conclusions}{33}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Achievements}{33}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Future Work}{33}{section.4.2}%
+\contentsline {chapter}{Bibliography}{35}{section*.43}%
+\contentsline {chapter}{\numberline {A}Vector calculus}{39}{appendix.A}%
+\contentsline {section}{\numberline {A.1}Vector identities}{39}{section.A.1}%
