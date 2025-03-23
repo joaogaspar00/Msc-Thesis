@@ -51,34 +51,45 @@ The spacecraft is nevertheless able to translate and rotate in space, meaning th
     \label{eq:force_equation}
 \end{equation}
 
-\noindent where $m$ is the mass of the vehicle in \unit{kg}, $\mathbf{V}$ is the vehicle’s linear velocity in \unit{m/s}. 
+\noindent where $m$ is the mass of the vehicle in \unit{kg}, $\mathbf{V} \in \mathbb{R}^3$ is the vehicle’s linear velocity in \unit{m/s}. 
 
-In terms of the applied forces, once it is considered the recovery of a spacecraft the Earth's gravity force is applied at the point-mass model, meaning no rotation will occur due to gravity. Other important force is the rotor force. The rotor force is also applied at the point-mass model and it will be the only force applying a angular momentum to the spacecraft. So, the to compute the total force, $\mathbf{F}^i$ in \unit{N}, 
+In terms of the applied forces, once it is considered the recovery of a spacecraft the Earth's gravity force is applied at the point-mass model, meaning no rotation will occur due to gravity. Other important force is the rotor force. The rotor force is also applied at the point-mass model and it will be the only force applying a angular momentum to the spacecraft. So, the to compute the total force, $\mathbf{F}^i \in \mathbb{R}^3$, in \unit{N}, 
 
 \begin{equation}
     \mathbf{F}^i = \mathbf{F}_{gravity}^i + \mathbf{F}_{rotor}^i,
 \end{equation}
 
-\noindent where also $\mathbf{F}_{gravity}^i$ and $\mathbf{F}_{rotor}^i$ are in \unit{N}.
+\noindent where also $\mathbf{F}_{gravity}^i \in \mathbb{R}^3$ and $\mathbf{F}_{rotor}^i \in \mathbb{R}^3$ are in \unit{N}.
 
-Regarding the angular motion, the sum of external moments $\mathbf{M}$, in \unit{N/m}, regarding the \gls{cg} is equal to the rate of change in angular momentum \cite{soler_fundamentals_2014,vepa_flight_2023,
+Regarding the angular motion, the sum of external moments $\mathbf{M} \in \mathbb{R}^3$, in \unit{N/m}, regarding the \gls{cg} is equal to the rate of change in angular momentum \cite{soler_fundamentals_2014,vepa_flight_2023},
 
 \begin{equation}
-    \mathbf{M}^i = \frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^i \equiv \mathbf{M}^r\frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^r + \boldsymbol{\omega} \times \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^r
+    \mathbf{M}^i = \frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^i \Leftrightarrow  \mathbf{M}^r\frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^r + \boldsymbol{\omega} \times \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^r
     \label{eq:momentum_equation}
 \end{equation}
 
-where $\left[\mathbf{I}\right]$, in \unit{kg/m^2)}, is the mass inertia tensor, 
+where $\left[\mathbf{I}\right]$, in \unit{kg/m^2}, is the mass inertia tensor. To simply the approch of the vehicle dynamics the rotor rotation along the $z$-axis is not considered in Eq. \ref{eq:momentum_equation} and another equation for the rotor's angular motion over its shaft is introduced further in Sec. \ref{section:rotor_dynamics}. Here one can look at the rotor as a \gls{cd}
+
 
 
 \subsection{Gravity Force}
 
+The gravitational force acting on the rotor, represented by the vector \(\mathbf{F}_{gravity}^i \in \mathbb{R}^3\) in \unit{N}, can be expressed in the inertial reference frame as a three-dimensional vector. According to \cite{curtis_orbital_2008}, this force can be expressed ion vector forma as 
+
+\begin{equation}
+    \mathbf{F}_{gravity}^i = 
+    \begin{bmatrix}
+        0 & 0 & -G \frac{m \cdot M_E}{r^2}
+    \end{bmatrix}^T,
+\end{equation}  
+
+where $G$ is the gravitational constant, in \unit{m^3/kg \cdot s^2}, $M_E$ is the Earth's mass, in \unit{kg}, and $r$ represents the distance between the vehicle's center of gravity and the Earth's center of mass, in \unit{m}. This force acts along the radial direction, pointing towards the 
+Earth's center, and is responsible for the gravitational traction governing the vehicle's motion within a central gravitational field. Once this work considers a flat Earth, the direction is downwards.
 
 
 \subsection{Inertia Tensor}
 
-
-The angular momentum is to angular velocity what linear momentum is to linear velocity. Just as mass quantifies the resistance of an object to changes in its position, the inertia tensor, $\left[\mathbf{I}\right]$, measures an object's resistance to changes in its rotational motion. Mathematically, the inertia tensor, $\left[\mathbf{I}\right]$, is a symmetric 3 by 3 matrix 
+The angular momentum is to angular velocity what linear momentum is to linear velocity. Just as mass quantifies the resistance of an object to changes in its position, the mass inertia tensor, $\left[\mathbf{I}\right]$, measures an object's resistance to changes in its rotational motion. Mathematically, the inertia tensor, $\left[\mathbf{I}\right]$, is a symmetric 3 by 3 matrix 
 
 \begin{equation}
     \left[\mathbf{I}\right]=\left[\begin{array}{c c c}{{I_{x x}}}&{{I_{x y}}}&{{I_{x z}}}\\ {{I_{x y}}}&{{I_{y y}}}&{{I_{y z}}}\\ {{I_{x z}}}&{{I_{y z}}}&{{I_{z z}}}\end{array}\right]
