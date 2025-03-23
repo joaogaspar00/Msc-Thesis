@@ -13,29 +13,66 @@
 
 In previous section, the importance of the topic of this thesis was discussed. In this chapter, the background of the topic is further presented where the problema is physically and mathematically define and the theory is explored. The main goal of this chapter is to provide a solid foundation for the reader to understand the problem and the proposed approach.
 
-A key starting point is to define the body, in this case the spacecraft model to be analyzed. The spacecraft is considered a point-mass, with a rotor coupling, with no physical considerations rather then the application of the the forces and moments acting on it. The spacecraft is nevertheless able to translate and rotate in space, meaning that a \gls{6dof} dynamic model is considered.
+A key starting point is to define the body, in this case the spacecraft model to be analyzed. The spacecraft is considered a point-mass simulating the desired payload to recover, with a rotor coupling. On Fig. \ref{fig:mode_vehicle}, is presented a four blade rotor, coupled to the point mass. The point mass does not play any role rather than be influenced with the gravity field which will pull the vehicle to the ground, and has no dimensions. On Fig. \ref{fig:mode_vehicle} the point-mass is presented just as a visual representation.
 
-In terms of the applied forces, once it is considered the recovery of a spacecraft the Earth's gravity force is considered applied at the point mass model, meaning no rotation will occur due to gravity. Other important force is the rotor force. The rotor force is also applied at the point mass model and it will be the only force appplying a torque to the aircraft.
+On the other hand, the rotor is defined by the blades , which are considered to be rigid, with a blade span, $S_b$, equal for all blades. The rotor can has any reason number of blades, $N_b$. Also, the blades are axis equal distributed , with the angle between the blades, $\delta\psi$, equal for all blades.
 
-\textcolor{blue}{The drag force\dots}
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=6cm]{Figures/background/model_vehicle.png}
+    \caption{Vehicle model considered with a four blade rotor}
+    \label{fig:mode_vehicle}
+\end{figure}
 
-The rotor is considered to be a rigid disk body which generates forces and moments when rotating.
+\section{Reference Frames}
+
+For the development of the mathematical model that follows and considering what was present it is important to introduce the reference frames which define the vehicle’s dynamics. On Fig. \ref{fig:reference_frames} the two principal references are presented: Earth frame, $O^i$, (black axes in Fig. \ref{fig:reference_frames}) and the rotor’s frame $O^r$ (red axes in Fig. \ref{fig:reference_frames}). The Earth frame, $O^i$, is a inertial frame positioned in any point of the Earth surface. It is also called  \textit{Navigation Frame} once it rotates with Earth and it is very handy when planes to travel from one point to another \cite{soler_fundamentals_2014}. On other hand, the rotor frame, $O^r$, or body frame \cite{soler_fundamentals_2014} is a system axes centered in any point of the symmetry plane of the aircraft. In this case, the $O^r$ is position at the \gls{cg} of the vehicle which is coincident with the point-mass position. The $O^r$ as its $z$-axis aligned from the \gls{cg} vertically with the rotor's shaft pointing positively upwards the rotor.
+
+\begin{figure}[!htb]
+    \centering
+    \includegraphics[width=6cm]{Figures/background/reference_frames.png}
+    \caption{Illusttration of the reference frame}
+    \label{fig:reference_frames}
+\end{figure}
+
+Also there are other theree important reference frames in order to apply \gls{bet} in Fig.\ref{fig:reference_frames}: the blade reference frame (red axes in Fig. \ref{fig:reference_frames}), the element reference frame (green axes in Fig. \ref{fig:reference_frames}) and the 2D aerodynamic reference frame (purple axes in Fig. \ref{fig:reference_frames}). This axes detailed explained further is Sec. \ref{section:bet} and given contest only for \gls{bet}.
+
+Note that, from here on, when a variable is written in any reference frame, it will be denoted by its correspondent superscript, e.g., if a variable is written in the rotor frame, it will be denoted by $x^r$, where $x$ is any variable.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Vehicle Dynamics}
 \label{section:vehicle_dynamics}
 
+The spacecraft is nevertheless able to translate and rotate in space, meaning that a \gls{6dof} dynamic model is considered. The dynamic model is based on the Newton's second law of motion \cite{soler_fundamentals_2014,vepa_flight_2023}, which states that the acceleration of an object is directly proportional to the net force acting upon the object and inversely proportional to the object. For the translation motion Eq. \ref {eq:force_equation} is used
+
 \begin{equation}
-    \mathbf{F} = \frac{\mathrm{d}}{\mathrm{d}t} \left( m \mathbf{V} \right)^E = \frac{\mathrm{d}}{\mathrm{d}t} \left( m \mathbf{V} \right)^V + \boldsymbol{\Omega} \times \left( m \mathbf{V} \right)^V
+    \mathbf{F}^i = \frac{\mathrm{d}}{\mathrm{d}t} \left( m \mathbf{V} \right)^i
     \label{eq:force_equation}
 \end{equation}
 
+\noindent where $m$ is the mass of the vehicle in \unit{kg}, $\mathbf{V}$ is the vehicle’s linear velocity in \unit{m/s}. 
+
+In terms of the applied forces, once it is considered the recovery of a spacecraft the Earth's gravity force is applied at the point-mass model, meaning no rotation will occur due to gravity. Other important force is the rotor force. The rotor force is also applied at the point-mass model and it will be the only force applying a angular momentum to the spacecraft. So, the to compute the total force, $\mathbf{F}^i$ in \unit{N}, 
 
 \begin{equation}
-    \mathbf{M} = \frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\Omega} \right)^E = \frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\Omega} \right)^V + \boldsymbol{\Omega} \times \left( \left[\mathbf{I}\right] \boldsymbol{\Omega} \right)^V
+    \mathbf{F}^i = \mathbf{F}_{gravity}^i + \mathbf{F}_{rotor}^i,
+\end{equation}
+
+\noindent where also $\mathbf{F}_{gravity}^i$ and $\mathbf{F}_{rotor}^i$ are in \unit{N}.
+
+Regarding the angular motion, the sum of external moments $\mathbf{M}$, in \unit{N/m}, regarding the \gls{cg} is equal to the rate of change in angular momentum \cite{soler_fundamentals_2014,vepa_flight_2023,
+
+\begin{equation}
+    \mathbf{M}^i = \frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^i \equiv \mathbf{M}^r\frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^r + \boldsymbol{\omega} \times \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^r
     \label{eq:momentum_equation}
 \end{equation}
+
+where $\left[\mathbf{I}\right]$, in \unit{kg/m^2)}, is the mass inertia tensor, 
+
+
+\subsection{Gravity Force}
+
 
 
 \subsection{Inertia Tensor}
@@ -291,6 +328,7 @@ To determine the angle of attack considering all pitch angle, $\theta$, and infl
 
 \begin{equation}
     \left(\mathbf{U}_\infty\right)^e_n = \mathbf{V}^e_{vehicle} + \mathbf{r}_n^e \times \boldsymbol{\Omega}_{vehicle}^e + \mathbf{r}_n^e \times \boldsymbol{\Omega}_{rotor}^e + \mathbf{V}_{wind}^e + \mathbf{V}_{induced}^e
+    \label{eq:elemets_velocity}
 \end{equation}
 
 
@@ -495,26 +533,25 @@ If $\alpha \geq A0$
 
 \begin{equation}
     C L=\operatorname*{max}(CL1, CL2)
+    \label{eq:model alpha a0 greater}    
 \end{equation}
 
 If $\alpha \leq A0$
 
 \begin{equation}
     CL = \operatorname*{min}(CL1 , CL2) \quad \text{and} \quad CD = \operatorname*{max}(CD1, CD2)
+    \label{eq:model alpha a0 lower}
 \end{equation}
 
+\subsection{Neuralfoil Dataset}
 
-
-
-\textcolor{blue}{Explicar capacidades e deficiencias} 
+This last two definitions \ref{eq:model alpha a0 greater} and \ref{eq:model alpha a0 lower} conclude the computations for lift and drag coefficients as functions of a different set of parameters. This methodology is computationally fast but needs another considerations. For each Reynolds numbers, the $\alpha$ vs $C_l$ and $\alpha$ vs $C_d$ are modelled throw AERODAS with different parameters. So, and considering that the range of angles of attack, $\alpha$, and Reynolds numbers, $Re$, it is needed to create a dataset with $C_l$ and $C_d$ curve data for differente Reynolds numbers, $Re$ that shall be process in order to use AERODAS.
 
 \textcolor{blue}{Apresentação do NeuralFoil e vantagens na utilização como base de dados para o AERODAS} 
 
-So, in this sense, to lead with this problems NeuralFoil \cite{sharpe_neuralfoil_nodate} presents a simple solution under the Aerosandbox package \cite{sharpe_aerosandbox_nodate,sharpe_accelerating_nodate}. NeuralFoil is a neural-network based model for 2D airfoils, which is able to predict the drag and lift coefficients for a wide range of airfoils, Reynolds and Mach numbers, and angles of attack. This model is based on a set neural-networks pre-trained with XFOIL meaning that the model is able to predict the drag and lift coefficients inside the scope where XFOIL presents not only numeric convergency but also physical convergency. 
+In this sense, to lead with this NeuralFoil \cite{sharpe_neuralfoil_nodate} presents a simple solution under the Aerosandbox package \cite{sharpe_aerosandbox_nodate,sharpe_accelerating_nodate}. NeuralFoil is a neural-network based model for 2D airfoils, which is able to predict the drag and lift coefficients for a wide range of airfoils, Reynolds and Mach numbers, and angles of attack. This model is based on a set neural-networks pre-trained with XFOIL meaning that the model is able to predict the drag and lift coefficients inside the scope where XFOIL presents not only numeric convergency but also physical convergency. 
 
-An output parameter from the NeuralFoil (and from any neural-network) is the confidence level of the ouput. These parameter is presented in figure figure \ref{fig:neuralfoil_confidence}, where the black region is the range where the model is able to predict the drag and lift coefficients with a confidence level of 95\%. 
-
-NeuralFoil \cite{sharpe_neuralfoil_nodate} is a fast and reliable model to predict the drag and lift coefficients for 2D airfoils inside the black region in figure \ref{fig:neuralfoil_confidence}, however there is a need to amplify the aerodynamic model with a certain good accuracy for the post-stall regime.
+An output parameter from the NeuralFoil (and from any neural-network) is the confidence level of the ouput. These parameter is presented in figure figure \ref{fig:neuralfoil_confidence}, where the black region is the range where the model is able to predict the drag and lift coefficients with a confidence level of 95\%. NeuralFoil \cite{sharpe_neuralfoil_nodate} is a fast and reliable model to predict the drag and lift coefficients for 2D airfoils inside the black region in figure \ref{fig:neuralfoil_confidence}.
 
 \textcolor{blue}{Drawbacks do neuralfoil – confiança da rede neuronal para os grandes angulos de ataque}\\
 
@@ -535,7 +572,6 @@ Analysing the figure \ref{fig:neuralfoil_confidence}, it is possible to state so
     \item At $Re = 10^5 \approx 10^6$, the stall angle varies creating over the Reynolds number interval, meaning it is important to make further consideration for the angles of attack after the stall occurs. After the the stall occurring XFOIL is not able to detemine the transient phenomena of the flow once it is build based on a panel methos which does not have capabilities to perform an airfoiol analysis with time-varient lift and drag coefficients.
 
 \end{enumerate}
-
 
 \textcolor{blue}{Definição do intervalo de confiança do neural foil}\\
 

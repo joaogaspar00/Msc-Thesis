@@ -1,4 +1,4 @@
-\begin{thebibliography}{49}
+\begin{thebibliography}{51}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -256,6 +256,21 @@ Z.~Czyż, A.~Kazimierska, P.~Karpiński, and K.~Skiba.
 \newblock \doi{10.1088/1742-6596/2130/1/012030}.
 \newblock URL
   \url{https://iopscience.iop.org/article/10.1088/1742-6596/2130/1/012030}.
+
+\bibitem[Soler(2014)]{soler_fundamentals_2014}
+M.~Soler.
+\newblock \emph{Fundamentals of {Aerospace} {Engineering}: an introductory
+  course to aeronautical engineering}.
+\newblock 2014.
+
+\bibitem[Vepa(2023)]{vepa_flight_2023}
+R.~Vepa.
+\newblock \emph{Flight {Dynamics}, {Simulation}, and {Control}: {For} {Rigid}
+  and {Flexible} {Aircraft}}.
+\newblock CRC Press, Boca Raton, 2 edition, Mar. 2023.
+\newblock ISBN 978-1-00-326631-0.
+\newblock \doi{10.1201/9781003266310}.
+\newblock URL \url{https://www.taylorfrancis.com/books/9781003266310}.
 
 \bibitem[Schwab and Meijaard(2006)]{schwab_how_2006}
 A.~L. Schwab and J.~P. Meijaard.

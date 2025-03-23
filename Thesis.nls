@@ -2,15 +2,12 @@
 \begin{thenomenclature} 
 \nomgroup{G}
   \item [{$\alpha$}]\begingroup Angle of attack\nomeqref {0}\nompageref{i}
+  \item [{$\delta\psi$}]\begingroup Angle between two consecutive blades\nomeqref {0}\nompageref{i}
   \item [{$\psi$}]\begingroup Azimutal Position\nomeqref {0}\nompageref{i}
   \item [{$\rho$}]\begingroup Density\nomeqref {0}\nompageref{i}
 \nomgroup{R}
-  \item [{$C_d$}]\begingroup 2D Aerodynamic Coefficient of drag\nomeqref {0}\nompageref{i}
-  \item [{$C_l$}]\begingroup 2D AerodynamicCoefficient of lift\nomeqref {0}\nompageref{i}
-  \item [{$C_M$}]\begingroup Coefficient of moment\nomeqref {0}\nompageref{i}
-  \item [{$p$}]\begingroup Pressure\nomeqref {0}\nompageref{i}
-  \item [{$\bf u$}]\begingroup Velocity vector\nomeqref {0}\nompageref{i}
-  \item [{$u,v,w$}]\begingroup Velocity Cartesian components\nomeqref {0}\nompageref{i}
+  \item [{$N_b$}]\begingroup Number of rotor's blades\nomeqref {0}\nompageref{i}
+  \item [{$S_b$}]\begingroup Blade Span\nomeqref {0}\nompageref{i}
 \nomgroup{S}
   \item [{$\infty$}]\begingroup Free-stream condition\nomeqref {0}\nompageref{i}
   \item [{$i,j,k$}]\begingroup Computational indexes\nomeqref {0}\nompageref{i}
@@ -18,6 +15,11 @@
   \item [{ref}]\begingroup Reference condition\nomeqref {0}\nompageref{i}
   \item [{$x,y,z$}]\begingroup Cartesian components\nomeqref {0}\nompageref{i}
 \nomgroup{T}
+  \item [{$a$}]\begingroup Variable in the 2d aerodynamic referece frame\nomeqref {0}\nompageref{i}
+  \item [{$b$}]\begingroup Variable in the blade referece frame\nomeqref {0}\nompageref{i}
+  \item [{$e$}]\begingroup Variable in the blade's element referece frame\nomeqref {0}\nompageref{i}
+  \item [{$i$}]\begingroup Variable in the inertia referece frame\nomeqref {0}\nompageref{i}
+  \item [{$r$}]\begingroup Variable in the rotor referece frame\nomeqref {0}\nompageref{i}
   \item [{*}]\begingroup Adjoint\nomeqref {0}\nompageref{i}
   \item [{T}]\begingroup Transpose\nomeqref {0}\nompageref{i}
 
