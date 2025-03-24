@@ -64,13 +64,13 @@ In terms of the applied forces, once it is considered the recovery of a spacecra
 Regarding the angular motion, the sum of external moments $\mathbf{M} \in \mathbb{R}^3$, in \unit{N/m}, regarding the \gls{cg} is equal to the rate of change in angular momentum \cite{soler_fundamentals_2014,vepa_flight_2023},
 
 \begin{equation}
-    \mathbf{M}^i = \frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^i \Leftrightarrow  \mathbf{M}^r\frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^r + \boldsymbol{\omega} \times \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^r
+    \mathbf{M}^i = \frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^i \Leftrightarrow  \mathbf{M}^r = \frac{\mathrm{d}}{\mathrm{d}t} \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^r + \boldsymbol{\omega} \times \left( \left[\mathbf{I}\right] \boldsymbol{\omega} \right)^r
     \label{eq:momentum_equation}
 \end{equation}
 
-where $\left[\mathbf{I}\right]$, in \unit{kg/m^2}, is the mass inertia tensor. To simply the approch of the vehicle dynamics the rotor rotation along the $z$-axis is not considered in Eq. \ref{eq:momentum_equation} and another equation for the rotor's angular motion over its shaft is introduced further in Sec. \ref{section:rotor_dynamics}. Here one can look at the rotor as a \gls{cd}
+where $\left[\mathbf{I}\right]$, in \unit{kg/m^2}, is the mass inertia tensor. 
 
-
+To simply the approch of the vehicle dynamics, the rotor rotation along the $z$-axis is not considered in Eq. \ref{eq:momentum_equation} and another equation for the rotor's angular motion over its shaft is introduced further in Sec. \ref{section:rotor_dynamics}. Here one can look at the rotor as a \gls{cd} which has its center (hole) in the referece frame origin and the rotor referece frame, $O^r$, follows its rotation with $x$-axis and $y$-axis in plane with the \gls{cd}
 
 \subsection{Gravity Force}
 
@@ -147,9 +147,28 @@ and, considering one of the blade's reference frame aligned with rotor's referec
 \section{Rotor's Dynamics}
 \label{section:rotor_dynamics}
 
+For the rotor's dynamics, further considerations shall be made to properly account for the generation of forces acting on the payload's point-mass model and the moments that provide rotational freedom to the rotor's \gls{cd} model. In reality, the rotor rotates along its shaft, and this motion is crucial for its aerodynamic analysis. The rotational behavior directly influences the aerodynamic loads, which must be accurately modeled to capture the effects on both the rotor and the payload.
+
+One of the primary concerns is the influence of rotational inertia and the torques that develop due to aerodynamic and inertial effects. The Eq. \ref{eq:rotation_eq} governing the rotor’s rotational dynamics can be expressed as
+
+\begin{equation}
+    \frac{\mathrm{d}\Omega}{\mathrm{d}t} = \tau_z
+    \label{eq:rotation_eq},
+\end{equation}
+
+where $\Omega$ represents the angular acceleration, in \unit{rad/s}, and $\tau_z$ represents the angular momentum, computed as 
+\begin{equation}
+    \Omega = \frac{T}{I_{zz}},
+\end{equation}
+
+ with, $T$ is the applied torque, in \unit{N/m}, and $I_{zz}$ is the moment of inertia about the rotor’s principal axis of rotation. in \unit{kg/m^2}.
+
+The goal of this approach is to effectively handle the high rotational velocities characteristic of rotor operation. When the rotor is spinning at high speeds, numerical stability becomes a concern, particularly when integrating the equations of motion. The time-step used in the \gls{ode} solver must be carefully selected to maintain accuracy without introducing excessive computational cost. A finer discretization may be required to capture the rapid variations in forces and moments while ensuring the solver remains efficient.
+
+So instead of define a more finer discretization it is considered not only an blade load distribution, but also an azimultal load distribution for each time step which will not affect numerical stability or create difficults when the Eqs. \ref{eq:momentum_equation} and \ref{eq:rotation_eq} are coupled.
+
 \subsection{Blade Element Theory}
 \label{section:bet}
-
 
 \begin{figure}[!htb]
     \centering
@@ -386,28 +405,16 @@ After defining expressions \ref{eq:rotatio_zz}, \ref{eq:rotatio_yy} and \ref{eq:
 \end{equation}
 
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \section{2D Aerodynamic Model}
 \label{section:aero_model}
 
-
-\textcolor{blue}{Motivar a necessidade de haver um modelo aerodinâmico}
-
 As seen in section \ref{section:bet}, the \gls{bet} is a based model, in short words, defined a sum of elementary 2D airfoil setions. Then its crucial for its implementation a computational method to obtain the drag, $C_d (\alpha, Re) $, and  lift, $C_l (\alpha, Re)$, coefficients for 2D airfoils, in equations \ref{eq:drag_element} and \ref{eq:lift_element}.
-
-\textcolor{blue}{questões computacionais}
 
 Also \gls{bet} has critical consideration rather the number of elements used to define a blade. The higher the number of elements and azimutal discretization, the higher the number of calculations needed to be perform a rotor analysis. This means that for a time-dependent model as a free-fall considered in this work, more critical it is, in term of computational time, to perform any simulation. So a fast model should be considered.
 
-
-\textcolor{blue}{altos angulos de ataque}
-
 For choosing a airfoil analysis, one must consider the rotor dynamics. In this study, the rotor is under the phenomena of autorotation which has its displacement mainly in descent direction, then some considerations should be made about the angles of attack. On blade's root, the angular velocity is smaller when compared to the blade's tip. Meaning, the inflow angle is mainly composed by a vertical component rather than a horizontal component. So, a wider range of angles of attack should be considered. Also, if it is considered a pure vertical descent mode and small rotor angular velocity, the angles of attack while certainly be near 90 \unit{\deg} meaning that the rotor will work on a stall model. A reference to the pitch angle, $\theta$, and the blade twist should be made, however for thin airfoils it is known that for angles near 20 $\sim$ 30 \unit{\deg}, depending on thickness and camber, the airfoils starts to operate as a flate plate on stall mode, with completely separate boundary layers. Lastly, concerning the rotor dynamics, once it is considered the horizontal translation of the vehicle, there will exists a reverse flow region where the angles of attack are expected to be higher than 90$^{\circ}$.
-
-
-\textcolor{blue}{Números de Reynolds} 
 
 The other input concerning the 2D aerodynamic model for $C_l$ and $C_d$ is the Reynolds number, $Re$, computed as presented in Eq. \ref{eq:reynolds_number}. The Reynolds number is directly proportional to two variables that will change with altitude: density, $\rho$, and dynamic viscosity, $\mu$; these variables are computed in the domain of the atmospheric model that is further presented in section \ref{section:atmosphere_model} it will be shown that for the altitudes considered in this work, the Reynolds number is expected to change. Also the velocity component at each section, $||\mathbf{U}^a_n||$, will have diferent values due to the rotor's angular velocity, $\Omega$, and the and vehicle velocity vector, $\mathbf{V}$, changes, and it is also expected to vary, in this case from 0 \unit{m/s}, when the rotor starts, to a defined value when it achieves the phenomena of autorotation.
 
@@ -428,15 +435,12 @@ and for Reynolds numbers
 \subsection{AERODAS}
 \label{sec:aerodas}
 
-\textcolor{blue}{Apresentação do AERODAS modelos aerodinâmico} 
-
 Spera (2008) \cite{spera_models_2008} developed an aerodynamic model  maned AERODAS, for to predict lift and drag coefficients for stallel and unstalled airfoils. The development of horizontal-axis wind turbines is described as a result of a Department of Energy-sponsored and NASA-led federal effort that ran from 1973 to 1995. This study develops an empirical model for airfoil lift and drag by fitting test data with algebraic equations, rather than using aerodynamic theory. It includes a wide range of conditions such as different airfoils, Reynolds numbers, and angles of attack, and also models circular cylinders and thin plates. Key improvements include expanding the test data set to cover more airfoils and configurations. Unlike previous models, it uses empirical equations derived from actual airfoil behavior at high angles of attack in the post-stall regime, rather than assuming flat plate behavior.
 
 The model also considers airfoil thickness in addition to aspect ratio and angle of attack. Its accuracy is evaluated by calculating the mean and standard deviation of the lift and drag data across various airfoils. Finally, the model is applied in Blade Element Momentum (BEM) analysis to predict wind turbine power and fan performance, and its results are compared with measured data to evaluate its effective
 ness.
 
 Going deeper into the mathematical prespective, the AERODAS model main goal is to get the lift, $C_l$, and drag, $C_d$, curves as function of angle of attack, $\alpha$, Fig. \ref{fig:aerodas_cl_model} and Fig. \ref{fig:aerodas_cd_model} presents the considered curves and highlight the major considerations about the model. In \cite{spera_models_2008}, the main equations for the model are presented in Tab. \ref{tab:aerodas_key_equation}. The key point of AERODAS model is separate the lift and drag curve with equations for pre-stall and post stall regimes.
-
 
 \begin{figure}[!htb]
 	\centering
@@ -482,7 +486,6 @@ Going deeper into the mathematical prespective, the AERODAS model main goal is t
 
 For lift it is defined mathematical expressions for pre-stall, $CL1$, considering \cite{spera_models_2008} uses a proposed model by Viterna, where it consideres a linear variation for the lift coefficient, $S1$, and while $\alpha$ increases approaching the stall angle $ACL1$, the function uses a reduction from extension of linear segment of lift curve to $CL1max$ (maxima $C_l$ value, before stall), $RCL1$,
 
-
 \begin{equation}
     RCL1 = S1 \cdot (ACL1 - A0) - CL1max
 \end{equation}
@@ -504,9 +507,6 @@ and exponent defining shape of lift curve at $CL2_{max}$, $N1$,
 \begin{equation}
     N2 = 1 + \frac{CL2}{RCL2}
 \end{equation}
-
-
-\textcolor{blue}{equações de drag}
 
 For drag coefficient, its behavior is usually defined considering a quadatic expression \cite{spera_models_2008}. So, AEDODAS model uses 
 
@@ -534,8 +534,6 @@ For instance, the empirical equations for maximum drag are
     G_1 = 2.300\cdot\,\mathrm{exp}\left\{-\left[0.65\left(\frac{t}{c}\right)\right]^{0.90}\right\} \quad \text{and} \quad G_2 = 0.52 + 0.48\,\mathrm{exp}\left[-\left(\frac{6.5}{A R}\right)^{1.1}\right]
 \end{equation}
 
-
-
 \subsubsection{Lift and Drag Model Configurations}
 
 Once the model consideres coefficients equations in the pre-stall and post-stall regimes separately, it is necessary to select the correct one. This consideration is necessary once for $\alpha \geq ACL1$ (post-stall regime) theres is an overlap between the $CL1$ and $CL2$. For $\alpha < ACL1$ (pre-stall regime), $CL2$ is consider 0, then $CL1$ is the correct expresstion, for the pre-stall regime.
@@ -558,13 +556,9 @@ If $\alpha \leq A0$
 
 This last two definitions \ref{eq:model alpha a0 greater} and \ref{eq:model alpha a0 lower} conclude the computations for lift and drag coefficients as functions of a different set of parameters. This methodology is computationally fast but needs another considerations. For each Reynolds numbers, the $\alpha$ vs $C_l$ and $\alpha$ vs $C_d$ are modelled throw AERODAS with different parameters. So, and considering that the range of angles of attack, $\alpha$, and Reynolds numbers, $Re$, it is needed to create a dataset with $C_l$ and $C_d$ curve data for differente Reynolds numbers, $Re$ that shall be process in order to use AERODAS.
 
-\textcolor{blue}{Apresentação do NeuralFoil e vantagens na utilização como base de dados para o AERODAS} 
-
 In this sense, to lead with this NeuralFoil \cite{sharpe_neuralfoil_nodate} presents a simple solution under the Aerosandbox package \cite{sharpe_aerosandbox_nodate,sharpe_accelerating_nodate}. NeuralFoil is a neural-network based model for 2D airfoils, which is able to predict the drag and lift coefficients for a wide range of airfoils, Reynolds and Mach numbers, and angles of attack. This model is based on a set neural-networks pre-trained with XFOIL meaning that the model is able to predict the drag and lift coefficients inside the scope where XFOIL presents not only numeric convergency but also physical convergency. 
 
 An output parameter from the NeuralFoil (and from any neural-network) is the confidence level of the ouput. These parameter is presented in figure figure \ref{fig:neuralfoil_confidence}, where the black region is the range where the model is able to predict the drag and lift coefficients with a confidence level of 95\%. NeuralFoil \cite{sharpe_neuralfoil_nodate} is a fast and reliable model to predict the drag and lift coefficients for 2D airfoils inside the black region in figure \ref{fig:neuralfoil_confidence}.
-
-\textcolor{blue}{Drawbacks do neuralfoil – confiança da rede neuronal para os grandes angulos de ataque}\\
 
 \begin{figure}[!htb]
     \centering
@@ -584,36 +578,50 @@ Analysing the figure \ref{fig:neuralfoil_confidence}, it is possible to state so
 
 \end{enumerate}
 
-\textcolor{blue}{Definição do intervalo de confiança do neural foil}\\
-
 \begin{figure}[!htb]
 	\centering
 	\begin{minipage}{0.3\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Figures/background/aero/aero_model_1e4.eps}
-		\caption{Temperature Comparison}
+		\caption[NACA 0012 airfoil aerodynamic coefficients for $Re=10^4$ determined with Neural foil with confidence level]{NACA 0012 airfoil aerodynamic coefficients (in black) for $Re=10^4$ determined with Neural foil with confidence leve (in red)}
 		\label{fig:aero_model_1e4}
 	\end{minipage}
 	\hfill
 	\begin{minipage}{0.3\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Figures/background/aero/aero_model_1e5.eps}
-		\caption{Density Comparison}
+		\caption[NACA 0012 airfoil aerodynamic coefficients for $Re=10^5$ determined with Neural foil with confidence level]{NACA 0012 airfoil aerodynamic coefficients (in black) for $Re=10^5$determined with Neural foil with confidence level (in red)}
 		\label{fig:aero_model_1e5}
 	\end{minipage}
     \hfill
     \begin{minipage}{0.3\textwidth}
 		\centering
 		\includegraphics[width=\textwidth]{Figures/background/aero/aero_model_1e6.eps}
-		\caption{Temperature Comparison}
+		\caption[NACA 0012 airfoil aerodynamic coefficients for $Re=10^6$ determined with Neural foil with confidence level]{NACA 0012 airfoil aerodynamic coefficients  (in black) for $Re=10^6$ determined with Neural foil with confidence level (in red)} 
 		\label{fig:aero_model_1e6}
 	\end{minipage}
 \end{figure}
 
-\textcolor{blue}{Ligação com o AERODAS – NEURALFOIL}\\
+Once the dataset of the $C_l$ vs $\alpha$ and $C_d$ vs $\alpha$ for a wide range of angles of attack, the AERODAS's coefficents can be pre-computed for the equations in Table. \ref{tab:aerodas_key_equation}. The product of this process is simple equations that used data to model functions as presented in Fig. \ref{fig:aerodas_cl_model} and Fig. \ref{fig:aerodas_cd_model}.
 
-\textcolor{blue}{Resultados para 2 perfis diferentes}\\
+Hence, with the dataset the equations can be applied to any available airfoil provided in NeuralFoil and the output is presented in Fig \ref{fig:cl_naca4412} and \ref{fig:cd_naca4412}
 
+\begin{figure}[!htb]
+    \centering
+	\begin{minipage}{0.49\textwidth}
+		\centering
+		\includegraphics[width=6cm]{Figures/background/aero/cl_naca4412.eps}
+		\caption{Lift coefficient computed with the presented aerodynamic model for NACA 4412 airfoil}
+		\label{fig:cl_naca4412}
+	\end{minipage}
+    \hfill
+    \begin{minipage}{0.49\textwidth}
+		\centering
+		\includegraphics[width=6cm]{Figures/background/aero/cd_naca4412.eps}
+		\caption{Drag coefficient computed with the presented aerodynamic model for NACA 4412 airfoil} 
+		\label{fig:cd_naca4412}
+	\end{minipage}
+\end{figure}
 
 
 
@@ -730,5 +738,3 @@ For combining root and tip losses, the factor $f$ considered is the combinations
     \caption{Prandtl Tip Loss Function}
     \label{fig:fullprandtltiplossfunction}
 \end{figure}
-
-\textcolor{blue}{analisar os dois casos das perdas de ponta}

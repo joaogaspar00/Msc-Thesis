@@ -1,0 +1,88 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: Thesis.aux
+Reallocating 'name_of_file' (item size: 1) to 14 items.
+The style file: abbrvunsrtnat.bst
+Reallocating 'name_of_file' (item size: 1) to 23 items.
+Database file #1: Thesis_Bibliography_DB.bib
+Warning--empty year in noauthor_spacex_nodate
+Warning--empty year in noauthor_blueorigin_nodate
+Warning--empty journal in quinn_acceptable_nodate
+Warning--empty year in quinn_acceptable_nodate
+Warning--empty year in quinn_acceptable_nodate
+Warning--empty booktitle in shin_nasa_2014
+Warning--empty year in noauthor_wikipedia_nodate
+Warning--empty year in noauthor_kaman_nodate
+Warning--empty year in noauthor_apollo_nodate
+Warning--empty booktitle in kretz_space_1966
+Warning--empty journal in steiner_rotary_nodate
+Warning--empty year in steiner_rotary_nodate
+Warning--empty year in steiner_rotary_nodate
+Warning--empty year in noauthor_armada_nodate
+Warning--empty journal in maurer_project_nodate
+Warning--empty year in maurer_project_nodate
+Warning--empty year in maurer_project_nodate
+Warning--empty journal in riegler_daedalus_2018
+Warning--empty year in noauthor_daedalus_nodate
+Warning--empty journal in riegler_project_nodate
+Warning--empty year in riegler_project_nodate
+Warning--empty year in riegler_project_nodate
+Warning--empty journal in nikolsky_analytical_1906
+Warning--empty publisher in soler_fundamentals_2014
+Warning--empty journal in spera_models_2008
+Warning--empty journal in sharpe_neuralfoil_nodate
+Warning--empty year in sharpe_neuralfoil_nodate
+Warning--empty year in sharpe_neuralfoil_nodate
+Warning--empty journal in sharpe_aerosandbox_nodate
+Warning--empty year in sharpe_aerosandbox_nodate
+Warning--empty journal in sharpe_accelerating_nodate
+Warning--empty year in sharpe_accelerating_nodate
+Warning--empty year in noauthor_iso_nodate
+Warning--empty year in noauthor_earth_nodate
+Warning--empty year in noauthor_aerospace_nodate
+Warning--empty year in noauthor_atmosisa_nodate
+Warning--empty journal in ramdin_prandtl_nodate
+Warning--empty year in ramdin_prandtl_nodate
+Warning--empty year in ramdin_prandtl_nodate
+You've used 52 entries,
+            2481 wiz_defined-function locations,
+            859 strings with 14811 characters,
+and the built_in function-call counts, 17804 in all, are:
+= -- 1470
+> -- 903
+< -- 25
++ -- 387
+- -- 272
+* -- 1407
+:= -- 2813
+add.period$ -- 200
+call.type$ -- 52
+change.case$ -- 102
+chr.to.int$ -- 41
+cite$ -- 103
+duplicate$ -- 930
+empty$ -- 1678
+format.name$ -- 324
+if$ -- 3778
+int.to.chr$ -- 12
+int.to.str$ -- 53
+missing$ -- 43
+newline$ -- 305
+num.names$ -- 121
+pop$ -- 511
+preamble$ -- 1
+purify$ -- 52
+quote$ -- 0
+skip$ -- 525
+stack$ -- 0
+substring$ -- 352
+swap$ -- 134
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 343
+warning$ -- 39
+while$ -- 99
+width$ -- 0
+write$ -- 727
+(There were 39 warnings)

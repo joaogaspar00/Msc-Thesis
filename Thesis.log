@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.7)  23 MAR 2025 23:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.7)  24 MAR 2025 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -686,612 +686,566 @@ File: ot1phv.fd 2020/03/25 scalable font definitions for OT1/phv.
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count373
 \l__pdf_internal_box=\box76
-) (Thesis.aux
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@
-       ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@
-          ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@
-             ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@
-                ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@
-                   ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@^^@
-                      ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@^^@^^@
-                         ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@^^@^^@^^@
-                            ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                               ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                     ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                        ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                           ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                              ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                 ^^@^^@^^@^^@^^@^^@^^@^^@^^@...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-A funny symbol that I can't read has just been input.
-Continue, and I'll forget that it ever happened.
-
-Thesis.aux:5: Text line contains an invalid character.
-l.5 ...@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@^^@
-                                                  ^^@^^@^^@^^@^^@^^@^^@^^@^^...
-(That makes 100 errors; please try again.) 
-Here is how much of TeX's memory you used:
- 25885 strings out of 473702
- 489847 string characters out of 5729322
- 963594 words of memory out of 5000000
- 48604 multiletter control sequences out of 15000+600000
- 558675 words of font info for 37 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 115i,0n,136p,24670b,400s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-Thesis.aux:5:  ==> Fatal error occurred, no output PDF file produced!
+) (Thesis.aux)
+\openout1 = `Thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+ (Thesis.glsdefs)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: twoside 
+* h-part:(L,W,R)=(71.13188pt, 455.24411pt, 71.13188pt)
+* v-part:(T,H,B)=(71.13188pt, 702.78308pt, 71.13188pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=455.24411pt
+* \textheight=702.78308pt
+* \oddsidemargin=-1.1381pt
+* \evensidemargin=-1.1381pt
+* \topmargin=-38.1381pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=111.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count374
+\scratchdimen=\dimen272
+\scratchbox=\box77
+\nofMPsegments=\count375
+\nofMParguments=\count376
+\everyMPshowfont=\toks51
+\MPscratchCnt=\count377
+\MPscratchDim=\dimen273
+\MPnumerator=\count378
+\makeMPintoPDFobject=\count379
+\everyMPtoPDFconversion=\toks52
+) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: hypcap package is loaded.
+Package caption Info: rotating package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 94.
+ (Thesis.out) (Thesis.out)
+\@outlinefile=\write7
+\openout7 = `Thesis.out'.
+
+ (C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
+ (C:\Program Files\MiKTeX\tex/latex/pdflscape\pdflscape-nometadata.sty
+Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
+ (C:\Program Files\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)) (C:\Program Files\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 94.
+ (Thesis_FrontCover.tex
+Package pdftex.def Info: Option `bb' equivalent to `viewport' with the pdftex driver on input line 15.
+<Figures/IST_A_CMYK_POS.pdf, id=239, 845.0471pt x 597.51233pt>
+File: Figures/IST_A_CMYK_POS.pdf Graphic file (type pdf)
+<use Figures/IST_A_CMYK_POS.pdf>
+Package pdftex.def Info: Figures/IST_A_CMYK_POS.pdf  used on input line 15.
+(pdftex.def)             Requested size: -78.38533pt x -90.76195pt.
+<Figures/Airbus_A350.jpg, id=240, 1027.84pt x 770.88pt>
+File: Figures/Airbus_A350.jpg Graphic file (type jpg)
+<use Figures/Airbus_A350.jpg>
+Package pdftex.def Info: Figures/Airbus_A350.jpg  used on input line 22.
+(pdftex.def)             Requested size: 189.67691pt x 142.26378pt.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 26.
+ (C:\Program Files\MiKTeX\tex/latex/psnfss\t1phv.fd
+File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
+ (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+
+[1
+
+\openout4 = `Thesis.ist'.
+
+{C:/Users/Utilizador/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./Figures/IST_A_CMYK_POS.pdf> <./Figures/Airbus_A350.jpg>]
+
+[2
+
+] (Thesis_Dedication.tex
+
+[3])
+
+[4
+
+] (Thesis_Declaration.tex
+
+[5])
+
+[6
+
+] (Thesis_Acknowledgements.tex)
+
+[7]
+
+[8
+
+] (Thesis_Resumo.tex)
+
+[9]
+
+[10
+
+] (Thesis_Abstract.tex)
+
+[11]
+
+[12
+
+] (Thesis.toc
+
+[13
+
+])
+\tf@toc=\write8
+\openout8 = `Thesis.toc'.
+
+
+
+[14] (Thesis.lot)
+\tf@lot=\write9
+\openout9 = `Thesis.lot'.
+
+
+
+[15
+
+
+]
+
+[16
+
+] (Thesis.lof
+
+[17
+
+])
+\tf@lof=\write10
+\openout10 = `Thesis.lof'.
+
+
+
+[18] (Thesis.nls)
+
+[19
+
+
+]
+
+[20
+
+] (Thesis.acr
+Underfull \hbox (badness 10000) in alignment at lines 2--90
+[] []
+ []
+
+)
+
+[21
+
+
+]
+
+[22
+
+] (Thesis_Introduction.tex
+Chapter 1.
+<Figures/introduction/parachute-system.jpg, id=538, 1204.5pt x 1251.67625pt>
+File: Figures/introduction/parachute-system.jpg Graphic file (type jpg)
+<use Figures/introduction/parachute-system.jpg>
+Package pdftex.def Info: Figures/introduction/parachute-system.jpg  used on input line 26.
+(pdftex.def)             Requested size: 123.19554pt x 128.0374pt.
+<Figures/introduction/rocjet-thrust-vector.jpg, id=541, 2055.68pt x 1370.11874pt>
+File: Figures/introduction/rocjet-thrust-vector.jpg Graphic file (type jpg)
+<use Figures/introduction/rocjet-thrust-vector.jpg>
+Package pdftex.def Info: Figures/introduction/rocjet-thrust-vector.jpg  used on input line 35.
+(pdftex.def)             Requested size: 192.09218pt x 128.0374pt.
+
+Underfull \vbox (badness 1348) has occurred while \output is active []
+
+
+
+[1
+
+]
+LaTeX Font Info:    Font shape `OT1/phv/m/it' in size <10> not available
+(Font)              Font shape `OT1/phv/m/sl' tried instead on input line 49.
+Package epstopdf Info: Source file: <Figures/introduction/rotochute_prototype.eps>
+(epstopdf)                    date: 2025-03-21 09:37:38
+(epstopdf)                    size: 3341409 bytes
+(epstopdf)             Output file: <Figures/introduction/rotochute_prototype-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-21 09:37:38
+(epstopdf)                    size: 373524 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/introduction/rotochute_prototype-eps-converted-to.pdf Figures/introduction/rotochute_prototype.eps>
+(epstopdf)             \includegraphics on input line 53.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/introduction/rotochute_prototype-eps-converted-to.pdf, id=560, 643.40375pt x 483.8075pt>
+File: Figures/introduction/rotochute_prototype-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/introduction/rotochute_prototype-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/introduction/rotochute_prototype-eps-converted-to.pdf  used on input line 53.
+(pdftex.def)             Requested size: 227.62204pt x 171.15858pt.
+
+
+[2 <./Figures/introduction/parachute-system.jpg> <./Figures/introduction/rocjet-thrust-vector.jpg> <./Figures/introduction/rotochute_prototype-eps-converted-to.pdf>]
+
+[3]
+<Figures/introduction/helicopter maneuver.png, id=599, 604.05675pt x 479.99326pt>
+File: Figures/introduction/helicopter maneuver.png Graphic file (type png)
+<use Figures/introduction/helicopter maneuver.png>
+Package pdftex.def Info: Figures/introduction/helicopter maneuver.png  used on input line 93.
+(pdftex.def)             Requested size: 199.16928pt x 158.2591pt.
+
+
+[4]
+<Figures/introduction/armada_concept_vehicle.png, id=608, 607.51968pt x 490.08093pt>
+File: Figures/introduction/armada_concept_vehicle.png Graphic file (type png)
+<use Figures/introduction/armada_concept_vehicle.png>
+Package pdftex.def Info: Figures/introduction/armada_concept_vehicle.png  used on input line 110.
+(pdftex.def)             Requested size: 227.62204pt x 183.61537pt.
+
+
+[5 <./Figures/introduction/helicopter maneuver.png> <./Figures/introduction/armada_concept_vehicle.png>]
+<Figures/introduction/armada_software.png, id=620, 642.14906pt x 573.64313pt>
+File: Figures/introduction/armada_software.png Graphic file (type png)
+<use Figures/introduction/armada_software.png>
+Package pdftex.def Info: Figures/introduction/armada_software.png  used on input line 123.
+(pdftex.def)             Requested size: 170.71652pt x 152.50487pt.
+<Figures/introduction/armada_supersonic_model.png, id=626, 700.86844pt x 493.845pt>
+File: Figures/introduction/armada_supersonic_model.png Graphic file (type png)
+<use Figures/introduction/armada_supersonic_model.png>
+Package pdftex.def Info: Figures/introduction/armada_supersonic_model.png  used on input line 135.
+(pdftex.def)             Requested size: 242.28111pt x 170.71652pt.
+<Figures/introduction/armada_subsonic_model.png, id=627, 631.60968pt x 554.07pt>
+File: Figures/introduction/armada_subsonic_model.png Graphic file (type png)
+<use Figures/introduction/armada_subsonic_model.png>
+Package pdftex.def Info: Figures/introduction/armada_subsonic_model.png  used on input line 138.
+(pdftex.def)             Requested size: 194.60191pt x 170.71652pt.
+
+
+[6 <./Figures/introduction/armada_software.png>]
+<Figures/introduction/Hummingbird_operation.png, id=639, 1062.21844pt x 596.98032pt>
+File: Figures/introduction/Hummingbird_operation.png Graphic file (type png)
+<use Figures/introduction/Hummingbird_operation.png>
+Package pdftex.def Info: Figures/introduction/Hummingbird_operation.png  used on input line 157.
+(pdftex.def)             Requested size: 284.52756pt x 159.91154pt.
+
+
+[7 <./Figures/introduction/armada_supersonic_model.png> <./Figures/introduction/armada_subsonic_model.png>]
+<Figures/introduction/REXUS-Rocket-composition_W640.jpg, id=653, 642.4pt x 171.64125pt>
+File: Figures/introduction/REXUS-Rocket-composition_W640.jpg Graphic file (type jpg)
+<use Figures/introduction/REXUS-Rocket-composition_W640.jpg>
+Package pdftex.def Info: Figures/introduction/REXUS-Rocket-composition_W640.jpg  used on input line 171.
+(pdftex.def)             Requested size: 284.52756pt x 76.0226pt.
+<Figures/introduction/ffu_rexus.png, id=659, 633.11531pt x 656.4525pt>
+File: Figures/introduction/ffu_rexus.png Graphic file (type png)
+<use Figures/introduction/ffu_rexus.png>
+Package pdftex.def Info: Figures/introduction/ffu_rexus.png  used on input line 184.
+(pdftex.def)             Requested size: 192.09035pt x 199.16928pt.
+<Figures/introduction/space_seed_prototype.png, id=662, 331.99031pt x 310.91156pt>
+File: Figures/introduction/space_seed_prototype.png Graphic file (type png)
+<use Figures/introduction/space_seed_prototype.png>
+Package pdftex.def Info: Figures/introduction/space_seed_prototype.png  used on input line 187.
+(pdftex.def)             Requested size: 212.67062pt x 199.16928pt.
+
+
+[8 <./Figures/introduction/Hummingbird_operation.png> <./Figures/introduction/REXUS-Rocket-composition_W640.jpg>]
+
+[9 <./Figures/introduction/ffu_rexus.png> <./Figures/introduction/space_seed_prototype.png>]
+
+[10])
+
+[11]
+
+[12
+
+] (Thesis_Background.tex
+Chapter 2.
+<Figures/background/model_vehicle.png, id=725, 446.541pt x 205.641pt>
+File: Figures/background/model_vehicle.png Graphic file (type png)
+<use Figures/background/model_vehicle.png>
+Package pdftex.def Info: Figures/background/model_vehicle.png  used on input line 22.
+(pdftex.def)             Requested size: 170.71652pt x 78.6182pt.
+
+
+[13
+
+ <./Figures/background/model_vehicle.png>]
+<Figures/background/reference_frames.png, id=736, 389.601pt x 296.745pt>
+File: Figures/background/reference_frames.png Graphic file (type png)
+<use Figures/background/reference_frames.png>
+Package pdftex.def Info: Figures/background/reference_frames.png  used on input line 33.
+(pdftex.def)             Requested size: 170.71652pt x 130.02936pt.
+
+
+[14 <./Figures/background/reference_frames.png>]
+
+[15]
+<Figures/background/inertia/inertia_scheme.png, id=778, 590.424pt x 336.165pt>
+File: Figures/background/inertia/inertia_scheme.png Graphic file (type png)
+<use Figures/background/inertia/inertia_scheme.png>
+Package pdftex.def Info: Figures/background/inertia/inertia_scheme.png  used on input line 115.
+(pdftex.def)             Requested size: 284.52756pt x 161.99854pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[16 <./Figures/background/inertia/inertia_scheme.png>]
+<Figures/background/bet/blade.png, id=790, 473.697pt x 222.723pt>
+File: Figures/background/bet/blade.png Graphic file (type png)
+<use Figures/background/bet/blade.png>
+Package pdftex.def Info: Figures/background/bet/blade.png  used on input line 175.
+(pdftex.def)             Requested size: 284.52756pt x 133.78094pt.
+
+
+[17]
+<Figures/background/bet/element.png, id=800, 692.697pt x 400.989pt>
+File: Figures/background/bet/element.png Graphic file (type png)
+<use Figures/background/bet/element.png>
+Package pdftex.def Info: Figures/background/bet/element.png  used on input line 189.
+(pdftex.def)             Requested size: 256.0748pt x 148.2351pt.
+
+
+[18 <./Figures/background/bet/blade.png> <./Figures/background/bet/element.png>]
+
+[19]
+<Figures/background/bet/phi_angle.png, id=832, 357.846pt x 381.717pt>
+File: Figures/background/bet/phi_angle.png Graphic file (type png)
+<use Figures/background/bet/phi_angle.png>
+Package pdftex.def Info: Figures/background/bet/phi_angle.png  used on input line 315.
+(pdftex.def)             Requested size: 142.26378pt x 151.75217pt.
+
+
+[20]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[21 <./Figures/background/bet/phi_angle.png>]
+<Figures/background/rotation_matrices/rotation_frames.png, id=861, 497.568pt x 476.544pt>
+File: Figures/background/rotation_matrices/rotation_frames.png Graphic file (type png)
+<use Figures/background/rotation_matrices/rotation_frames.png>
+Package pdftex.def Info: Figures/background/rotation_matrices/rotation_frames.png  used on input line 372.
+(pdftex.def)             Requested size: 170.71652pt x 163.49892pt.
+
+
+[22 <./Figures/background/rotation_matrices/rotation_frames.png>]
+
+[23]
+Package epstopdf Info: Source file: <Figures/background/aero/liftmodel_aerodas.eps>
+(epstopdf)                    date: 2025-03-21 09:37:33
+(epstopdf)                    size: 140630 bytes
+(epstopdf)             Output file: <Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-21 09:37:33
+(epstopdf)                    size: 41044 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf Figures/background/aero/liftmodel_aerodas.eps>
+(epstopdf)             \includegraphics on input line 458.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf, id=895, 640.3925pt x 794.97pt>
+File: Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf  used on input line 458.
+(pdftex.def)             Requested size: 160.43973pt x 199.16928pt.
+Package epstopdf Info: Source file: <Figures/background/aero/dragmodel_aerodas.eps>
+(epstopdf)                    date: 2025-03-21 09:37:33
+(epstopdf)                    size: 106914 bytes
+(epstopdf)             Output file: <Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-21 09:37:33
+(epstopdf)                    size: 30982 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf Figures/background/aero/dragmodel_aerodas.eps>
+(epstopdf)             \includegraphics on input line 465.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf, id=898, 668.4975pt x 685.56125pt>
+File: Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf  used on input line 465.
+(pdftex.def)             Requested size: 194.20612pt x 199.16928pt.
+
+Overfull \hbox (31.25958pt too wide) in paragraph at lines 475--490
+ [][] 
+ []
+
+
+
+[24]
+
+[25 <./Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf> <./Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf>]
+
+[26]
+<Figures/background/aero/NeuralFoil_Confidence_2D_black.png, id=949, 421.575pt x 316.0608pt>
+File: Figures/background/aero/NeuralFoil_Confidence_2D_black.png Graphic file (type png)
+<use Figures/background/aero/NeuralFoil_Confidence_2D_black.png>
+Package pdftex.def Info: Figures/background/aero/NeuralFoil_Confidence_2D_black.png  used on input line 574.
+(pdftex.def)             Requested size: 227.62204pt x 170.65582pt.
+
+
+[27 <./Figures/background/aero/NeuralFoil_Confidence_2D_black.png (PNG copy)>]
+Package epstopdf Info: Source file: <Figures/background/aero/aero_model_1e4.eps>
+(epstopdf)                    date: 2025-03-21 09:37:33
+(epstopdf)                    size: 44469 bytes
+(epstopdf)             Output file: <Figures/background/aero/aero_model_1e4-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-21 09:37:33
+(epstopdf)                    size: 13587 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/aero_model_1e4-eps-converted-to.pdf Figures/background/aero/aero_model_1e4.eps>
+(epstopdf)             \includegraphics on input line 594.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/background/aero/aero_model_1e4-eps-converted-to.pdf, id=963, 369.38pt x 286.06876pt>
+File: Figures/background/aero/aero_model_1e4-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/background/aero/aero_model_1e4-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/background/aero/aero_model_1e4-eps-converted-to.pdf  used on input line 594.
+(pdftex.def)             Requested size: 136.57462pt x 105.76958pt.
+
+Underfull \hbox (badness 3907) in paragraph at lines 595--595
+\OT1/phv/m/n/10 foil aero-dy-namic co-ef-fi-cients
+ []
+
+Package epstopdf Info: Source file: <Figures/background/aero/aero_model_1e5.eps>
+(epstopdf)                    date: 2025-03-21 09:37:33
+(epstopdf)                    size: 44475 bytes
+(epstopdf)             Output file: <Figures/background/aero/aero_model_1e5-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-21 09:37:33
+(epstopdf)                    size: 13579 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/aero_model_1e5-eps-converted-to.pdf Figures/background/aero/aero_model_1e5.eps>
+(epstopdf)             \includegraphics on input line 601.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/background/aero/aero_model_1e5-eps-converted-to.pdf, id=964, 369.38pt x 286.06876pt>
+File: Figures/background/aero/aero_model_1e5-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/background/aero/aero_model_1e5-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/background/aero/aero_model_1e5-eps-converted-to.pdf  used on input line 601.
+(pdftex.def)             Requested size: 136.57462pt x 105.76958pt.
+
+Underfull \hbox (badness 5519) in paragraph at lines 602--602
+\OT1/phv/m/n/10 aero-dy-namic co-ef-fi-cients (in
+ []
+
+Package epstopdf Info: Source file: <Figures/background/aero/aero_model_1e6.eps>
+(epstopdf)                    date: 2025-03-21 09:37:33
+(epstopdf)                    size: 44410 bytes
+(epstopdf)             Output file: <Figures/background/aero/aero_model_1e6-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-21 09:37:33
+(epstopdf)                    size: 13513 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/aero_model_1e6-eps-converted-to.pdf Figures/background/aero/aero_model_1e6.eps>
+(epstopdf)             \includegraphics on input line 608.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/background/aero/aero_model_1e6-eps-converted-to.pdf, id=965, 366.36874pt x 288.07625pt>
+File: Figures/background/aero/aero_model_1e6-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/background/aero/aero_model_1e6-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/background/aero/aero_model_1e6-eps-converted-to.pdf  used on input line 608.
+(pdftex.def)             Requested size: 136.57462pt x 107.39095pt.
+
+Underfull \hbox (badness 3907) in paragraph at lines 609--609
+\OT1/phv/m/n/10 foil aero-dy-namic co-ef-fi-cients
+ []
+
+Package epstopdf Info: Source file: <Figures/background/aero/cl_naca4412.eps>
+(epstopdf)                    date: 2025-03-24 10:22:04
+(epstopdf)                    size: 49578 bytes
+(epstopdf)             Output file: <Figures/background/aero/cl_naca4412-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-24 10:22:44
+(epstopdf)                    size: 12407 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/cl_naca4412-eps-converted-to.pdf Figures/background/aero/cl_naca4412.eps>
+(epstopdf)             \includegraphics on input line 622.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/background/aero/cl_naca4412-eps-converted-to.pdf, id=971, 384.43625pt x 297.11pt>
+File: Figures/background/aero/cl_naca4412-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/background/aero/cl_naca4412-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/background/aero/cl_naca4412-eps-converted-to.pdf  used on input line 622.
+(pdftex.def)             Requested size: 170.71652pt x 131.93925pt.
+Package epstopdf Info: Source file: <Figures/background/aero/cd_naca4412.eps>
+(epstopdf)                    date: 2025-03-24 10:22:05
+(epstopdf)                    size: 48188 bytes
+(epstopdf)             Output file: <Figures/background/aero/cd_naca4412-eps-converted-to.pdf>
+(epstopdf)                    date: 2025-03-24 10:22:45
+(epstopdf)                    size: 16664 bytes
+(epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/cd_naca4412-eps-converted-to.pdf Figures/background/aero/cd_naca4412.eps>
+(epstopdf)             \includegraphics on input line 629.
+Package epstopdf Info: Output file is already uptodate.
+<Figures/background/aero/cd_naca4412-eps-converted-to.pdf, id=972, 380.42125pt x 297.11pt>
+File: Figures/background/aero/cd_naca4412-eps-converted-to.pdf Graphic file (type pdf)
+<use Figures/background/aero/cd_naca4412-eps-converted-to.pdf>
+Package pdftex.def Info: Figures/background/aero/cd_naca4412-eps-converted-to.pdf  used on input line 629.
+(pdftex.def)             Requested size: 170.71652pt x 133.33104pt.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+[28 <./Figures/background/aero/aero_model_1e4-eps-converted-to.pdf> <./Figures/background/aero/aero_model_1e5-eps-converted-to.pdf> <./Figures/background/aero/aero_model_1e6-eps-converted-to.pdf> <./Figures/background/aero/cl_naca4412-eps-converted-to.pdf> <./Figures/background/aero/cd_naca4412-eps-converted-to.pdf>]
+Overfull \hbox (0.14362pt too wide) in paragraph at lines 647--648
+[]\OT1/phv/m/n/10 Before the anal-y-sis, for the cur-rent ap-pli-ca-tion, []ISA model is com-puted us-ing MAT-LAB [[]] Aerospace
+ []
+
+<Figures/background/atmos/temperature_plot.png, id=1022, 421.575pt x 316.0608pt>
+File: Figures/background/atmos/temperature_plot.png Graphic file (type png)
+<use Figures/background/atmos/temperature_plot.png>
+Package pdftex.def Info: Figures/background/atmos/temperature_plot.png  used on input line 662.
+(pdftex.def)             Requested size: 218.51521pt x 163.82689pt.
+<Figures/background/atmos/density_plot.png, id=1023, 421.575pt x 316.0608pt>
+File: Figures/background/atmos/density_plot.png Graphic file (type png)
+<use Figures/background/atmos/density_plot.png>
+Package pdftex.def Info: Figures/background/atmos/density_plot.png  used on input line 669.
+(pdftex.def)             Requested size: 218.51521pt x 163.82689pt.
+
+
+[29 <./Figures/background/atmos/temperature_plot.png (PNG copy)> <./Figures/background/atmos/density_plot.png (PNG copy)>]
+Thesis_Background.tex:687: Missing \cr inserted.
+<inserted text> 
+                \cr 
+l.687 ...00000} ISA \cite{noauthor_earth_nodate}}}
+                                                

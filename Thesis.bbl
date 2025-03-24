@@ -1,9 +1,237 @@
-\begin{thebibliography}{4}
+\begin{thebibliography}{52}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
   \providecommand{\doi}[1]{doi: #1}\else
   \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Gomes et~al.(2013)Gomes, Devezas, Belderrain, and
+  Salgado]{gomes_road_2013}
+J.~R. Gomes, T.~C. Devezas, M.~C. Belderrain, and M.~C.~V. Salgado.
+\newblock The {Road} to {Privatization} of {Space} {Exploration}: {What} is
+  {Missing}?
+\newblock \emph{th International Astronautical Congress}, 2013.
+
+\bibitem[noa({\natexlab{a}})]{noauthor_spacex_nodate}
+{SpaceX}, {\natexlab{a}}.
+\newblock URL \url{http://www.spacex.com}.
+
+\bibitem[noa({\natexlab{b}})]{noauthor_blueorigin_nodate}
+{BlueOrigin}, {\natexlab{b}}.
+\newblock URL \url{https://www.blueorigin.com/pt-BR/}.
+
+\bibitem[Quinn()]{quinn_acceptable_nodate}
+A.~Quinn.
+\newblock Acceptable {Levels} of {Safety} for the {Commercial} {Space} {Flight}
+  {Industry}.
+
+\bibitem[Blue et~al.(2017)Blue, Jennings, Antunano, and Mathers]{blue_l_2017}
+R.~Blue, R.~Jennings, M.~Antunano, and C.~Mathers.
+\newblock L - {Commercial} spaceflight: {Progress} and challenges in expanding
+  human access to space.
+\newblock \emph{REACH}, 7-8:\penalty0 6--13, Dec. 2017.
+\newblock ISSN 23523093.
+\newblock \doi{10.1016/j.reach.2018.08.001}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S2352309318300038}.
+
+\bibitem[Garzaniti et~al.(2021)Garzaniti, Tekic, Kukolj, and
+  Golkar]{garzaniti_review_2021}
+N.~Garzaniti, Z.~Tekic, D.~Kukolj, and A.~Golkar.
+\newblock Review of technology trends in new space missions using a patent
+  analytics approach.
+\newblock \emph{Progress in Aerospace Sciences}, 125:\penalty0 100727, Aug.
+  2021.
+\newblock ISSN 03760421.
+\newblock \doi{10.1016/j.paerosci.2021.100727}.
+\newblock URL
+  \url{https://linkinghub.elsevier.com/retrieve/pii/S0376042121000324}.
+
+\bibitem[Shin(2014)]{shin_nasa_2014}
+J.~Shin.
+\newblock The {NASA} {Aviation} {Safety} {Program}: {Overview}.
+\newblock American Society of Mechanical Engineers Digital Collection, Aug.
+  2014.
+\newblock \doi{10.1115/2000-GT-0660}.
+\newblock URL \url{https://dx.doi.org/10.1115/2000-GT-0660}.
+
+\bibitem[Diaz-Silva et~al.(2013)Diaz-Silva, Arellano, Sarigulklijn, and
+  Sarigul-Klijn]{diaz-silva_rotary_2013}
+R.~A. Diaz-Silva, D.~Arellano, M.~Sarigulklijn, and N.~Sarigul-Klijn.
+\newblock Rotary {Decelerators} for {Spacecraft}: {Historical} {Review} and
+  {Simulation} {Results}.
+\newblock In \emph{{AIAA} {SPACE} 2013 {Conference} and {Exposition}}, San
+  Diego, CA, Sept. 2013. American Institute of Aeronautics and Astronautics.
+\newblock ISBN 978-1-62410-239-4.
+\newblock \doi{10.2514/6.2013-5361}.
+\newblock URL \url{https://arc.aiaa.org/doi/10.2514/6.2013-5361}.
+
+\bibitem[Ragab and Cheatwood(2015)]{ragab_launch_2015}
+M.~Ragab and F.~M. Cheatwood.
+\newblock Launch {Vehicle} {Recovery} and {Reuse}.
+\newblock In \emph{{AIAA} {SPACE} 2015 {Conference} and {Exposition}},
+  Pasadena, California, Aug. 2015. American Institute of Aeronautics and
+  Astronautics.
+\newblock ISBN 978-1-62410-334-6.
+\newblock \doi{10.2514/6.2015-4490}.
+\newblock URL \url{https://arc.aiaa.org/doi/10.2514/6.2015-4490}.
+
+\bibitem[noa({\natexlab{c}})]{noauthor_wikipedia_nodate}
+Wikipedia, the free encyclopedia, {\natexlab{c}}.
+\newblock URL \url{https://www.wikipedia.org/}.
+
+\bibitem[noa({\natexlab{d}})]{noauthor_kaman_nodate}
+Kaman {Corporation} {\textbar} {Extend} {Your} {Reach}, {\natexlab{d}}.
+\newblock URL \url{https://kaman.com/}.
+
+\bibitem[noa({\natexlab{e}})]{noauthor_apollo_nodate}
+The {Apollo} {Program} - {NASA}, {\natexlab{e}}.
+\newblock URL \url{https://www.nasa.gov/the-apollo-program/}.
+\newblock Section: Apollo.
+
+\bibitem[Wernicke(1959)]{wernicke_preliminary_1959}
+R.~Wernicke.
+\newblock Preliminary {Tests} of {Model} {Spacecraft} {Rotor} {Landing}
+  {System}.
+\newblock Technical report, Bell Helicopter Corporation, 1959.
+
+\bibitem[Barzda(1964)]{barzda_rotors_1964}
+J.~Barzda.
+\newblock {ROTORS} {FOR} {RECOVERY}.
+\newblock In \emph{Entry {Technology} {Conference}}, Williamsburg and
+  Hampton,VA,U.S.A., Oct. 1964. American Institute of Aeronautics and
+  Astronautics.
+\newblock \doi{10.2514/6.1964-1305}.
+\newblock URL \url{https://arc.aiaa.org/doi/10.2514/6.1964-1305}.
+
+\bibitem[Kretz(1966)]{kretz_space_1966}
+M.~Kretz.
+\newblock Space {Rotor} : {A} {European} {Project} for {Recovery} of {Heavy}
+  {Lauch} {Vehicles}.
+\newblock Brighton, England, 1966.
+
+\bibitem[FEDERAL
+  AVIATION~ADMINISTRATION(2021)]{federal_aviation_administration_helicopter_2021}
+U.~D. o.~T. FEDERAL AVIATION~ADMINISTRATION.
+\newblock \emph{Helicopter flying handbook}.
+\newblock Skyhorse Publishing, New York, NY, 2021.
+\newblock ISBN 978-1-5107-6720-1.
+\newblock OCLC: 1233266325.
+
+\bibitem[Marques(2022)]{marques_rocket_2022}
+J.~P. C. D.~S. Marques.
+\newblock Rocket system recovery using rotative wings, Nov. 2022.
+
+\bibitem[Steiner and Young()]{steiner_rotary_nodate}
+T.~J. Steiner and L.~A. Young.
+\newblock Rotary {Wing} {Decelerator} {Use} {On} {Titan}.
+
+\bibitem[noa({\natexlab{f}})]{noauthor_armada_nodate}
+{ARMADA} {Autorotation}, feasible alternative to traditional {Martian} {Entry},
+  {Descent} and {Landing}, {\natexlab{f}}.
+
+\bibitem[Maurer et~al.()Maurer, Valenti, Zaccarine, Le, and
+  Dennehy]{maurer_project_nodate}
+K.~Maurer, A.~Valenti, S.~Zaccarine, J.~Le, and J.~Dennehy.
+\newblock Project {Hummingbird}: {Recovery} of a {Rocket} {Using}
+  {Autorotation}.
+
+\bibitem[Riegler et~al.(2018)Riegler, Angelov, {Kohmann, Florian}, Neumann,
+  Bilican, Hofman, Heimann, Neubauer, Gutierrez, Böhm, Fischbach, Appelt,
+  Willand, Wizemann, Menninger, Fischer, Pichowski, Staus, and
+  Hemmelmann]{riegler_daedalus_2018}
+C.~Riegler, I.~Angelov, {Kohmann, Florian}, T.~Neumann, A.~Bilican, K.~Hofman,
+  E.~Heimann, F.~Neubauer, E.~Gutierrez, A.~Böhm, B.~Fischbach, T.~Appelt,
+  L.~Willand, O.~Wizemann, S.~Menninger, S.~Fischer, J.~v. Pichowski, J.~Staus,
+  and E.~Hemmelmann.
+\newblock The {DAEDALUS} {Project}.
+\newblock 2018.
+
+\bibitem[noa({\natexlab{g}})]{noauthor_daedalus_nodate}
+The {DAEDALUS} {Project}, {\natexlab{g}}.
+
+\bibitem[Riegler et~al.()Riegler, Angelov, Kohmann, Neumann, Bilican, Pielucha,
+  Bohm, Fischbach, Appelt, Willand, Wizemann, Menninger, Frohlich, Plausonig,
+  Hartl, Kappl, and Rath]{riegler_project_nodate}
+C.~Riegler, I.~Angelov, F.~Kohmann, T.~Neumann, A.~Bilican, J.~G. Pielucha,
+  A.~Bohm, B.~Fischbach, T.~Appelt, L.~Willand, O.~Wizemann, S.~Menninger,
+  C.~Frohlich, C.~Plausonig, A.~Hartl, P.~Kappl, and R.~Rath.
+\newblock {PROJECT} {DAEDALUS}, {ROTOR} {CONTROLLED} {DESCENT} {AND} {LANDING}
+  {ON} {REXUS23}.
+
+\bibitem[Mehringer et~al.(2022)Mehringer, Werner, Riegler, and
+  Dunschen]{mehringer_suborbital_2022}
+J.~Mehringer, L.~Werner, C.~Riegler, and F.~Dunschen.
+\newblock Suborbital autorotation landing demonstrator on {REXUS} 29.
+\newblock In \emph{4th {Symposium} on {Space} {Educational} {Activities}}.
+  Universitat Politècnica de Catalunya, Apr. 2022.
+\newblock \doi{10.5821/conference-9788419184405.039}.
+\newblock URL \url{http://hdl.handle.net/2117/369264}.
+
+\bibitem[Bergmann et~al.(2024)Bergmann, Riegler, Klaschka, Herbst, Wolf, Reigl,
+  Koch, Menninger, von Pichowski, Bös, Barthó, Dunschen, Mehringer, Richter,
+  and Werner]{bergmann_daedalus_2024}
+P.~Bergmann, C.~Riegler, Z.~Klaschka, T.~Herbst, J.~M. Wolf, M.~Reigl, N.~Koch,
+  S.~Menninger, J.~von Pichowski, C.~Bös, B.~Barthó, F.~Dunschen,
+  J.~Mehringer, L.~Richter, and L.~Werner.
+\newblock Daedalus 2: {Autorotation} {Entry}, {Descent} and {Landing}
+  {Experiment} on {REXUS29}, June 2024.
+\newblock URL \url{http://arxiv.org/abs/2406.11292}.
+\newblock arXiv:2406.11292 [cs].
+
+\bibitem[Leishman(2006)]{leishman_principles_2006}
+J.~G. Leishman.
+\newblock \emph{Principles of helicopter aerodynamics}.
+\newblock Number~18 in Cambridge aerospace series. Cambridge University press,
+  Cambridge, 2nd ed edition, 2006.
+\newblock ISBN 978-0-521-85860-1.
+
+\bibitem[Nikolsky and Seckel(1906)]{nikolsky_analytical_1906}
+A.~A. Nikolsky and E.~Seckel.
+\newblock An {Analytical} {Study} of the {Steady} {Vertical} {Descent} in
+  {Autorotation} of {Single}-{Rotor} {Helicopters}.
+\newblock 1906.
+
+\bibitem[Smith(1971)]{smith_autorotating_1971}
+E.~H. Smith.
+\newblock Autorotating wings: an experimental investigation.
+\newblock \emph{Journal of Fluid Mechanics}, 50\penalty0 (3):\penalty0
+  513--534, Dec. 1971.
+\newblock ISSN 0022-1120, 1469-7645.
+\newblock \doi{10.1017/S0022112071002738}.
+\newblock URL
+  \url{https://www.cambridge.org/core/product/identifier/S0022112071002738/type/journal_article}.
+
+\bibitem[Marques et~al.(2024)Marques, De~Souza, and Cunha]{marques_design_2024}
+J.~P. C. D.~S. Marques, A.~De~Souza, and F.~S. Cunha.
+\newblock Design of a {Helicopter} {System} {Recovery} for a {Sounding}
+  {Rocket}.
+\newblock \emph{International Journal of Aeronautical and Space Sciences},
+  25\penalty0 (2):\penalty0 662--675, Apr. 2024.
+\newblock ISSN 2093-274X, 2093-2480.
+\newblock \doi{10.1007/s42405-023-00696-z}.
+\newblock URL \url{https://link.springer.com/10.1007/s42405-023-00696-z}.
+
+\bibitem[Cuerva et~al.(2006)Cuerva, Sanz-Andres, Meseguer, and
+  Espino]{cuerva_engineering_2006}
+A.~Cuerva, A.~Sanz-Andres, J.~Meseguer, and J.~L. Espino.
+\newblock An {Engineering} {Modification} of the {Blade} {Element} {Momentum}
+  {Equation} for {Vertical} {Descent}: {An} {Autorotation} {Case} {Study}.
+\newblock \emph{Journal of the American Helicopter Society}, 51\penalty0
+  (4):\penalty0 349, 2006.
+\newblock ISSN 00028711.
+\newblock \doi{10.4050/JAHS.51.349}.
+\newblock URL
+  \url{http://www.ingentaconnect.com/content/ahs/jahs/2006/00000051/00000004/art00006}.
+
+\bibitem[Kim et~al.(2009)Kim, Sheen, and Park]{kim_v_2009}
+H.~Y. Kim, D.~J. Sheen, and S.~O. Park.
+\newblock V - {Numerical} {Simulation} of {Autorotation} in {Forward} {Flight}.
+\newblock \emph{Journal of Aircraft}, 46\penalty0 (5):\penalty0 1642--1648,
+  Sept. 2009.
+\newblock ISSN 0021-8669, 1533-3868.
+\newblock \doi{10.2514/1.42209}.
+\newblock URL \url{https://arc.aiaa.org/doi/10.2514/1.42209}.
 
 \bibitem[Brindejonc et~al.(2007)Brindejonc, Sirohi, and
   Chopra]{brindejonc_design_2007}
@@ -17,26 +245,141 @@ A.~Brindejonc, J.~Sirohi, and I.~Chopra.
 \newblock URL
   \url{http://www.ingentaconnect.com/content/ahs/jahs/2007/00000052/00000004/art00005}.
 
-\bibitem[Marques(2022)]{marques_rocket_2022}
-J.~P. C. D.~S. Marques.
-\newblock Rocket system recovery using rotative wings, Nov. 2022.
+\bibitem[Czyż et~al.(2021)Czyż, Kazimierska, Karpiński, and
+  Skiba]{czyz_v_2021}
+Z.~Czyż, A.~Kazimierska, P.~Karpiński, and K.~Skiba.
+\newblock V - {Numerical} calculations of the autorotating rotor under
+  transient conditions.
+\newblock \emph{Journal of Physics: Conference Series}, 2130\penalty0
+  (1):\penalty0 012030, Dec. 2021.
+\newblock ISSN 1742-6588, 1742-6596.
+\newblock \doi{10.1088/1742-6596/2130/1/012030}.
+\newblock URL
+  \url{https://iopscience.iop.org/article/10.1088/1742-6596/2130/1/012030}.
 
-\bibitem[Riegler et~al.(2018)Riegler, Angelov, {Kohmann, Florian}, Neumann,
-  Bilican, Hofman, Heimann, Neubauer, Gutierrez, Böhm, Fischbach, Appelt,
-  Willand, Wizemann, Menninger, Fischer, Pichowski, Staus, and
-  Hemmelmann]{riegler_daedalus_2018}
-C.~Riegler, I.~Angelov, {Kohmann, Florian}, T.~Neumann, A.~Bilican, K.~Hofman,
-  E.~Heimann, F.~Neubauer, E.~Gutierrez, A.~Böhm, B.~Fischbach, T.~Appelt,
-  L.~Willand, O.~Wizemann, S.~Menninger, S.~Fischer, J.~v. Pichowski, J.~Staus,
-  and E.~Hemmelmann.
-\newblock The {DAEDALUS} {Project}.
-\newblock 2018.
+\bibitem[Soler(2014)]{soler_fundamentals_2014}
+M.~Soler.
+\newblock \emph{Fundamentals of {Aerospace} {Engineering}: an introductory
+  course to aeronautical engineering}.
+\newblock 2014.
 
-\bibitem[Leishman(2006)]{leishman_principles_2006}
-J.~G. Leishman.
-\newblock \emph{Principles of helicopter aerodynamics}.
-\newblock Number~18 in Cambridge aerospace series. Cambridge University press,
-  Cambridge, 2nd ed edition, 2006.
-\newblock ISBN 978-0-521-85860-1.
+\bibitem[Vepa(2023)]{vepa_flight_2023}
+R.~Vepa.
+\newblock \emph{Flight {Dynamics}, {Simulation}, and {Control}: {For} {Rigid}
+  and {Flexible} {Aircraft}}.
+\newblock CRC Press, Boca Raton, 2 edition, Mar. 2023.
+\newblock ISBN 978-1-00-326631-0.
+\newblock \doi{10.1201/9781003266310}.
+\newblock URL \url{https://www.taylorfrancis.com/books/9781003266310}.
+
+\bibitem[Curtis(2008)]{curtis_orbital_2008}
+H.~D. Curtis.
+\newblock \emph{Orbital mechanics for engineering students}.
+\newblock Elsevier {Aerospace} engineering series. Elsevier Butterworth
+  Heinemann, Amsterdam Heidelberg, 1. ed., reprinted edition, 2008.
+\newblock ISBN 978-0-7506-6169-0.
+
+\bibitem[Schwab and Meijaard(2006)]{schwab_how_2006}
+A.~L. Schwab and J.~P. Meijaard.
+\newblock How to {Draw} {Euler} {Angles} and {Utilize} {Euler} {Parameters}.
+\newblock In \emph{Volume 2: 30th {Annual} {Mechanisms} and {Robotics}
+  {Conference}, {Parts} {A} and {B}}, pages 259--265, Philadelphia,
+  Pennsylvania, USA, Jan. 2006. ASMEDC.
+\newblock ISBN 978-0-7918-4256-0 978-0-7918-3784-9.
+\newblock \doi{10.1115/DETC2006-99307}.
+\newblock URL
+  \url{https://asmedigitalcollection.asme.org/IDETC-CIE/proceedings/IDETC-CIE2006/42568/259/318134}.
+
+\bibitem[Spera and Technology(2008)]{spera_models_2008}
+D.~A. Spera and J.~Technology.
+\newblock Models of {Lift} and {Drag} {Coefﬁcients} of {Stalled} and
+  {Unstalled} {Airfoils} in {Wind} {Turbines} and {Wind} {Tunnels}.
+\newblock 2008.
+
+\bibitem[Sharpe and Hansman()]{sharpe_neuralfoil_nodate}
+P.~Sharpe and R.~J. Hansman.
+\newblock {NeuralFoil}: {An} {Airfoil} {Aerodynamics} {Analysis} {Tool} {Using}
+  {Physics}-{Informed} {Machine} {Learning}.
+
+\bibitem[Sharpe({\natexlab{a}})]{sharpe_aerosandbox_nodate}
+P.~Sharpe.
+\newblock {AeroSandbox}: {A} {Differentiable} {Framework} for {Aircraft}
+  {Design} {Optimization}.
+\newblock {\natexlab{a}}.
+
+\bibitem[Sharpe({\natexlab{b}})]{sharpe_accelerating_nodate}
+P.~D. Sharpe.
+\newblock Accelerating {Practical} {Engineering} {Design} {Optimization} with
+  {Computational} {Graph} {Transformations}.
+\newblock {\natexlab{b}}.
+
+\bibitem[Alam et~al.(2010)Alam, Zhou, Yang, Guo, and Mi]{alam_ultra-low_2010}
+M.~M. Alam, Y.~Zhou, H.~X. Yang, H.~Guo, and J.~Mi.
+\newblock The ultra-low {Reynolds} number airfoil wake.
+\newblock \emph{Experiments in Fluids}, 48\penalty0 (1):\penalty0 81--103, Jan.
+  2010.
+\newblock ISSN 0723-4864, 1432-1114.
+\newblock \doi{10.1007/s00348-009-0713-7}.
+\newblock URL \url{http://link.springer.com/10.1007/s00348-009-0713-7}.
+
+\bibitem[noa({\natexlab{h}})]{noauthor_iso_nodate}
+{ISO} 2533:1975, {\natexlab{h}}.
+\newblock URL \url{https://www.iso.org/standard/7472.html}.
+
+\bibitem[noa({\natexlab{i}})]{noauthor_earth_nodate}
+Earth {Atmosphere} {Model} - {Metric} {Units}, {\natexlab{i}}.
+\newblock URL \url{https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html}.
+
+\bibitem[Picone et~al.(2002)Picone, Hedin, Drob, and
+  Aikin]{picone_nrlmsise00_2002}
+J.~M. Picone, A.~E. Hedin, D.~P. Drob, and A.~C. Aikin.
+\newblock {NRLMSISE}‐00 empirical model of the atmosphere: {Statistical}
+  comparisons and scientific issues.
+\newblock \emph{Journal of Geophysical Research: Space Physics}, 107\penalty0
+  (A12), Dec. 2002.
+\newblock ISSN 0148-0227.
+\newblock \doi{10.1029/2002JA009430}.
+
+\bibitem[MATLAB(2024)]{matlab_version_2024}
+MATLAB.
+\newblock \emph{Version 24.2 ({R2024B})}.
+\newblock The MathWorks Inc., Natick, Massachusetts, 2024.
+
+\bibitem[noa({\natexlab{j}})]{noauthor_aerospace_nodate}
+Aerospace {Toolbox}, {\natexlab{j}}.
+\newblock URL \url{https://www.mathworks.com/products/aerospace-toolbox.html}.
+
+\bibitem[noa({\natexlab{k}})]{noauthor_atmosisa_nodate}
+atmosisa, {\natexlab{k}}.
+\newblock URL \url{https://www.mathworks.com/help/aerotbx/ug/atmosisa.html}.
+
+\bibitem[noa(2025)]{noauthor_atmosphere_2025}
+Atmosphere {Profiles} (sonde, {NRLMSISE}-00), Jan. 2025.
+\newblock URL
+  \url{https://www.mathworks.com/matlabcentral/fileexchange/71629-atmosphere-profiles-sonde-nrlmsise-00}.
+
+\bibitem[Ramdin()]{ramdin_prandtl_nodate}
+S.~F. Ramdin.
+\newblock Prandtl tip loss factor assessed.
+
+\bibitem[Arnold et~al.(2011)Arnold, Burgermeister, Führer, Hippmann, and
+  Rill]{arnold_numerical_2011}
+M.~Arnold, B.~Burgermeister, C.~Führer, G.~Hippmann, and G.~Rill.
+\newblock Numerical methods in vehicle system dynamics: state of the art and
+  current developments.
+\newblock \emph{Vehicle System Dynamics}, 49\penalty0 (7):\penalty0 1159--1207,
+  July 2011.
+\newblock ISSN 0042-3114, 1744-5159.
+\newblock \doi{10.1080/00423114.2011.582953}.
+\newblock URL
+  \url{http://www.tandfonline.com/doi/abs/10.1080/00423114.2011.582953}.
+
+\bibitem[Press(2007)]{press_numerical_2007}
+W.~H. Press, editor.
+\newblock \emph{Numerical recipes: the art of scientific computing}.
+\newblock Cambridge University Press, Cambridge, UK ; New York, 3rd ed edition,
+  2007.
+\newblock ISBN 978-0-521-88068-8 978-0-521-88407-5 978-0-521-70685-8.
+\newblock OCLC: ocn123285342.
 
 \end{thebibliography}
