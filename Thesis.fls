@@ -285,6 +285,9 @@ INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ot1phv.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
 INPUT C:\Program Files\MiKTeX\tex\latex\l3backend\l3backend-pdftex.def
+INPUT .\Thesis.aux
+INPUT .\Thesis.aux
+INPUT Thesis.aux
 OUTPUT Thesis.aux
 INPUT .\Thesis.glsdefs
 INPUT .\Thesis.glsdefs
@@ -297,8 +300,14 @@ INPUT C:\Program Files\MiKTeX\tex\latex\epstopdf-pkg\epstopdf-base.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
 INPUT C:\Program Files\MiKTeX\tex\latex\00miktex\epstopdf-sys.cfg
-OUTPUT Thesis.out
+INPUT .\Thesis.out
+INPUT .\Thesis.out
+INPUT Thesis.out
+INPUT Thesis.out
 OUTPUT Thesis.pdf
+INPUT .\Thesis.out
+INPUT .\Thesis.out
+OUTPUT Thesis.out
 INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\pdflscape\pdflscape-nometadata.sty
@@ -401,14 +410,9 @@ INPUT .\Thesis_Abstract.tex
 INPUT Thesis_Abstract.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
-OUTPUT Thesis.toc
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-OUTPUT Thesis.lot
-OUTPUT Thesis.lof
-INPUT .\Thesis.nls
-INPUT .\Thesis.nls
-INPUT Thesis.nls
+INPUT .\Thesis.toc
+INPUT .\Thesis.toc
+INPUT Thesis.toc
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
@@ -419,6 +423,23 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
+OUTPUT Thesis.toc
+INPUT .\Thesis.lot
+INPUT .\Thesis.lot
+INPUT Thesis.lot
+OUTPUT Thesis.lot
+INPUT .\Thesis.lof
+INPUT .\Thesis.lof
+INPUT Thesis.lof
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
+OUTPUT Thesis.lof
+INPUT .\Thesis.nls
+INPUT .\Thesis.nls
+INPUT Thesis.nls
 INPUT .\Thesis.acr
 INPUT .\Thesis.acr
 INPUT Thesis.acr
@@ -429,22 +450,22 @@ INPUT .\Thesis_Introduction.tex
 INPUT Thesis_Introduction.tex
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\parachute-system.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
+INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
-INPUT .\Figures\introduction\parachute-system.jpg
-INPUT .\Figures\introduction\parachute-system.jpg
-INPUT .\Figures\introduction\parachute-system.jpg
-INPUT .\Figures\introduction\parachute-system.jpg
-INPUT .\Figures\introduction\parachute-system.jpg
-INPUT .\Figures\introduction\parachute-system.jpg
-INPUT .\Figures\introduction\parachute-system.jpg
-INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
-INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
-INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
-INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
-INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
-INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
-INPUT .\Figures\introduction\rocjet-thrust-vector.jpg
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvro7t.tfm
@@ -523,7 +544,6 @@ INPUT .\Figures\introduction\ffu_rexus.png
 INPUT .\Figures\introduction\ffu_rexus.png
 INPUT .\Figures\introduction\ffu_rexus.png
 INPUT .\Figures\introduction\ffu_rexus.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb7t.tfm
 INPUT .\Figures\introduction\space_seed_prototype.png
 INPUT .\Figures\introduction\space_seed_prototype.png
 INPUT .\Figures\introduction\space_seed_prototype.png
@@ -531,8 +551,6 @@ INPUT .\Figures\introduction\space_seed_prototype.png
 INPUT .\Figures\introduction\space_seed_prototype.png
 INPUT .\Figures\introduction\space_seed_prototype.png
 INPUT .\Figures\introduction\space_seed_prototype.png
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvb7t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvb8r.tfm
 INPUT .\Thesis_Background.tex
 INPUT .\Thesis_Background.tex
 INPUT .\Thesis_Background.tex
@@ -552,15 +570,19 @@ INPUT .\Figures\background\reference_frames.png
 INPUT .\Figures\background\reference_frames.png
 INPUT .\Figures\background\reference_frames.png
 INPUT .\Figures\background\reference_frames.png
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx7.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbx5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmmib10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib5.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\cm\cmbsy10.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy7.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy5.tfm
+INPUT .\Figures\background\rotor_cd.png
+INPUT .\Figures\background\rotor_cd.png
+INPUT .\Figures\background\rotor_cd.png
+INPUT .\Figures\background\rotor_cd.png
+INPUT .\Figures\background\rotor_cd.png
+INPUT .\Figures\background\rotor_cd.png
+INPUT .\Figures\background\rotor_cd.png
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr7t.tfm
 INPUT .\Figures\background\inertia\inertia_scheme.png

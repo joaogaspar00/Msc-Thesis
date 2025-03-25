@@ -1,0 +1,49 @@
+\babel@toc {english}{}\relax 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Parachute recovery system}}{2}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Controlled thrust vector recovery system}}{2}{figure.caption.14}%
+\contentsline {figure}{\numberline {1.3}{\ignorespaces KRC-6 Rotochute Flight Test Vehicle}}{2}{figure.caption.15}%
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Stages of helicopter emergency landing maneuver: 1) engine failure; 2) autorotation descent; 3) flare manoeuvre; 4) approaching landing site; 5) landing}}{5}{figure.caption.16}%
+\contentsline {figure}{\numberline {1.5}{\ignorespaces ARMADA Autorotation system concept, from \cite {noauthor_armada_nodate} }}{5}{figure.caption.18}%
+\contentsline {figure}{\numberline {1.6}{\ignorespaces ARMADA concept software, from \cite {noauthor_armada_nodate}}}{6}{figure.caption.19}%
+\contentsline {figure}{\numberline {1.7}{\ignorespaces ARMADA concepts under different fight conditions, from \cite {noauthor_armada_nodate}}}{7}{figure.caption.20}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Supersonic deployment model}}}{7}{subfigure.7.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Subsonic reefing model}}}{7}{subfigure.7.2}%
+\contentsline {figure}{\numberline {1.8}{\ignorespaces Concept of Operation of Project Hummingbird, from \cite {maurer_project_nodate}}}{8}{figure.caption.22}%
+\contentsline {figure}{\numberline {1.9}{\ignorespaces REXUS Rocket composition, from \cite {riegler_daedalus_2018}}}{8}{figure.caption.24}%
+\contentsline {figure}{\numberline {1.10}{\ignorespaces \gls {ffu} SpaceSeeds used in DEADALUS project}}{9}{figure.caption.25}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {SpaceSeeds placement inside REXUS's cone, from \cite {noauthor_daedalus_nodate}}}}{9}{subfigure.10.1}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {SpaceSeed protoype, from \cite {riegler_project_nodate}}}}{9}{subfigure.10.2}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Vehicle model considered with a four blade rotor}}{13}{figure.caption.26}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Illusttration of the reference frame}}{14}{figure.caption.27}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Rotor considered as \gls {cd}, with rotor's reference frame, $O^r$, origin in its center}}{15}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Thin-plate position according to the principal axes ($O'$) inside the rotor' and blade's coordinate system, $O^r$ and $O^b$, respectively.}}{16}{figure.caption.29}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \gls {bet} model with an highlight blade element in red. The blade reference frame (in blue) and the element reference frame (in green) are shown. Also the $n$-element velocity vector $\mathbf {U}_n$ in element reference frame is shown. Note that here the $z$-axis is not presented, hoever applying the right-hand rule it is possible to determine that its direction its towrds the reader.}}{18}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Blade element with flow enviroment and forces aplied. Note that here the $y$-axis is not presented, hoever applying the right-hand rule it is possible to determine that its direction its towrds inside the page.}}{19}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Blade element with flow enviroment and forces aplied.}}{21}{figure.caption.32}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Reference frame rotation Euler angles, adapted from \cite {schwab_how_2006}}}{22}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.9}{\ignorespaces AERODAS model for lift coefficient, from \cite {spera_models_2008}}}{25}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.10}{\ignorespaces AERODAS model for drag coefficient, from \cite {spera_models_2008}}}{25}{figure.caption.34}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces NeuralFoil confidence level for NACA 0012 airfoil for Reyndols number from $10^3$ to $10^9$}}{28}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^4$ determined with Neural foil with confidence level}}{28}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^5$ determined with Neural foil with confidence level}}{28}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^6$ determined with Neural foil with confidence level}}{28}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Lift coefficient computed with the presented aerodynamic model for NACA 4412 airfoil}}{29}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.16}{\ignorespaces Drag coefficient computed with the presented aerodynamic model for NACA 4412 airfoil}}{29}{figure.caption.41}%
+\contentsline {figure}{\numberline {2.17}{\ignorespaces Temperature Comparison}}{30}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.18}{\ignorespaces Density Comparison}}{30}{figure.caption.42}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Prandtl Tip Loss function versus radial position for two- and four-bladed rotor}}{32}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Prandtl Tip Loss Function}}{32}{figure.caption.45}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Computational implementation flowchart}}{34}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Results}}{36}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Radial Velocity}}{36}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Vertical Velocity}}{36}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Tangencial Velocity}}{37}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Incidence angle}}{37}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Angle Of Attack}}{37}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Lift Coefficient}}{37}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Drag Coefficient}}{37}{figure.caption.53}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
