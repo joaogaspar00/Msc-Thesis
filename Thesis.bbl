@@ -1,4 +1,4 @@
-\begin{thebibliography}{52}
+\begin{thebibliography}{56}
 \providecommand{\natexlab}[1]{#1}
 \providecommand{\url}[1]{\texttt{#1}}
 \expandafter\ifx\csname urlstyle\endcsname\relax
@@ -146,9 +146,6 @@ C.~Riegler, I.~Angelov, {Kohmann, Florian}, T.~Neumann, A.~Bilican, K.~Hofman,
   and E.~Hemmelmann.
 \newblock The {DAEDALUS} {Project}.
 \newblock 2018.
-
-\bibitem[noa({\natexlab{g}})]{noauthor_daedalus_nodate}
-The {DAEDALUS} {Project}, {\natexlab{g}}.
 
 \bibitem[Riegler et~al.()Riegler, Angelov, Kohmann, Neumann, Bilican, Pielucha,
   Bohm, Fischbach, Appelt, Willand, Wizemann, Menninger, Frohlich, Plausonig,
@@ -322,12 +319,12 @@ M.~M. Alam, Y.~Zhou, H.~X. Yang, H.~Guo, and J.~Mi.
 \newblock \doi{10.1007/s00348-009-0713-7}.
 \newblock URL \url{http://link.springer.com/10.1007/s00348-009-0713-7}.
 
-\bibitem[noa({\natexlab{h}})]{noauthor_iso_nodate}
-{ISO} 2533:1975, {\natexlab{h}}.
+\bibitem[noa({\natexlab{g}})]{noauthor_iso_nodate}
+{ISO} 2533:1975, {\natexlab{g}}.
 \newblock URL \url{https://www.iso.org/standard/7472.html}.
 
-\bibitem[noa({\natexlab{i}})]{noauthor_earth_nodate}
-Earth {Atmosphere} {Model} - {Metric} {Units}, {\natexlab{i}}.
+\bibitem[noa({\natexlab{h}})]{noauthor_earth_nodate}
+Earth {Atmosphere} {Model} - {Metric} {Units}, {\natexlab{h}}.
 \newblock URL \url{https://www.grc.nasa.gov/www/k-12/airplane/atmosmet.html}.
 
 \bibitem[Picone et~al.(2002)Picone, Hedin, Drob, and
@@ -345,12 +342,12 @@ MATLAB.
 \newblock \emph{Version 24.2 ({R2024B})}.
 \newblock The MathWorks Inc., Natick, Massachusetts, 2024.
 
-\bibitem[noa({\natexlab{j}})]{noauthor_aerospace_nodate}
-Aerospace {Toolbox}, {\natexlab{j}}.
+\bibitem[noa({\natexlab{i}})]{noauthor_aerospace_nodate}
+Aerospace {Toolbox}, {\natexlab{i}}.
 \newblock URL \url{https://www.mathworks.com/products/aerospace-toolbox.html}.
 
-\bibitem[noa({\natexlab{k}})]{noauthor_atmosisa_nodate}
-atmosisa, {\natexlab{k}}.
+\bibitem[noa({\natexlab{j}})]{noauthor_atmosisa_nodate}
+atmosisa, {\natexlab{j}}.
 \newblock URL \url{https://www.mathworks.com/help/aerotbx/ug/atmosisa.html}.
 
 \bibitem[noa(2025)]{noauthor_atmosphere_2025}
@@ -381,5 +378,55 @@ W.~H. Press, editor.
   2007.
 \newblock ISBN 978-0-521-88068-8 978-0-521-88407-5 978-0-521-70685-8.
 \newblock OCLC: ocn123285342.
+
+\bibitem[Lindfield and Penny(2019)]{lindfield_numerical_2019}
+G.~Lindfield and J.~Penny.
+\newblock \emph{Numerical methods: using {MATLAB}}.
+\newblock {MATLAB} examples. Elsevier, Academic Press, London San Diego, CA
+  Cambridge, MA Oxford, fourth edition edition, 2019.
+\newblock ISBN 978-0-12-812256-3.
+
+\bibitem[Ozdemir and Kavsaoglu(2008)]{ozdemir_linear_2008}
+U.~Ozdemir and M.~S. Kavsaoglu.
+\newblock Linear and nonlinear simulations of aircraft dynamics using body axis
+  system.
+\newblock \emph{Aircraft Engineering and Aerospace Technology}, 80\penalty0
+  (6):\penalty0 638--648, Oct. 2008.
+\newblock ISSN 0002-2667.
+\newblock \doi{10.1108/00022660810911581}.
+\newblock URL
+  \url{https://www.emerald.com/insight/content/doi/10.1108/00022660810911581/full/html}.
+
+\bibitem[Milne et~al.(2023)Milne, Samson, Carrese, Gardi, and
+  Sabatini]{milne_high-fidelity_2023}
+B.~Milne, S.~Samson, R.~Carrese, A.~Gardi, and R.~Sabatini.
+\newblock High-{Fidelity} {Dynamics} {Modelling} for the {Design} of a
+  {High}-{Altitude} {Supersonic} {Sounding} {Rocket}.
+\newblock \emph{Designs}, 7\penalty0 (1):\penalty0 32, Feb. 2023.
+\newblock ISSN 2411-9660.
+\newblock \doi{10.3390/designs7010032}.
+\newblock URL \url{https://www.mdpi.com/2411-9660/7/1/32}.
+
+\bibitem[Yoo et~al.(2024)Yoo, Park, and Oh]{yoo_dynamics_2024}
+B.-W. Yoo, K.-P. Park, and J.~Oh.
+\newblock Dynamics simulation model for the analysis of aircraft movement
+  characteristics on an aircraft carrier deck.
+\newblock \emph{International Journal of Naval Architecture and Ocean
+  Engineering}, 16:\penalty0 100591, Jan. 2024.
+\newblock ISSN 2092-6782.
+\newblock \doi{10.1016/j.ijnaoe.2024.100591}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S2092678224000104}.
+
+\bibitem[Yu et~al.(2019)Yu, Yao, and Liu]{yu_aircraft_2019}
+Y.~Yu, H.~Yao, and Y.~Liu.
+\newblock Aircraft dynamics simulation using a novel physics-based learning
+  method.
+\newblock \emph{Aerospace Science and Technology}, 87:\penalty0 254--264, Apr.
+  2019.
+\newblock ISSN 1270-9638.
+\newblock \doi{10.1016/j.ast.2019.02.021}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S1270963818323125}.
 
 \end{thebibliography}

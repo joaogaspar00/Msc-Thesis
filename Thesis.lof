@@ -36,14 +36,20 @@
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Prandtl Tip Loss function versus radial position for two- and four-bladed rotor}}{32}{figure.caption.44}%
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Prandtl Tip Loss Function}}{32}{figure.caption.45}%
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Computational implementation flowchart}}{34}{figure.caption.46}%
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Results}}{36}{figure.caption.49}%
-\contentsline {figure}{\numberline {3.3}{\ignorespaces Radial Velocity}}{36}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.4}{\ignorespaces Vertical Velocity}}{36}{figure.caption.50}%
-\contentsline {figure}{\numberline {3.5}{\ignorespaces Tangencial Velocity}}{37}{figure.caption.51}%
-\contentsline {figure}{\numberline {3.6}{\ignorespaces Incidence angle}}{37}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.7}{\ignorespaces Angle Of Attack}}{37}{figure.caption.52}%
-\contentsline {figure}{\numberline {3.8}{\ignorespaces Lift Coefficient}}{37}{figure.caption.53}%
-\contentsline {figure}{\numberline {3.9}{\ignorespaces Drag Coefficient}}{37}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Computational implementation flowchart}}{36}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Results}}{37}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Radial velocity component $U_R$}}{38}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Tangential velocity component $U_P$}}{38}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Axial velocity component $U_T$}}{38}{figure.caption.51}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Blade incidence angle}}{39}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Angle of attack}}{39}{figure.caption.52}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Lift coefficient $C_L$}}{39}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Drag coefficient $C_D$}}{39}{figure.caption.53}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Radial force component $F_x$ in the aerodynamic reference frame}}{39}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Tangential force component $F_y$ in the aerodynamic reference frame}}{39}{figure.caption.54}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Axial force component $F_z$ in the aerodynamic reference frame}}{40}{figure.caption.55}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Radial force component $F_x$ in the rotor reference frame}}{40}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Tangential force component $F_y$ in the rotor reference frame}}{40}{figure.caption.56}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Axial force component $F_z$ in the rotor reference frame}}{40}{figure.caption.57}%
 \addvspace {10\p@ }
 \addvspace {10\p@ }

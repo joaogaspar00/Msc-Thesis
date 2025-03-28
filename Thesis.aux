@@ -305,15 +305,41 @@
 \newlabel{eq:tiplossesroot}{{2.51}{32}{Prandtl Tip Losses Factor}{equation.2.51}{}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.20}{\ignorespaces Prandtl Tip Loss Function}}{32}{figure.caption.45}\protected@file@percent }
 \newlabel{fig:fullprandtltiplossfunction}{{2.20}{32}{Prandtl Tip Loss Function}{figure.caption.45}{}}
-\citation{arnold_numerical_2011}
+\citation{arnold_numerical_2011,press_numerical_2007,lindfield_numerical_2019}
 \citation{press_numerical_2007}
 \@writefile{toc}{\contentsline {chapter}{\numberline {3}Computational Methods}{33}{chapter.3}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
 \newlabel{chapter:computational_methods}{{3}{33}{Computational Methods}{chapter.3}{}}
 \@writefile{toc}{\contentsline {section}{\numberline {3.1}Numerical Integration}{33}{section.3.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Runge-Kutta 4th Order for Vehicle Dynamics}{33}{subsection.3.1.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Integration Methods for Blade Loads}{33}{subsection.3.1.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}4th Order Runge-Kutta for Vehicle Dynamics}{33}{subsection.3.1.1}\protected@file@percent }
+\newlabel{sec:runge-kutta}{{3.1.1}{33}{4th Order Runge-Kutta for Vehicle Dynamics}{subsection.3.1.1}{}}
+\newlabel{eq:euler_method}{{3.1}{33}{4th Order Runge-Kutta for Vehicle Dynamics}{equation.3.1}{}}
+\citation{press_numerical_2007}
+\citation{press_numerical_2007}
+\citation{arnold_numerical_2011}
+\citation{ozdemir_linear_2008,milne_high-fidelity_2023,yoo_dynamics_2024}
+\citation{yu_aircraft_2019}
+\newlabel{eq:general_ode}{{3.2}{34}{4th Order Runge-Kutta for Vehicle Dynamics}{equation.3.2}{}}
+\newlabel{eq:rk4}{{3.3}{34}{4th Order Runge-Kutta for Vehicle Dynamics}{equation.3.3}{}}
+\newlabel{eq:rk4_k1}{{3.4}{34}{4th Order Runge-Kutta for Vehicle Dynamics}{equation.3.4}{}}
+\newlabel{eq:rk4_k4}{{3.7}{34}{4th Order Runge-Kutta for Vehicle Dynamics}{equation.3.7}{}}
+\citation{marques_design_2024}
+\citation{marques_design_2024}
+\citation{press_numerical_2007}
+\citation{lindfield_numerical_2019}
+\citation{arnold_numerical_2011,press_numerical_2007,lindfield_numerical_2019}
+\citation{lindfield_numerical_2019}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Integration Methods for Blade Loads}{35}{subsection.3.1.2}\protected@file@percent }
+\newlabel{sec:blade_integration}{{3.1.2}{35}{Integration Methods for Blade Loads}{subsection.3.1.2}{}}
+\newlabel{eq:trap_trunc_error}{{3.9}{35}{Integration Methods for Blade Loads}{equation.3.9}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Simulator Development}{35}{section.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Simulation flowchart}{35}{subsection.3.2.1}\protected@file@percent }
+\newlabel{sec:flow_chart}{{3.2.1}{35}{Simulation flowchart}{subsection.3.2.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Application Interface}{35}{subsection.3.2.2}\protected@file@percent }
+\newlabel{sec:application_interface}{{3.2.2}{35}{Application Interface}{subsection.3.2.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Model Validation and Verification}{35}{section.3.3}\protected@file@percent }
+\newlabel{sec:validation_verification}{{3.3}{35}{Model Validation and Verification}{section.3.3}{}}
 \citation{brindejonc_design_2007}
 \citation{marques_rocket_2022}
 \citation{riegler_daedalus_2018}
@@ -323,50 +349,58 @@
 \citation{brindejonc_design_2007}
 \citation{brindejonc_design_2007}
 \citation{leishman_principles_2006}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Simulator Development}{34}{section.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Simulation flowchart}{34}{subsection.3.2.1}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Computational implementation flowchart}}{34}{figure.caption.46}\protected@file@percent }
-\newlabel{fig:flowchart}{{3.1}{34}{Computational implementation flowchart}{figure.caption.46}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Application Interface}{34}{subsection.3.2.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Model Validation and Verification}{34}{section.3.3}\protected@file@percent }
-\newlabel{sec:validation_verification}{{3.3}{34}{Model Validation and Verification}{section.3.3}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Validation and Verification with wind tunnel data}{34}{subsection.3.3.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Computational implementation flowchart}}{36}{figure.caption.46}\protected@file@percent }
+\newlabel{fig:flowchart}{{3.1}{36}{Computational implementation flowchart}{figure.caption.46}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Axial Descent Validation and Verification with Wind Tunnel data}{36}{subsection.3.3.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Wind tunnel rotor geometric characteristics}}{36}{table.caption.47}\protected@file@percent }
+\newlabel{tb:geo_paper_validation}{{3.1}{36}{Wind tunnel rotor geometric characteristics}{table.caption.47}{}}
 \citation{brindejonc_design_2007}
-\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Wind tunnel rotor geometric characteristics}}{35}{table.caption.47}\protected@file@percent }
-\newlabel{tb:geo_paper_validation}{{3.1}{35}{Wind tunnel rotor geometric characteristics}{table.caption.47}{}}
-\newlabel{eq:error_exp_paper}{{3.9}{35}{Validation and Verification with wind tunnel data}{equation.3.9}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces results DATA}}{35}{table.caption.48}\protected@file@percent }
-\newlabel{tb:results_paper_exp}{{3.2}{35}{results DATA}{table.caption.48}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Results}}{36}{figure.caption.49}\protected@file@percent }
-\newlabel{fig:comparacao_simb}{{3.2}{36}{Results}{figure.caption.49}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Radial Velocity}}{36}{figure.caption.50}\protected@file@percent }
-\newlabel{fig:paper_radial_velocity}{{3.3}{36}{Radial Velocity}{figure.caption.50}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Vertical Velocity}}{36}{figure.caption.50}\protected@file@percent }
-\newlabel{fig:imagem3}{{3.4}{36}{Vertical Velocity}{figure.caption.50}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Project Daedalus}{36}{subsection.3.3.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Previous Work Comparison}{36}{subsection.3.3.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {section}{\numberline {3.4}Mesh Study}{36}{section.3.4}\protected@file@percent }
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Tangencial Velocity}}{37}{figure.caption.51}\protected@file@percent }
-\newlabel{fig:tangencial velocity}{{3.5}{37}{Tangencial Velocity}{figure.caption.51}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Incidence angle}}{37}{figure.caption.52}\protected@file@percent }
-\newlabel{fig:paper_incidenceangle}{{3.6}{37}{Incidence angle}{figure.caption.52}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Angle Of Attack}}{37}{figure.caption.52}\protected@file@percent }
-\newlabel{fig:paper_angleofattack}{{3.7}{37}{Angle Of Attack}{figure.caption.52}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Lift Coefficient}}{37}{figure.caption.53}\protected@file@percent }
-\newlabel{fig:imagem11}{{3.8}{37}{Lift Coefficient}{figure.caption.53}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Drag Coefficient}}{37}{figure.caption.53}\protected@file@percent }
-\newlabel{fig:imagem31}{{3.9}{37}{Drag Coefficient}{figure.caption.53}{}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Time Step}{38}{subsection.3.4.1}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Azimtutal Distribution}{38}{subsection.3.4.2}\protected@file@percent }
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.3}Blade Discretization}{38}{subsection.3.4.3}\protected@file@percent }
-\@writefile{toc}{\contentsline {chapter}{\numberline {4}Conclusions}{39}{chapter.4}\protected@file@percent }
+\newlabel{eq:error_exp_paper}{{3.11}{37}{Axial Descent Validation and Verification with Wind Tunnel data}{equation.3.11}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3.2}{\ignorespaces results DATA}}{37}{table.caption.48}\protected@file@percent }
+\newlabel{tb:results_paper_exp}{{3.2}{37}{results DATA}{table.caption.48}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Results}}{37}{figure.caption.49}\protected@file@percent }
+\newlabel{fig:comparacao_simb}{{3.2}{37}{Results}{figure.caption.49}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Radial velocity component $U_R$}}{38}{figure.caption.50}\protected@file@percent }
+\newlabel{fig:radial_velocity_paper}{{3.3}{38}{Radial velocity component $U_R$}{figure.caption.50}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Tangential velocity component $U_P$}}{38}{figure.caption.50}\protected@file@percent }
+\newlabel{fig:tangential_velocity_paper}{{3.4}{38}{Tangential velocity component $U_P$}{figure.caption.50}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Axial velocity component $U_T$}}{38}{figure.caption.51}\protected@file@percent }
+\newlabel{fig:axial_velocity_paper}{{3.5}{38}{Axial velocity component $U_T$}{figure.caption.51}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Blade incidence angle}}{39}{figure.caption.52}\protected@file@percent }
+\newlabel{fig:blade_incidence_angle_paper}{{3.6}{39}{Blade incidence angle}{figure.caption.52}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Angle of attack}}{39}{figure.caption.52}\protected@file@percent }
+\newlabel{fig:angle_of_attack_paper}{{3.7}{39}{Angle of attack}{figure.caption.52}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Lift coefficient $C_L$}}{39}{figure.caption.53}\protected@file@percent }
+\newlabel{fig:lift_coefficient_paper}{{3.8}{39}{Lift coefficient $C_L$}{figure.caption.53}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Drag coefficient $C_D$}}{39}{figure.caption.53}\protected@file@percent }
+\newlabel{fig:drag_coefficient_paper}{{3.9}{39}{Drag coefficient $C_D$}{figure.caption.53}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces Radial force component $F_x$ in the aerodynamic reference frame}}{39}{figure.caption.54}\protected@file@percent }
+\newlabel{fig:radial_force_paper}{{3.10}{39}{Radial force component $F_x$ in the aerodynamic reference frame}{figure.caption.54}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces Tangential force component $F_y$ in the aerodynamic reference frame}}{39}{figure.caption.54}\protected@file@percent }
+\newlabel{fig:tangential_force_paper}{{3.11}{39}{Tangential force component $F_y$ in the aerodynamic reference frame}{figure.caption.54}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces Axial force component $F_z$ in the aerodynamic reference frame}}{40}{figure.caption.55}\protected@file@percent }
+\newlabel{fig:axial_force_paper}{{3.12}{40}{Axial force component $F_z$ in the aerodynamic reference frame}{figure.caption.55}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.13}{\ignorespaces Radial force component $F_x$ in the rotor reference frame}}{40}{figure.caption.56}\protected@file@percent }
+\newlabel{fig:radial_force_rotor_paper}{{3.13}{40}{Radial force component $F_x$ in the rotor reference frame}{figure.caption.56}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.14}{\ignorespaces Tangential force component $F_y$ in the rotor reference frame}}{40}{figure.caption.56}\protected@file@percent }
+\newlabel{fig:tangential_force_rotor_paper}{{3.14}{40}{Tangential force component $F_y$ in the rotor reference frame}{figure.caption.56}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3.15}{\ignorespaces Axial force component $F_z$ in the rotor reference frame}}{40}{figure.caption.57}\protected@file@percent }
+\newlabel{fig:axial_force_rotor_paper}{{3.15}{40}{Axial force component $F_z$ in the rotor reference frame}{figure.caption.57}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}Descent with Forward Velocity Verification}{40}{subsection.3.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}Project Daedalus}{40}{subsection.3.3.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.4}Previous Work Comparison}{40}{subsection.3.3.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3.4}Mesh Study}{40}{section.3.4}\protected@file@percent }
+\newlabel{sec:mesh_study}{{3.4}{40}{Mesh Study}{section.3.4}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.1}Time Step}{40}{subsection.3.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.4.2}Rotor Mesh Discretization}{40}{subsection.3.4.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{\numberline {4}Conclusions}{43}{chapter.4}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{chapter:conclusions}{{4}{39}{Conclusions}{chapter.4}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.1}Achievements}{39}{section.4.1}\protected@file@percent }
-\newlabel{section:achievements}{{4.1}{39}{Achievements}{section.4.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4.2}Future Work}{39}{section.4.2}\protected@file@percent }
-\newlabel{section:future}{{4.2}{39}{Future Work}{section.4.2}{}}
+\newlabel{chapter:conclusions}{{4}{43}{Conclusions}{chapter.4}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Achievements}{43}{section.4.1}\protected@file@percent }
+\newlabel{section:achievements}{{4.1}{43}{Achievements}{section.4.1}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Future Work}{43}{section.4.2}\protected@file@percent }
+\newlabel{section:future}{{4.2}{43}{Future Work}{section.4.2}{}}
 \bibstyle{abbrvunsrtnat}
 \bibdata{Thesis_Bibliography_DB}
 \bibcite{gomes_road_2013}{{1}{2013}{{Gomes et~al.}}{{Gomes, Devezas, Belderrain, and Salgado}}}
@@ -381,7 +415,7 @@
 \bibcite{noauthor_wikipedia_nodate}{{10}{}{{noa}}{{}}}
 \bibcite{noauthor_kaman_nodate}{{11}{}{{noa}}{{}}}
 \bibcite{noauthor_apollo_nodate}{{12}{}{{noa}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{Bibliography}{41}{section*.54}\protected@file@percent }
+\@writefile{toc}{\contentsline {chapter}{Bibliography}{45}{section*.58}\protected@file@percent }
 \bibcite{wernicke_preliminary_1959}{{13}{1959}{{Wernicke}}{{}}}
 \bibcite{barzda_rotors_1964}{{14}{1964}{{Barzda}}{{}}}
 \bibcite{kretz_space_1966}{{15}{1966}{{Kretz}}{{}}}
@@ -391,43 +425,47 @@
 \bibcite{noauthor_armada_nodate}{{19}{}{{noa}}{{}}}
 \bibcite{maurer_project_nodate}{{20}{}{{Maurer et~al.}}{{Maurer, Valenti, Zaccarine, Le, and Dennehy}}}
 \bibcite{riegler_daedalus_2018}{{21}{2018}{{Riegler et~al.}}{{Riegler, Angelov, {Kohmann, Florian}, Neumann, Bilican, Hofman, Heimann, Neubauer, Gutierrez, Böhm, Fischbach, Appelt, Willand, Wizemann, Menninger, Fischer, Pichowski, Staus, and Hemmelmann}}}
-\bibcite{noauthor_daedalus_nodate}{{22}{}{{noa}}{{}}}
-\bibcite{riegler_project_nodate}{{23}{}{{Riegler et~al.}}{{Riegler, Angelov, Kohmann, Neumann, Bilican, Pielucha, Bohm, Fischbach, Appelt, Willand, Wizemann, Menninger, Frohlich, Plausonig, Hartl, Kappl, and Rath}}}
-\bibcite{mehringer_suborbital_2022}{{24}{2022}{{Mehringer et~al.}}{{Mehringer, Werner, Riegler, and Dunschen}}}
-\bibcite{bergmann_daedalus_2024}{{25}{2024}{{Bergmann et~al.}}{{Bergmann, Riegler, Klaschka, Herbst, Wolf, Reigl, Koch, Menninger, von Pichowski, Bös, Barthó, Dunschen, Mehringer, Richter, and Werner}}}
-\bibcite{leishman_principles_2006}{{26}{2006}{{Leishman}}{{}}}
-\bibcite{nikolsky_analytical_1906}{{27}{1906}{{Nikolsky and Seckel}}{{}}}
-\bibcite{smith_autorotating_1971}{{28}{1971}{{Smith}}{{}}}
-\bibcite{marques_design_2024}{{29}{2024}{{Marques et~al.}}{{Marques, De~Souza, and Cunha}}}
-\bibcite{cuerva_engineering_2006}{{30}{2006}{{Cuerva et~al.}}{{Cuerva, Sanz-Andres, Meseguer, and Espino}}}
-\bibcite{kim_v_2009}{{31}{2009}{{Kim et~al.}}{{Kim, Sheen, and Park}}}
-\bibcite{brindejonc_design_2007}{{32}{2007}{{Brindejonc et~al.}}{{Brindejonc, Sirohi, and Chopra}}}
-\bibcite{czyz_v_2021}{{33}{2021}{{Czyż et~al.}}{{Czyż, Kazimierska, Karpiński, and Skiba}}}
-\bibcite{soler_fundamentals_2014}{{34}{2014}{{Soler}}{{}}}
-\bibcite{vepa_flight_2023}{{35}{2023}{{Vepa}}{{}}}
-\bibcite{curtis_orbital_2008}{{36}{2008}{{Curtis}}{{}}}
-\bibcite{schwab_how_2006}{{37}{2006}{{Schwab and Meijaard}}{{}}}
-\bibcite{spera_models_2008}{{38}{2008}{{Spera and Technology}}{{}}}
-\bibcite{sharpe_neuralfoil_nodate}{{39}{}{{Sharpe and Hansman}}{{}}}
-\bibcite{sharpe_aerosandbox_nodate}{{40}{}{{Sharpe}}{{}}}
-\bibcite{sharpe_accelerating_nodate}{{41}{}{{Sharpe}}{{}}}
-\bibcite{alam_ultra-low_2010}{{42}{2010}{{Alam et~al.}}{{Alam, Zhou, Yang, Guo, and Mi}}}
-\bibcite{noauthor_iso_nodate}{{43}{}{{noa}}{{}}}
-\bibcite{noauthor_earth_nodate}{{44}{}{{noa}}{{}}}
-\bibcite{picone_nrlmsise00_2002}{{45}{2002}{{Picone et~al.}}{{Picone, Hedin, Drob, and Aikin}}}
-\bibcite{matlab_version_2024}{{46}{2024}{{MATLAB}}{{}}}
-\bibcite{noauthor_aerospace_nodate}{{47}{}{{noa}}{{}}}
-\bibcite{noauthor_atmosisa_nodate}{{48}{}{{noa}}{{}}}
-\bibcite{noauthor_atmosphere_2025}{{49}{2025}{{noa}}{{}}}
-\bibcite{ramdin_prandtl_nodate}{{50}{}{{Ramdin}}{{}}}
-\bibcite{arnold_numerical_2011}{{51}{2011}{{Arnold et~al.}}{{Arnold, Burgermeister, Führer, Hippmann, and Rill}}}
-\bibcite{press_numerical_2007}{{52}{2007}{{Press}}{{}}}
-\@writefile{toc}{\contentsline {chapter}{\numberline {A}Vector calculus}{45}{appendix.A}\protected@file@percent }
+\bibcite{riegler_project_nodate}{{22}{}{{Riegler et~al.}}{{Riegler, Angelov, Kohmann, Neumann, Bilican, Pielucha, Bohm, Fischbach, Appelt, Willand, Wizemann, Menninger, Frohlich, Plausonig, Hartl, Kappl, and Rath}}}
+\bibcite{mehringer_suborbital_2022}{{23}{2022}{{Mehringer et~al.}}{{Mehringer, Werner, Riegler, and Dunschen}}}
+\bibcite{bergmann_daedalus_2024}{{24}{2024}{{Bergmann et~al.}}{{Bergmann, Riegler, Klaschka, Herbst, Wolf, Reigl, Koch, Menninger, von Pichowski, Bös, Barthó, Dunschen, Mehringer, Richter, and Werner}}}
+\bibcite{leishman_principles_2006}{{25}{2006}{{Leishman}}{{}}}
+\bibcite{nikolsky_analytical_1906}{{26}{1906}{{Nikolsky and Seckel}}{{}}}
+\bibcite{smith_autorotating_1971}{{27}{1971}{{Smith}}{{}}}
+\bibcite{marques_design_2024}{{28}{2024}{{Marques et~al.}}{{Marques, De~Souza, and Cunha}}}
+\bibcite{cuerva_engineering_2006}{{29}{2006}{{Cuerva et~al.}}{{Cuerva, Sanz-Andres, Meseguer, and Espino}}}
+\bibcite{kim_v_2009}{{30}{2009}{{Kim et~al.}}{{Kim, Sheen, and Park}}}
+\bibcite{brindejonc_design_2007}{{31}{2007}{{Brindejonc et~al.}}{{Brindejonc, Sirohi, and Chopra}}}
+\bibcite{czyz_v_2021}{{32}{2021}{{Czyż et~al.}}{{Czyż, Kazimierska, Karpiński, and Skiba}}}
+\bibcite{soler_fundamentals_2014}{{33}{2014}{{Soler}}{{}}}
+\bibcite{vepa_flight_2023}{{34}{2023}{{Vepa}}{{}}}
+\bibcite{curtis_orbital_2008}{{35}{2008}{{Curtis}}{{}}}
+\bibcite{schwab_how_2006}{{36}{2006}{{Schwab and Meijaard}}{{}}}
+\bibcite{spera_models_2008}{{37}{2008}{{Spera and Technology}}{{}}}
+\bibcite{sharpe_neuralfoil_nodate}{{38}{}{{Sharpe and Hansman}}{{}}}
+\bibcite{sharpe_aerosandbox_nodate}{{39}{}{{Sharpe}}{{}}}
+\bibcite{sharpe_accelerating_nodate}{{40}{}{{Sharpe}}{{}}}
+\bibcite{alam_ultra-low_2010}{{41}{2010}{{Alam et~al.}}{{Alam, Zhou, Yang, Guo, and Mi}}}
+\bibcite{noauthor_iso_nodate}{{42}{}{{noa}}{{}}}
+\bibcite{noauthor_earth_nodate}{{43}{}{{noa}}{{}}}
+\bibcite{picone_nrlmsise00_2002}{{44}{2002}{{Picone et~al.}}{{Picone, Hedin, Drob, and Aikin}}}
+\bibcite{matlab_version_2024}{{45}{2024}{{MATLAB}}{{}}}
+\bibcite{noauthor_aerospace_nodate}{{46}{}{{noa}}{{}}}
+\bibcite{noauthor_atmosisa_nodate}{{47}{}{{noa}}{{}}}
+\bibcite{noauthor_atmosphere_2025}{{48}{2025}{{noa}}{{}}}
+\bibcite{ramdin_prandtl_nodate}{{49}{}{{Ramdin}}{{}}}
+\bibcite{arnold_numerical_2011}{{50}{2011}{{Arnold et~al.}}{{Arnold, Burgermeister, Führer, Hippmann, and Rill}}}
+\bibcite{press_numerical_2007}{{51}{2007}{{Press}}{{}}}
+\bibcite{lindfield_numerical_2019}{{52}{2019}{{Lindfield and Penny}}{{}}}
+\bibcite{ozdemir_linear_2008}{{53}{2008}{{Ozdemir and Kavsaoglu}}{{}}}
+\bibcite{milne_high-fidelity_2023}{{54}{2023}{{Milne et~al.}}{{Milne, Samson, Carrese, Gardi, and Sabatini}}}
+\bibcite{yoo_dynamics_2024}{{55}{2024}{{Yoo et~al.}}{{Yoo, Park, and Oh}}}
+\bibcite{yu_aircraft_2019}{{56}{2019}{{Yu et~al.}}{{Yu, Yao, and Liu}}}
+\@writefile{toc}{\contentsline {chapter}{\numberline {A}Vector calculus}{51}{appendix.A}\protected@file@percent }
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\newlabel{chapter:appendixVectors}{{A}{45}{Vector calculus}{appendix.A}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {A.1}Vector identities}{45}{section.A.1}\protected@file@percent }
-\newlabel{section:vectorIdentities}{{A.1}{45}{Vector identities}{section.A.1}{}}
-\newlabel{eq:cross_nnp}{{A.1}{45}{Vector identities}{equation.A.1}{}}
-\newlabel{eq:dotCross_nnu}{{A.2}{45}{Vector identities}{equation.A.2}{}}
-\gdef \@abspage@last{68}
+\newlabel{chapter:appendixVectors}{{A}{51}{Vector calculus}{appendix.A}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {A.1}Vector identities}{51}{section.A.1}\protected@file@percent }
+\newlabel{section:vectorIdentities}{{A.1}{51}{Vector identities}{section.A.1}{}}
+\newlabel{eq:cross_nnp}{{A.1}{51}{Vector identities}{equation.A.1}{}}
+\newlabel{eq:dotCross_nnu}{{A.2}{51}{Vector identities}{equation.A.2}{}}
+\gdef \@abspage@last{74}
