@@ -47,7 +47,7 @@ Looking back to \ref{eq:force_equation} and Eq. \ref{eq:momentum_equation}, both
     \label{eq:general_ode}
 \end{equation}
 
-\noindent where $\phi$ is any variable, $t$ is the time domain and $f$ is a function that governs the change of a variable, $phi$, over time, $t$. Solving \gls{ode} typically involves finding an solution throughout analytical methods such as separation of variables or integrating factors. However, the current set of equations, Eq. \ref{eq:force_equation} and Eq. \ref{eq:momentum_equation}, involves non-linear \gls{ode} which cannot be solved analytically. In this way, the numerical integration method must be implemented to solve the equations.
+\noindent where $\phi$ is any variable, $t$ is the time domain and $f$ is a function that governs the change of a variable, $\phi$, over time, $t$. Solving \gls{ode} typically involves finding an solution throughout analytical methods such as separation of variables or integrating factors. However, the current set of equations, Eq. \ref{eq:force_equation} and Eq. \ref{eq:momentum_equation}, involves non-linear \gls{ode} which cannot be solved analytically. In this way, the numerical integration method must be implemented to solve the equations.
 
 A classical numerical method for solving non-linear \gls{ode} is the Runge-Kutta mehtod \cite{arnold_numerical_2011}. The \gls{rk4} is widely used for aricraft dynamics solver \cite{ozdemir_linear_2008,milne_high-fidelity_2023,yoo_dynamics_2024} and is nowadays, commanly used to solve non-linear flight equations models for training Phycal-Informed \gls{nn} \cite{yu_aircraft_2019}.
 

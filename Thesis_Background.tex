@@ -246,7 +246,7 @@ In the other words, the vector presented in \ref{eq:vector_aero_force} is the fo
     \label{eq:aero_to_blade_force}
 \end{equation}
 
-$\boldsymbol{R}^{ot}(\hat{y}, \phi_n)$ states for the rotation matrix along $y$-axis and the inflow angle for each of the the blade's elemetns, $\phi_n$. The rotation process is described in section \ref{section:rotation_matrices}. Finally in the rotor reference frame, the elementary force, $d\mathbf{F}^r$, is given by the rotation given by the blades ' azimuthal angle, $\psi_n$, as
+$\boldsymbol{R}^{ot}(\hat{y}, \phi_n)$ states for the rotation matrix along $y$-axis and the inflow angle for each of the the blade's elemetns, $\phi_n$. The rotation process is described in section \ref{sec:rotation_matrices}. Finally in the rotor reference frame, the elementary force, $d\mathbf{F}^r$, is given by the rotation given by the blades ' azimuthal angle, $\psi_n$, as
 
 \begin{equation}
     d\mathbf{F}^r_n = \boldsymbol{R}^{ot}(\hat{z}, \psi_n) d\mathbf{F}^b
@@ -361,8 +361,47 @@ To determine the angle of attack considering all pitch angle, $\theta$, and infl
     \label{eq:angle_of_attack}
 \end{equation}
 
+\section{Velocity Vector in Element's Reference Frame}
+\label{sec:velocity_element_bet}
+
+As previous presented, to compute the elementary drag, Eq. \ref{eq:drag_element}, and elementary lift, Eq. \ref{eq:lift_element}, for each blade element, the velocity vector in element's reference frame, $\mathrm{U}_n^e$, plays a major role to dimensionalize the lift, $C_l$, and drag, $C_d$, coefficents. In this section, the main goal is to analyse how the velocity vector is computed and what are the main factors that influence its magnitude and direction.
+
+Due to the vehicle dynamics there are two factors: the linear velocity of the point-mass model and the angular velocity of the vehicle,  around its center of mass, coincident with e the point mass model. The linear velocity of the point-mass model, $\mathbf{V}$, is computed considering Eq. \ref{eq:force_equation} and its resultant vector written in the elements reference frame, $\mathbf{V}^e$, as in Eq. \ref{eq:line_vec_element_frame}
+
+\begin{equation}
+    \mathbf{V}^e = \underset{i \to e}{\boldsymbol{R}^{ot}} \mathbf{V}^i.
+    \label{eq:line_vec_element_frame}
+\end{equation}
+
+\noindent where $\underset{i \to e}{\boldsymbol{R}^{ot}}$ is the rotation matrix from the inertial frame to the element reference frame. For instance, the angular velocity of the vehicle, $\boldsymbol{\omega}$, influence should be considered in the velocity vector computation. The linear component from the vehicle’s angular velocity, $\mathbf{V}^e_\omega$, is computed as in Eq. \ref{eq:line_ang_vec_element_frame}
+
+\begin{equation}
+    \mathbf{V}^e_\omega = \mathbf{r}^e  \boldsymbol{\omega}^e.
+    \label{eq:line_ang_vec_element_frame}
+\end{equation}
+
+\noindent where, $\mathbf{r}^e$ is the position vector of the element with respect to the center of mass, and $\boldsymbol{\omega}^e$ is the vehicle's angular velocity.
+
+Another factor that influences the velocity vector is rotor's angular velocity, $\Omega$. Its linear component can be computed in the element reference frame as in Eq. \ref{eq:rotor_ang_vel_element},
+
+\begin{equation}
+    V^e_{\Omega} = \mathbf{r}^e \Omega
+    \label{eq:rotor_ang_vel_element}
+\end{equation}
+
+Finally, it is necessary to also consider the rotor’s induced velocity, $\mathbf{v}_i$. The induced velocity is a result of the rotor’s interaction with the surrounding air and is further detailed in Sec. \ref{sec:induced_Velocity}. However, the resultant velocity vector in element $n$ on any blade is computed as Eq. \ref{eq:element_full_velocity}
+
+\begin{equation}
+    \mathbf{V}_{\infty n}^e = \mathbf{V}^e + \mathbf{V}^e_\omega + V^e_{\Omega} + \mathbf{v}_i
+    \label{eq:element_full_velocity}
+\end{equation}
+
+\subsection{Induced Velocity}
+\label{sec:induced_Velocity}
+
+
 \section{Rotation matrices}
-\label{section:rotation_matrices}
+\label{sec:rotation_matrices}
 
 Considering any inertial reference frame $O(\hat{x},\hat{y},\hat{z})$ and a rotated reference frame $O'(\hat{x}',\hat{y}',\hat{z}')$, the Euler angles, $\Xi$ that the define the rotation of $O'$ related to $O$ is presented in figure \ref{fig:rotation_frames_img}
 
