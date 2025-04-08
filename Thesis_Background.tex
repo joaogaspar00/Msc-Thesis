@@ -191,19 +191,19 @@ So instead of define a more finer discretization it is considered not only an bl
 
 The \gls{bet} is a simplified model to study the rotor performance \cite{leishman_principles_2006}. With \gls{bet}, it is possible to make predictions about radial and azimuthal aerodynamic load distributions over the rotor disk. Its principel is based in a quasi-2D airfoils blade section which generate the aerodynamic forces and moments that shall be integrated over the blade length. With \gls{bet} methodology is possible to performe a rotor's first designing shape stage in terms of blade geometry.
 
-Figure \ref{fig:blade_bet} presents the basic idea for the \gls{bet} in which it is possible a blade element $n$ (in red) with a width $\mathrm{d}y$ at a distance $y$ from the blade root. The $n$-element is considered as a 2D airfoil under a flow with a velocity $\mathbf{U}_n \in \mathbb{R}^3$,
+Figure \ref{fig:blade_bet} presents the basic idea for the \gls{bet} in which it is possible a blade element $n$ (in red) with a width $\mathrm{d}y$ at a distance $y$ from the blade root. The $n$-element is considered as a 2D airfoil under a flow with a velocity $\mathbf{U}_n \in \mathbb{R}^3$, \ta{in element's reference frame, $O^e$},
 
 \begin{equation}
-    \mathbf{U}_n = 
+    \mathbf{U}_n^e = 
     \begin{bmatrix}
         U_T \\
         U_R \\
         U_P \\
     \end{bmatrix}
+    \label{eq:velocity_vector_in_element}
 \end{equation}
 
-\textcolor{purple}{
-\noindent where $U_T$ is the tangential component of the velocity, $U_R$ is the radial component of the velocity and $U_P$ is the vertical component of the velocity. The radial velocity component, $U_R$, is usually not considered for lift, by the independence principle, but it is considered when computing the drag in forward flight \cite{leishman_principles_2006}. So, the resultant velocity at the blade element $n$ is computed as}
+\ta{\noindent where $U_T$ is the tangential component of the velocity, $U_R$ is the radial component of the velocity and $U_P$ is the vertical component of the velocity. The radial velocity component, $U_R$, is usually not considered for lift, by the independence principle, but it is considered when computing the drag in forward flight \cite{leishman_principles_2006}. So, the resultant velocity at the blade element $n$ is computed as}
 
 \begin{equation}
     U_n = \sqrt{U_T^2 + U_p^2}
@@ -343,18 +343,35 @@ When computing the aerodynamic forces and moments the angle of attack presents a
     \label{fig:phi_angle}
 \end{figure}
 
+The velocity component in each blade element, $\mathbf{U}_n^e$, \ta{in the elements} depends on \tac{its radial position due to the rotation motion of the blade} \ta{several factor that are} tac{- this component} is deeply analyzed further in section \ref{sec:velocity_element_bet}. \ta{In this section it is considered that the velocity vector in element's reference frame, $O^e$ was already obtained.}
 
-
-The velocity component in each blade element, $\mathbf{U}_n^e$, \ta{in the elements} depends on its radial position due to the rotation motion of the blade - this component is deeply analyzed further in section \ref{sec:velocity_element_bet}. The angle between the velocity vector and the horizontal plane of the rotor is called the inflow angle, $\phi$. To compute the inflow angle, $\phi$, one can introduce an auxiliar unitary vector, $\mathrm{e}^e_x = \begin{bmatrix} -1 & 0 & 0 \end{bmatrix}$ aligned with the $X^e$ axis, and writting the velocity vector in element reference frame, $\mathrm{U}_n^e$, the cosine of the inflow angle and the unitary vector is given by equation \ref{eq:cosine_inflow}
-
-
+The angle between the velocity vector and the horizontal plane of the rotor is called the inflow angle, $\phi$ \ta{or $\phi_n$ when considering the $n$-element's inflow angle}. To compute the inflow angle $\phi$, one can introduce an auxiliary unitary vector, $\mathbf{e}_x^e = \begin{bmatrix} -1 & 0 & 0 \end{bmatrix}^\mathrm{T}$, aligned with the $X^e$ axis \tac{and with the velocity vector expressed in the element reference frame}. The cosine of the inflow angle \ta{between} the unitary vector and \ta{the velocity vector, $\mathbf{U}_n^e$ (recall Eq.\ref{eq:velocity_vector_in_element})}, is given by Eq. \ref{eq:cosine_inflow}
 
 \begin{equation}
-    \cos \phi = \frac{\mathbf{U}_n^e \cdot \mathbf{e}^e_x}{||\mathbf{U}_n^e|| \cdot ||\mathbf{e}_x^e||} \implies \phi = \cos^{-1} \left( \frac{\mathbf{U}_n^e|_x}{||\mathbf{U}_n^e||}\right)
+    \cos \phi = \frac{\mathbf{U}_n^e \cdot \mathbf{e}^e_x}{||\mathbf{U}_n^e|| ||\mathbf{e}_x^e||}
     \label{eq:cosine_inflow}
 \end{equation}
 
-where $\mathbf{U}_n^e|_x$ is the $x$-component of the velocity vector in element reference frame. The equation \ref{eq:cosine_inflow} does not take into consideration both the $\mathbf{U}_n$ if it is upwards or downwards in termns of the $U_P$ component. As seen in figure \ref{fig:element_bet}, the inflow angle, $\phi$, is negative but when \ref{eq:cosine_inflow} is used , the angle is positive. For changing this equation \ref{eq:cosine_inflow_corrected} is introduced.
+The dot product between the unitary vector, $\mathbf{e}^e_x$, and the velocity vector, $\mathbf{U}_n^e$, is given by
+
+\begin{equation}
+    \mathbf{U}_n^e \cdot \mathbf{e}^e_x = \sum_ {i=1}^3 (\mathbf{U}_n^e)_i \cdot (\mathbf{e}_x^e)_i = U_T
+\end{equation}
+
+\noindent and considering Eq. \ref{eq:unitary_vec_norm}
+
+\begin{equation}
+    || \mathbf{e}^e_x || =  1,
+    \label{eq:unitary_vec_norm}
+\end{equation}
+
+\noindent Eq. \ref{eq:cosine_inflow} can be simplified as
+
+\begin{equation}
+    \phi = \cos^{-1} \left( \frac{U_T}{||\mathbf{U}_n^e||}\right)
+\end{equation}
+
+The equation \ref{eq:cosine_inflow} does not take into consideration both the $\mathbf{U}_n$ if it is upwards or downwards in termns of the $U_P$ component. As seen in figure \ref{fig:element_bet}, the inflow angle, $\phi$, is negative but when \ref{eq:cosine_inflow} is used , the angle is positive. For changing this equation \ref{eq:cosine_inflow_corrected} is introduced.
 
 \begin{equation}
     \begin{cases}

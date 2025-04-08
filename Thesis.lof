@@ -26,15 +26,15 @@
 \contentsline {figure}{\numberline {2.9}{\ignorespaces AERODAS model for lift coefficient, from \cite {spera_models_2008}}}{26}{figure.caption.34}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces AERODAS model for drag coefficient, from \cite {spera_models_2008}}}{26}{figure.caption.34}%
 \contentsline {figure}{\numberline {2.11}{\ignorespaces NeuralFoil confidence level for NACA 0012 airfoil for Reyndols number from $10^3$ to $10^9$}}{29}{figure.caption.39}%
-\contentsline {figure}{\numberline {2.12}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^4$ determined with Neural foil with confidence level}}{29}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.13}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^5$ determined with Neural foil with confidence level}}{29}{figure.caption.40}%
-\contentsline {figure}{\numberline {2.14}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^6$ determined with Neural foil with confidence level}}{29}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.12}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^4$ determined with Neural foil with confidence level}}{30}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.13}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^5$ determined with Neural foil with confidence level}}{30}{figure.caption.40}%
+\contentsline {figure}{\numberline {2.14}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^6$ determined with Neural foil with confidence level}}{30}{figure.caption.40}%
 \contentsline {figure}{\numberline {2.15}{\ignorespaces Lift coefficient computed with the presented aerodynamic model for NACA 4412 airfoil}}{30}{figure.caption.41}%
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Drag coefficient computed with the presented aerodynamic model for NACA 4412 airfoil}}{30}{figure.caption.41}%
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Temperature Comparison}}{31}{figure.caption.42}%
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Density Comparison}}{31}{figure.caption.42}%
 \contentsline {figure}{\numberline {2.19}{\ignorespaces Prandtl Tip Loss function versus radial position for two- and four-bladed rotor}}{33}{figure.caption.44}%
-\contentsline {figure}{\numberline {2.20}{\ignorespaces Prandtl Tip Loss Function}}{33}{figure.caption.45}%
+\contentsline {figure}{\numberline {2.20}{\ignorespaces Prandtl Tip Loss Function}}{34}{figure.caption.45}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Computational implementation flowchart}}{38}{figure.caption.46}%
 \contentsline {figure}{\numberline {3.2}{\ignorespaces Results}}{39}{figure.caption.49}%

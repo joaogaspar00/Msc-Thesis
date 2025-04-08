@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.7)  8 APR 2025 15:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.7)  8 APR 2025 16:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1101,19 +1101,22 @@ Package pdftex.def Info: Figures/background/bet/phi_angle.png  used on input lin
 [21 <./Figures/background/bet/phi_angle.png>]
 
 [22]
-<Figures/background/rotation_matrices/rotation_frames.png, id=904, 497.568pt x 476.544pt>
+<Figures/background/rotation_matrices/rotation_frames.png, id=909, 497.568pt x 476.544pt>
 File: Figures/background/rotation_matrices/rotation_frames.png Graphic file (type png)
 <use Figures/background/rotation_matrices/rotation_frames.png>
-Package pdftex.def Info: Figures/background/rotation_matrices/rotation_frames.png  used on input line 427.
+Package pdftex.def Info: Figures/background/rotation_matrices/rotation_frames.png  used on input line 444.
 (pdftex.def)             Requested size: 170.71652pt x 163.49892pt.
 
-Underfull \vbox (badness 1077) has occurred while \output is active []
+Underfull \vbox (badness 7099) has occurred while \output is active []
 
 
 
 [23]
 
 [24 <./Figures/background/rotation_matrices/rotation_frames.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [25]
 Package epstopdf Info: Source file: <Figures/background/aero/liftmodel_aerodas.eps>
@@ -1123,12 +1126,12 @@ Package epstopdf Info: Source file: <Figures/background/aero/liftmodel_aerodas.e
 (epstopdf)                    date: 2025-03-21 09:37:33
 (epstopdf)                    size: 41044 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf Figures/background/aero/liftmodel_aerodas.eps>
-(epstopdf)             \includegraphics on input line 502.
+(epstopdf)             \includegraphics on input line 519.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf, id=947, 640.3925pt x 794.97pt>
+<Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf, id=953, 640.3925pt x 794.97pt>
 File: Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf  used on input line 502.
+Package pdftex.def Info: Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf  used on input line 519.
 (pdftex.def)             Requested size: 160.43973pt x 199.16928pt.
 Package epstopdf Info: Source file: <Figures/background/aero/dragmodel_aerodas.eps>
 (epstopdf)                    date: 2025-03-21 09:37:33
@@ -1137,15 +1140,15 @@ Package epstopdf Info: Source file: <Figures/background/aero/dragmodel_aerodas.e
 (epstopdf)                    date: 2025-03-21 09:37:33
 (epstopdf)                    size: 30982 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf Figures/background/aero/dragmodel_aerodas.eps>
-(epstopdf)             \includegraphics on input line 509.
+(epstopdf)             \includegraphics on input line 526.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf, id=950, 668.4975pt x 685.56125pt>
+<Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf, id=956, 668.4975pt x 685.56125pt>
 File: Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf  used on input line 509.
+Package pdftex.def Info: Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf  used on input line 526.
 (pdftex.def)             Requested size: 194.20612pt x 199.16928pt.
 
-Overfull \hbox (31.25958pt too wide) in paragraph at lines 519--534
+Overfull \hbox (31.25958pt too wide) in paragraph at lines 536--551
  [][] 
  []
 
@@ -1154,14 +1157,13 @@ Overfull \hbox (31.25958pt too wide) in paragraph at lines 519--534
 [26 <./Figures/background/aero/liftmodel_aerodas-eps-converted-to.pdf> <./Figures/background/aero/dragmodel_aerodas-eps-converted-to.pdf>]
 
 [27]
-<Figures/background/aero/NeuralFoil_Confidence_2D_black.png, id=993, 421.575pt x 316.0608pt>
-File: Figures/background/aero/NeuralFoil_Confidence_2D_black.png Graphic file (type png)
-<use Figures/background/aero/NeuralFoil_Confidence_2D_black.png>
-Package pdftex.def Info: Figures/background/aero/NeuralFoil_Confidence_2D_black.png  used on input line 618.
-(pdftex.def)             Requested size: 227.62204pt x 170.65582pt.
-
 
 [28]
+<Figures/background/aero/NeuralFoil_Confidence_2D_black.png, id=1009, 421.575pt x 316.0608pt>
+File: Figures/background/aero/NeuralFoil_Confidence_2D_black.png Graphic file (type png)
+<use Figures/background/aero/NeuralFoil_Confidence_2D_black.png>
+Package pdftex.def Info: Figures/background/aero/NeuralFoil_Confidence_2D_black.png  used on input line 635.
+(pdftex.def)             Requested size: 227.62204pt x 170.65582pt.
 Package epstopdf Info: Source file: <Figures/background/aero/aero_model_1e4.eps>
 (epstopdf)                    date: 2025-03-21 09:37:33
 (epstopdf)                    size: 44469 bytes
@@ -1169,15 +1171,15 @@ Package epstopdf Info: Source file: <Figures/background/aero/aero_model_1e4.eps>
 (epstopdf)                    date: 2025-03-21 09:37:33
 (epstopdf)                    size: 13587 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/aero_model_1e4-eps-converted-to.pdf Figures/background/aero/aero_model_1e4.eps>
-(epstopdf)             \includegraphics on input line 638.
+(epstopdf)             \includegraphics on input line 655.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/background/aero/aero_model_1e4-eps-converted-to.pdf, id=1007, 369.38pt x 286.06876pt>
+<Figures/background/aero/aero_model_1e4-eps-converted-to.pdf, id=1012, 369.38pt x 286.06876pt>
 File: Figures/background/aero/aero_model_1e4-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/background/aero/aero_model_1e4-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/background/aero/aero_model_1e4-eps-converted-to.pdf  used on input line 638.
+Package pdftex.def Info: Figures/background/aero/aero_model_1e4-eps-converted-to.pdf  used on input line 655.
 (pdftex.def)             Requested size: 136.57462pt x 105.76958pt.
 
-Underfull \hbox (badness 3907) in paragraph at lines 639--639
+Underfull \hbox (badness 3907) in paragraph at lines 656--656
 \OT1/phv/m/n/10 foil aero-dy-namic co-ef-fi-cients
  []
 
@@ -1188,15 +1190,15 @@ Package epstopdf Info: Source file: <Figures/background/aero/aero_model_1e5.eps>
 (epstopdf)                    date: 2025-03-21 09:37:33
 (epstopdf)                    size: 13579 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/aero_model_1e5-eps-converted-to.pdf Figures/background/aero/aero_model_1e5.eps>
-(epstopdf)             \includegraphics on input line 645.
+(epstopdf)             \includegraphics on input line 662.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/background/aero/aero_model_1e5-eps-converted-to.pdf, id=1008, 369.38pt x 286.06876pt>
+<Figures/background/aero/aero_model_1e5-eps-converted-to.pdf, id=1013, 369.38pt x 286.06876pt>
 File: Figures/background/aero/aero_model_1e5-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/background/aero/aero_model_1e5-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/background/aero/aero_model_1e5-eps-converted-to.pdf  used on input line 645.
+Package pdftex.def Info: Figures/background/aero/aero_model_1e5-eps-converted-to.pdf  used on input line 662.
 (pdftex.def)             Requested size: 136.57462pt x 105.76958pt.
 
-Underfull \hbox (badness 5519) in paragraph at lines 646--646
+Underfull \hbox (badness 5519) in paragraph at lines 663--663
 \OT1/phv/m/n/10 aero-dy-namic co-ef-fi-cients (in
  []
 
@@ -1207,21 +1209,21 @@ Package epstopdf Info: Source file: <Figures/background/aero/aero_model_1e6.eps>
 (epstopdf)                    date: 2025-03-21 09:37:33
 (epstopdf)                    size: 13513 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/aero_model_1e6-eps-converted-to.pdf Figures/background/aero/aero_model_1e6.eps>
-(epstopdf)             \includegraphics on input line 652.
+(epstopdf)             \includegraphics on input line 669.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/background/aero/aero_model_1e6-eps-converted-to.pdf, id=1009, 366.36874pt x 288.07625pt>
+<Figures/background/aero/aero_model_1e6-eps-converted-to.pdf, id=1014, 366.36874pt x 288.07625pt>
 File: Figures/background/aero/aero_model_1e6-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/background/aero/aero_model_1e6-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/background/aero/aero_model_1e6-eps-converted-to.pdf  used on input line 652.
+Package pdftex.def Info: Figures/background/aero/aero_model_1e6-eps-converted-to.pdf  used on input line 669.
 (pdftex.def)             Requested size: 136.57462pt x 107.39095pt.
 
-Underfull \hbox (badness 3907) in paragraph at lines 653--653
+Underfull \hbox (badness 3907) in paragraph at lines 670--670
 \OT1/phv/m/n/10 foil aero-dy-namic co-ef-fi-cients
  []
 
 
 
-[29 <./Figures/background/aero/NeuralFoil_Confidence_2D_black.png (PNG copy)> <./Figures/background/aero/aero_model_1e4-eps-converted-to.pdf> <./Figures/background/aero/aero_model_1e5-eps-converted-to.pdf> <./Figures/background/aero/aero_model_1e6-eps-converted-to.pdf>]
+[29 <./Figures/background/aero/NeuralFoil_Confidence_2D_black.png (PNG copy)>]
 Package epstopdf Info: Source file: <Figures/background/aero/cl_naca4412.eps>
 (epstopdf)                    date: 2025-03-24 10:22:04
 (epstopdf)                    size: 49578 bytes
@@ -1229,12 +1231,12 @@ Package epstopdf Info: Source file: <Figures/background/aero/cl_naca4412.eps>
 (epstopdf)                    date: 2025-03-24 10:22:44
 (epstopdf)                    size: 12407 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/cl_naca4412-eps-converted-to.pdf Figures/background/aero/cl_naca4412.eps>
-(epstopdf)             \includegraphics on input line 666.
+(epstopdf)             \includegraphics on input line 683.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/background/aero/cl_naca4412-eps-converted-to.pdf, id=1037, 384.43625pt x 297.11pt>
+<Figures/background/aero/cl_naca4412-eps-converted-to.pdf, id=1028, 384.43625pt x 297.11pt>
 File: Figures/background/aero/cl_naca4412-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/background/aero/cl_naca4412-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/background/aero/cl_naca4412-eps-converted-to.pdf  used on input line 666.
+Package pdftex.def Info: Figures/background/aero/cl_naca4412-eps-converted-to.pdf  used on input line 683.
 (pdftex.def)             Requested size: 170.71652pt x 131.93925pt.
 Package epstopdf Info: Source file: <Figures/background/aero/cd_naca4412.eps>
 (epstopdf)                    date: 2025-03-24 10:22:05
@@ -1243,34 +1245,36 @@ Package epstopdf Info: Source file: <Figures/background/aero/cd_naca4412.eps>
 (epstopdf)                    date: 2025-03-24 10:22:45
 (epstopdf)                    size: 16664 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/aero/cd_naca4412-eps-converted-to.pdf Figures/background/aero/cd_naca4412.eps>
-(epstopdf)             \includegraphics on input line 673.
+(epstopdf)             \includegraphics on input line 690.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/background/aero/cd_naca4412-eps-converted-to.pdf, id=1038, 380.42125pt x 297.11pt>
+<Figures/background/aero/cd_naca4412-eps-converted-to.pdf, id=1029, 380.42125pt x 297.11pt>
 File: Figures/background/aero/cd_naca4412-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/background/aero/cd_naca4412-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/background/aero/cd_naca4412-eps-converted-to.pdf  used on input line 673.
+Package pdftex.def Info: Figures/background/aero/cd_naca4412-eps-converted-to.pdf  used on input line 690.
 (pdftex.def)             Requested size: 170.71652pt x 133.33104pt.
 
-Overfull \hbox (0.14362pt too wide) in paragraph at lines 691--692
+Overfull \hbox (0.14362pt too wide) in paragraph at lines 708--709
 []\OT1/phv/m/n/10 Before the anal-y-sis, for the cur-rent ap-pli-ca-tion, []ISA model is com-puted us-ing MAT-LAB [[]] Aerospace
  []
 
 
 
-[30 <./Figures/background/aero/cl_naca4412-eps-converted-to.pdf> <./Figures/background/aero/cd_naca4412-eps-converted-to.pdf>]
-<Figures/background/atmos/temperature_plot.png, id=1080, 421.575pt x 316.0608pt>
+[30 <./Figures/background/aero/aero_model_1e4-eps-converted-to.pdf> <./Figures/background/aero/aero_model_1e5-eps-converted-to.pdf> <./Figures/background/aero/aero_model_1e6-eps-converted-to.pdf> <./Figures/background/aero/cl_naca4412-eps-converted-to.pdf> <./Figures/background/aero/cd_naca4412-eps-converted-to.pdf>]
+<Figures/background/atmos/temperature_plot.png, id=1082, 421.575pt x 316.0608pt>
 File: Figures/background/atmos/temperature_plot.png Graphic file (type png)
 <use Figures/background/atmos/temperature_plot.png>
-Package pdftex.def Info: Figures/background/atmos/temperature_plot.png  used on input line 706.
+Package pdftex.def Info: Figures/background/atmos/temperature_plot.png  used on input line 723.
 (pdftex.def)             Requested size: 218.51521pt x 163.82689pt.
-<Figures/background/atmos/density_plot.png, id=1081, 421.575pt x 316.0608pt>
+<Figures/background/atmos/density_plot.png, id=1083, 421.575pt x 316.0608pt>
 File: Figures/background/atmos/density_plot.png Graphic file (type png)
 <use Figures/background/atmos/density_plot.png>
-Package pdftex.def Info: Figures/background/atmos/density_plot.png  used on input line 713.
+Package pdftex.def Info: Figures/background/atmos/density_plot.png  used on input line 730.
 (pdftex.def)             Requested size: 218.51521pt x 163.82689pt.
 
 
 [31 <./Figures/background/atmos/temperature_plot.png (PNG copy)> <./Figures/background/atmos/density_plot.png (PNG copy)>]
+
+[32]
 Package epstopdf Info: Source file: <Figures/background/tiplosses/prandtltiploss.eps>
 (epstopdf)                    date: 2025-03-21 09:37:34
 (epstopdf)                    size: 1677820 bytes
@@ -1278,16 +1282,13 @@ Package epstopdf Info: Source file: <Figures/background/tiplosses/prandtltiploss
 (epstopdf)                    date: 2025-03-21 12:03:18
 (epstopdf)                    size: 127231 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/tiplosses/prandtltiploss-eps-converted-to.pdf Figures/background/tiplosses/prandtltiploss.eps>
-(epstopdf)             \includegraphics on input line 770.
+(epstopdf)             \includegraphics on input line 787.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/background/tiplosses/prandtltiploss-eps-converted-to.pdf, id=1099, 661.47125pt x 452.69125pt>
+<Figures/background/tiplosses/prandtltiploss-eps-converted-to.pdf, id=1110, 661.47125pt x 452.69125pt>
 File: Figures/background/tiplosses/prandtltiploss-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/background/tiplosses/prandtltiploss-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/background/tiplosses/prandtltiploss-eps-converted-to.pdf  used on input line 770.
+Package pdftex.def Info: Figures/background/tiplosses/prandtltiploss-eps-converted-to.pdf  used on input line 787.
 (pdftex.def)             Requested size: 227.62206pt x 155.7711pt.
-
-
-[32]
 Package epstopdf Info: Source file: <Figures/background/tiplosses/prandtltiplossfunction.eps>
 (epstopdf)                    date: 2025-03-21 12:00:17
 (epstopdf)                    size: 23753 bytes
@@ -1295,24 +1296,23 @@ Package epstopdf Info: Source file: <Figures/background/tiplosses/prandtltiploss
 (epstopdf)                    date: 2025-03-21 12:01:14
 (epstopdf)                    size: 9696 bytes
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/background/tiplosses/prandtltiplossfunction-eps-converted-to.pdf Figures/background/tiplosses/prandtltiplossfunction.eps>
-(epstopdf)             \includegraphics on input line 790.
+(epstopdf)             \includegraphics on input line 807.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/background/tiplosses/prandtltiplossfunction-eps-converted-to.pdf, id=1115, 360.34625pt x 270.00874pt>
+<Figures/background/tiplosses/prandtltiplossfunction-eps-converted-to.pdf, id=1118, 360.34625pt x 270.00874pt>
 File: Figures/background/tiplosses/prandtltiplossfunction-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/background/tiplosses/prandtltiplossfunction-eps-converted-to.pdf>
-Package pdftex.def Info: Figures/background/tiplosses/prandtltiplossfunction-eps-converted-to.pdf  used on input line 790.
+Package pdftex.def Info: Figures/background/tiplosses/prandtltiplossfunction-eps-converted-to.pdf  used on input line 807.
 (pdftex.def)             Requested size: 227.62206pt x 170.55548pt.
 )
 
-[33 <./Figures/background/tiplosses/prandtltiploss-eps-converted-to.pdf> <./Figures/background/tiplosses/prandtltiplossfunction-eps-converted-to.pdf>]
+[33 <./Figures/background/tiplosses/prandtltiploss-eps-converted-to.pdf>]
 
-[34
-
-] (Thesis_ComputationalMethods.tex
+[34 <./Figures/background/tiplosses/prandtltiplossfunction-eps-converted-to.pdf>] (Thesis_ComputationalMethods.tex
 Chapter 3.
 
 
 [35
+
 
 ]
 Underfull \vbox (badness 3343) has occurred while \output is active []
@@ -1320,7 +1320,7 @@ Underfull \vbox (badness 3343) has occurred while \output is active []
 
 
 [36]
-<Figures/comp_method/simulation_flowchart.png, id=1195, 1154.3125pt x 554.07pt>
+<Figures/comp_method/simulation_flowchart.png, id=1201, 1154.3125pt x 554.07pt>
 File: Figures/comp_method/simulation_flowchart.png Graphic file (type png)
 <use Figures/comp_method/simulation_flowchart.png>
 Package pdftex.def Info: Figures/comp_method/simulation_flowchart.png  used on input line 112.
@@ -1343,7 +1343,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/comp_paper.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/comp_paper-eps-converted-to.pdf Figures/comp_method/sim_B/comp_paper.eps>
 (epstopdf)             \includegraphics on input line 193.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/comp_paper-eps-converted-to.pdf, id=1222, 362.35374pt x 294.09875pt>
+<Figures/comp_method/sim_B/comp_paper-eps-converted-to.pdf, id=1228, 362.35374pt x 294.09875pt>
 File: Figures/comp_method/sim_B/comp_paper-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/comp_paper-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/comp_paper-eps-converted-to.pdf  used on input line 193.
@@ -1367,7 +1367,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/U_R.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/U_R-eps-converted-to.pdf Figures/comp_method/sim_B/U_R.eps>
 (epstopdf)             \includegraphics on input line 206.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/U_R-eps-converted-to.pdf, id=1235, 330.23375pt x 264.99pt>
+<Figures/comp_method/sim_B/U_R-eps-converted-to.pdf, id=1241, 330.23375pt x 264.99pt>
 File: Figures/comp_method/sim_B/U_R-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/U_R-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/U_R-eps-converted-to.pdf  used on input line 206.
@@ -1381,7 +1381,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/U_P.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/U_P-eps-converted-to.pdf Figures/comp_method/sim_B/U_P.eps>
 (epstopdf)             \includegraphics on input line 213.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/U_P-eps-converted-to.pdf, id=1236, 330.23375pt x 261.97874pt>
+<Figures/comp_method/sim_B/U_P-eps-converted-to.pdf, id=1242, 330.23375pt x 261.97874pt>
 File: Figures/comp_method/sim_B/U_P-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/U_P-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/U_P-eps-converted-to.pdf  used on input line 213.
@@ -1399,7 +1399,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/U_T.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/U_T-eps-converted-to.pdf Figures/comp_method/sim_B/U_T.eps>
 (epstopdf)             \includegraphics on input line 223.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/U_T-eps-converted-to.pdf, id=1237, 422.57875pt x 317.185pt>
+<Figures/comp_method/sim_B/U_T-eps-converted-to.pdf, id=1243, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/U_T-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/U_T-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/U_T-eps-converted-to.pdf  used on input line 223.
@@ -1416,7 +1416,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/phi.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/phi-eps-converted-to.pdf Figures/comp_method/sim_B/phi.eps>
 (epstopdf)             \includegraphics on input line 234.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/phi-eps-converted-to.pdf, id=1239, 422.57875pt x 317.185pt>
+<Figures/comp_method/sim_B/phi-eps-converted-to.pdf, id=1245, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/phi-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/phi-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/phi-eps-converted-to.pdf  used on input line 234.
@@ -1430,7 +1430,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/alpha.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/alpha-eps-converted-to.pdf Figures/comp_method/sim_B/alpha.eps>
 (epstopdf)             \includegraphics on input line 241.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/alpha-eps-converted-to.pdf, id=1240, 422.57875pt x 317.185pt>
+<Figures/comp_method/sim_B/alpha-eps-converted-to.pdf, id=1246, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/alpha-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/alpha-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/alpha-eps-converted-to.pdf  used on input line 241.
@@ -1444,7 +1444,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/cl.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/cl-eps-converted-to.pdf Figures/comp_method/sim_B/cl.eps>
 (epstopdf)             \includegraphics on input line 251.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/cl-eps-converted-to.pdf, id=1241, 422.57875pt x 317.185pt>
+<Figures/comp_method/sim_B/cl-eps-converted-to.pdf, id=1247, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/cl-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/cl-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/cl-eps-converted-to.pdf  used on input line 251.
@@ -1458,7 +1458,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/cd.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/cd-eps-converted-to.pdf Figures/comp_method/sim_B/cd.eps>
 (epstopdf)             \includegraphics on input line 258.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/cd-eps-converted-to.pdf, id=1242, 422.57875pt x 317.185pt>
+<Figures/comp_method/sim_B/cd-eps-converted-to.pdf, id=1248, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/cd-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/cd-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/cd-eps-converted-to.pdf  used on input line 258.
@@ -1472,7 +1472,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/dFx_a.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/dFx_a-eps-converted-to.pdf Figures/comp_method/sim_B/dFx_a.eps>
 (epstopdf)             \includegraphics on input line 268.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/dFx_a-eps-converted-to.pdf, id=1243, 422.57875pt x 317.185pt>
+<Figures/comp_method/sim_B/dFx_a-eps-converted-to.pdf, id=1249, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/dFx_a-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/dFx_a-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/dFx_a-eps-converted-to.pdf  used on input line 268.
@@ -1486,7 +1486,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/dFy_a.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/dFy_a-eps-converted-to.pdf Figures/comp_method/sim_B/dFy_a.eps>
 (epstopdf)             \includegraphics on input line 275.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/dFy_a-eps-converted-to.pdf, id=1244, 338.26375pt x 264.99pt>
+<Figures/comp_method/sim_B/dFy_a-eps-converted-to.pdf, id=1250, 338.26375pt x 264.99pt>
 File: Figures/comp_method/sim_B/dFy_a-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/dFy_a-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/dFy_a-eps-converted-to.pdf  used on input line 275.
@@ -1500,7 +1500,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/dFz_a.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/dFz_a-eps-converted-to.pdf Figures/comp_method/sim_B/dFz_a.eps>
 (epstopdf)             \includegraphics on input line 283.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/dFz_a-eps-converted-to.pdf, id=1245, 422.57875pt x 317.185pt>
+<Figures/comp_method/sim_B/dFz_a-eps-converted-to.pdf, id=1251, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/dFz_a-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/dFz_a-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/dFz_a-eps-converted-to.pdf  used on input line 283.
@@ -1514,7 +1514,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/dFx_r.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/dFx_r-eps-converted-to.pdf Figures/comp_method/sim_B/dFx_r.eps>
 (epstopdf)             \includegraphics on input line 292.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/dFx_r-eps-converted-to.pdf, id=1246, 422.57875pt x 317.185pt>
+<Figures/comp_method/sim_B/dFx_r-eps-converted-to.pdf, id=1252, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/dFx_r-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/dFx_r-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/dFx_r-eps-converted-to.pdf  used on input line 292.
@@ -1528,7 +1528,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/dFy_r.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/dFy_r-eps-converted-to.pdf Figures/comp_method/sim_B/dFy_r.eps>
 (epstopdf)             \includegraphics on input line 299.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/dFy_r-eps-converted-to.pdf, id=1247, 422.57875pt x 317.185pt>
+<Figures/comp_method/sim_B/dFy_r-eps-converted-to.pdf, id=1253, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/dFy_r-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/dFy_r-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/dFy_r-eps-converted-to.pdf  used on input line 299.
@@ -1542,7 +1542,7 @@ Package epstopdf Info: Source file: <Figures/comp_method/sim_B/dFz_r.eps>
 (epstopdf)             Command: <miktex-epstopdf --outfile=Figures/comp_method/sim_B/dFz_r-eps-converted-to.pdf Figures/comp_method/sim_B/dFz_r.eps>
 (epstopdf)             \includegraphics on input line 307.
 Package epstopdf Info: Output file is already uptodate.
-<Figures/comp_method/sim_B/dFz_r-eps-converted-to.pdf, id=1248, 422.57875pt x 317.185pt>
+<Figures/comp_method/sim_B/dFz_r-eps-converted-to.pdf, id=1254, 422.57875pt x 317.185pt>
 File: Figures/comp_method/sim_B/dFz_r-eps-converted-to.pdf Graphic file (type pdf)
 <use Figures/comp_method/sim_B/dFz_r-eps-converted-to.pdf>
 Package pdftex.def Info: Figures/comp_method/sim_B/dFz_r-eps-converted-to.pdf  used on input line 307.
@@ -1647,17 +1647,17 @@ Package rerunfilecheck Info: File `Thesis.out' has not changed.
 ### simple group (level 1) entered at line 152 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 28383 strings out of 473702
- 555661 string characters out of 5729322
- 1002639 words of memory out of 5000000
- 50626 multiletter control sequences out of 15000+600000
+ 28388 strings out of 473702
+ 555752 string characters out of 5729322
+ 1003769 words of memory out of 5000000
+ 50628 multiletter control sequences out of 15000+600000
  598937 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  115i,15n,136p,2477b,1443s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cmextra/cmex8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmib10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on Thesis.pdf (76 pages, 15660376 bytes).
+Output written on Thesis.pdf (76 pages, 15662245 bytes).
 PDF statistics:
- 1619 PDF objects out of 1728 (max. 8388607)
- 319 named destinations out of 1000 (max. 500000)
+ 1625 PDF objects out of 1728 (max. 8388607)
+ 322 named destinations out of 1000 (max. 500000)
  726 words of extra memory for PDF output out of 10000 (max. 10000000)
 
