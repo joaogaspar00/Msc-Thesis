@@ -269,6 +269,9 @@ INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\translations\translations.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\ulem\ulem.sty
+INPUT C:\Program Files\MiKTeX\fonts\tfm\public\latex-fonts\lasy6.tfm
 INPUT .\Thesis_Nomenclature.tex
 INPUT .\Thesis_Nomenclature.tex
 INPUT .\Thesis_Nomenclature.tex
@@ -957,6 +960,8 @@ INPUT Thesis_Appendix_A.tex
 INPUT Thesis.aux
 INPUT .\Thesis.out
 INPUT .\Thesis.out
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbsy10.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb

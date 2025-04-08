@@ -558,6 +558,8 @@
 
 \usepackage{rotating}
 
+\usepackage{ulem}
+
 
 \setcounter{tocdepth}{3}
 
@@ -600,3 +602,14 @@
   {\mbox{\boldmath$\scriptstyle#1$}}%
   {\mbox{\boldmath$\scriptscriptstyle#1$}}}
 \newcommand{\boldcal}[1]{{\ensuremath{\boldsymbol{\mathcal{#1}}}}}% math bold calygraphy
+
+
+
+%%%%%%%%%%%%
+
+
+% Comando para texto a azul
+\newcommand{\ta}[1]{\textcolor{blue}{#1}}
+
+% Comando para texto azul cortado
+\newcommand{\tac}[1]{\textcolor{blue}{\sout{#1}}}

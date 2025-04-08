@@ -13,20 +13,20 @@
 
 In previous section, the importance of the topic of this thesis was discussed. In this chapter, the background of the topic is further presented where the problema is physically and mathematically define and the theory is explored. The main goal of this chapter is to provide a solid foundation for the reader to understand the problem and the proposed approach.
 
-A key starting point is to define the body, in this case the spacecraft model to be analyzed. The spacecraft is considered a point-mass simulating the desired payload to recover, with a rotor coupling. On Fig. \ref{fig:mode_vehicle}, it is presented a four blade rotor, coupled to the point-mass. The point mass does not play any role rather than be influenced with the gravity field which will pull the vehicle to the ground, and has no dimensions, only mass. On Fig. \ref{fig:mode_vehicle} the point-mass is represented just as a visual representation.
+A key starting point is to define the body, in this case the spacecraft model to be analyzed. The spacecraft is considered a point-mass simulating the desired payload to recover, with a rotor coupling. On Fig. \ref{fig:mode_vehicle}, it is presented a four blade rotor, coupled to the point-mass. The point mass does not play any role rather than be influenced with the gravity field which will pull the vehicle to the ground, and has no dimensions, only mass. On Fig. \ref{fig:mode_vehicle}, the point-mass is represented as a black dot for better visual understanding
 
-On the other hand, the rotor is defined by the blades , which are considered to be rigid, with a blade span, $S_b$, equal for all blades. The rotor can has any reasonable number of blades, $N_b$. Also, the blades are axis equally distributed, with the angle between the blades, $\delta\psi$, equal for all blades, for symmetry reasons.
+On the other hand, the rotor is defined by the blades , which are considered to be rigid, with a blade span, $S_b$, equal for all blades. The rotor has a certain number of blades, Nb, 4 in the case of Fig. \ref{fig:mode_vehicle}. Also, the blades are equally distributed, with the angle between the blades, $\delta\psi$, equal for symmetry reasons.
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=6cm]{Figures/background/model_vehicle.png}
+    \includegraphics[width=7cm]{Figures/background/model_vehicle.png}
     \caption{Vehicle model considered with a four blade rotor}
     \label{fig:mode_vehicle}
 \end{figure}
 
 \section{Reference Frames}
 
-For the development of the mathematical model that follows and considering what was present it is important to introduce the reference frames which will define the vehicle’s dynamics. On Fig. \ref{fig:reference_frames} the two principal references are presented: Earth frame, $O^i$, (black axes in Fig. \ref{fig:reference_frames}) and the rotor’s frame $O^r$ (red axes in Fig. \ref{fig:reference_frames}). The Earth frame, $O^i$, is a inertial frame positioned in any point of the Earth surface. It is also called  \textit{Navigation Frame} \cite{soler_fundamentals_2014} once it rotates with Earth and it is very handy when planes to travel from one point to another \cite{soler_fundamentals_2014}. On other hand, the rotor frame, $O^r$, or body frame \cite{soler_fundamentals_2014} is a system axes centered in any point of the symmetry plane of the aircraft. In this case, the $O^r$ is position at the \gls{cg} of the vehicle which is coincident with the point-mass position. The $O^r$ as its $z$-axis aligned from the \gls{cg} vertically with the rotor's shaft pointing positively upwards the rotor.
+For the development of the mathematical model that follows and considering what was present it is important to introduce the reference frames which will define the vehicle’s dynamics. On Fig. \ref{fig:reference_frames} the two principal references are presented: Earth frame, $O^i$, (black axes in Fig. \ref{fig:reference_frames}) and the rotor’s frame $O^r$ (red axes in Fig. \ref{fig:reference_frames}). The Earth frame, $O^i$, is a inertial frame positioned in any point of the Earth surface. It is also called  \textit{Navigation Frame} \cite{soler_fundamentals_2014} once it rotates with Earth and it is very handy when planes to travel from one point to another \cite{soler_fundamentals_2014}. On other hand, the rotor frame, $O^r$, or body frame \cite{soler_fundamentals_2014} is a system axes centered in any point of the symmetry plane of the aircraft. In this case, the $O^r$ is position at the \gls{cg} of the vehicle which is coincident with the point-mass position. The $O^r$ as its $z$-axis aligned, from the \gls{cg}, vertically with the rotor's shaft pointing positively upwards the rotor.
 
 \begin{figure}[!htb]
     \centering
@@ -51,9 +51,9 @@ The spacecraft is nevertheless able to translate and rotate in space, meaning th
     \label{eq:force_equation}
 \end{equation}
 
-\noindent where $m$ is the mass of the vehicle in \unit{kg}, $\mathbf{V} \in \mathbb{R}^3$ is the vehicle’s linear velocity in \unit{m/s}. 
+\noindent where $\mathbf{F} \in \mathbb{R}^3$ is the external force, $m$ is the mass of the vehicle in \unit{kg}, $\mathbf{V} \in \mathbb{R}^3$ is the vehicle’s linear velocity in \unit{m/s}. 
 
-In terms of the applied forces, once it is considered the recovery of a spacecraft the Earth's gravity force is applied at the point-mass model, meaning no rotation will occur due to gravity. Other important force is the rotor force. The rotor force is also applied at the point-mass model and it will be the only force applying a angular momentum to the spacecraft. So, the to compute the total force, $\mathbf{F}^i \in \mathbb{R}^3$, in \unit{N}, 
+In terms of the applied forces, once it is considered the recovery of a spacecraft the Earth's gravity force is applied at the point-mass model, meaning no rotation will occur due to gravity. Other important force is the rotor force. So, the to compute the total force, $\mathbf{F}^i \in \mathbb{R}^3$, in \unit{N}, 
 
 \begin{equation}
     \mathbf{F}^i = \mathbf{F}_{gravity}^i + \mathbf{F}_{rotor}^i,
@@ -70,21 +70,21 @@ Regarding the angular motion, the sum of external moments $\mathbf{M} \in \mathb
 
 \noindent where $\left[\mathbf{I}\right]$, in \unit{kg/m^2}, is the mass inertia tensor. 
 
-From the vehicle dynamics prespective in Eq. \ref{eq:momentum_equation}, the \gls{cd} model, Fig. \ref{fig:rotor_cd}, of the rotor does not change its position inside the rotors's reference frame and any angular momentum generate by the rotor implies also the rotation of the rotor referece frame in Earth's reference frame, $O^i$. When rotated, the angles between the Earth referece frame, $O^i$, and the rotor’s reference frame, $O^r$, are called the Euler angles, and are denoted $\boldsymbol{\Omega}_e \in \mathbb{R}^3$.
+From the vehicle dynamics prespective in Eq. \ref{eq:momentum_equation}, the \gls{cd} model, Fig. \ref{fig:rotor_cd}, of the rotor does not change its position inside the rotors's reference frame and any moment generate by the rotor implies also the rotation of the rotor referece frame in Earth's reference frame, $O^i$. When rotated, the angles between the Earth referece frame, $O^i$, and the rotor’s reference frame, $O^r$, are called the Euler angles, and are denoted $\boldsymbol{\Omega}_E \in \mathbb{R}^3$.
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=6cm]{Figures/background/rotor_cd.png}
-    \caption{Rotor considered as \gls{cd}, with rotor's reference frame, $O^r$, origin in its center}
+    \caption[Rotor considered as CD, with rotor's reference frame, $O^r$, origin in its center]{Rotor considered as \gls{cd}, with rotor's reference frame, $O^r$, origin in its center}
     \label{fig:rotor_cd}
 \end{figure}
 
-Hence, there is a degree of freedom given by the rotor's shaft which means that the rotation of the rotor over $z$-axis of $O^r$ can be decoupled to another equation and, mathematically, the momentum applied does not rotate the rotor's reference frame by its on axis.
+Hence, there is a degree of freedom given by the rotor's shaft which means that the rotation of the rotor over $z$-axis of $O^r$ can be decoupled to another equation and, mathematically, the moment applied does not rotate the rotor's reference frame by its on axis.
 
 
 \subsection{Gravity Force}
 
-The gravitational force acting on the rotor, represented by the vector \(\mathbf{F}_{gravity}^i \in \mathbb{R}^3\) in \unit{N}, can be expressed in the inertial reference frame as a three-dimensional vector. According to \cite{curtis_orbital_2008}, this force can be expressed ion vector forma as 
+The gravitational force acting on the rotor, represented by the vector \(\mathbf{F}_{gravity}^i \in \mathbb{R}^3\) in \unit{N}, can be expressed in the inertial reference frame as a three-dimensional vector. According to \cite{curtis_orbital_2008}, this force can be expressed in vector forma as 
 
 \begin{equation}
     \mathbf{F}_{gravity}^i = 
@@ -93,8 +93,8 @@ The gravitational force acting on the rotor, represented by the vector \(\mathbf
     \end{bmatrix}^T,
 \end{equation}  
 
-where $G$ is the gravitational constant, in \unit{m^3/kg \cdot s^2}, $M_E$ is the Earth's mass, in \unit{kg}, and $r$ represents the distance between the vehicle's center of gravity and the Earth's center of mass, in \unit{m}. This force acts along the radial direction, pointing towards the 
-Earth's center, and is responsible for the gravitational traction governing the vehicle's motion within a central gravitational field. Once this work considers a flat Earth, the direction is downwards.
+\noindent where $G$ is the gravitational constant, in \unit{m^3/kg \cdot s^2}, $M_E$ is the Earth's mass, in \unit{kg}, and $r$ represents the distance between the vehicle's center of gravity and the Earth's center of mass, in \unit{m}. This force acts along the radial direction, pointing towards the 
+Earth's center, and is responsible for the gravitational attraction governing the vehicle's motion within a central gravitational field. Since\ this work considers a flat Earth, the direction is downwards.
 
 
 \subsection{Inertia Tensor}
@@ -105,7 +105,7 @@ The angular momentum is to angular velocity what linear momentum is to linear ve
     \left[\mathbf{I}\right]=\left[\begin{array}{c c c}{{I_{x x}}}&{{I_{x y}}}&{{I_{x z}}}\\ {{I_{x y}}}&{{I_{y y}}}&{{I_{y z}}}\\ {{I_{x z}}}&{{I_{y z}}}&{{I_{z z}}}\end{array}\right]
 \end{equation}
 
-where the matrix elements are the moments of inertia, about a reference frame $O_{xyz}$, computed as equations \ref{eq:ele_tensor_inertia1} and \ref{eq:ele_tensor_inertia2}
+\noindent where the matrix elements are the moments and products of inertia, about a reference frame $O_{xyz}$, computed as equations \ref{eq:ele_tensor_inertia1} and \ref{eq:ele_tensor_inertia2}
 
 \begin{equation}
     I_{xx} = \smallint  \left( y^2 + z^2 \right) \mathrm{d}m \quad \text{and} \quad I_{yy} = \smallint  \left( x^2 + z^2 \right) \mathrm{d}m \quad \text{and} \quad I_{zz} = \smallint  \left( x^2 + y^2 \right) \mathrm{d}m
@@ -114,11 +114,11 @@ where the matrix elements are the moments of inertia, about a reference frame $O
 
 
 \begin{equation}
-    I_{xy} = \smallint  xy \, \mathrm{d}m \quad \text{and} \quad I_{xz} = \smallint  xz \, \mathrm{d}m \quad \text{and} \quad I_{yz} = \smallint  yz \, \mathrm{d}m
+    I_{xy} = - \smallint  xy \, \mathrm{d}m \quad \text{and} \quad I_{xz} = - \smallint  xz \, \mathrm{d}m \quad \text{and} \quad I_{yz} = - \smallint  yz \, \mathrm{d}m
     \label{eq:ele_tensor_inertia2}
 \end{equation}
 
-In this study, the system is considered as a point mass and a rotor which means that only the rotor's mass is accounted into the inertia tensor. The rotor is composed by $N_b$ blades and each blade ha $m_b$ mass, which, by simplification, are considered as thin-plates for the inertia tensor calculation. In its principal axes centered in blade's center of mass, a thin-plate with its longer side along $y$-axes (meaning the blade span, $S_b$), its shorter side along $x$-axis (meaning the airfoil chord, $c_a$) and its thickness along $z$-axis (meaning the airfoil thickness, $t_a$). The inertia tensor, $\left[\mathbf{I}\right]'$ of a flate plate in its principal axes is computed as in Eq. \ref{eq:inertia_tensor_principalaxes}
+In this study, the system is considered as a point mass and a rotor which means that only the rotor's mass is accounted into the inertia tensor. The rotor is composed by $N_b$ blades and each blade has $m_b$ mass, which, by simplification, are considered as thin-plates for the inertia tensor calculation. In its principal axes centered in blade's center of mass, a thin-plate with its longer side along $y$-axes (the blade span, $S_b$), its shorter side along $x$-axis (the airfoil chord, $c_a$) and its thickness along $z$-axis (the airfoil thickness, $t_a$). The inertia tensor, $\left[\mathbf{I}\right]'$ of a flate plate in its principal axes is computed as in Eq. \ref{eq:inertia_tensor_principalaxes}
 
 \begin{figure}[!htb]
     \centering
@@ -143,13 +143,13 @@ For a rotor with multiple blades with a root distance from the blade to the roto
     \delta\psi = \frac{2\pi}{N_b}
 \end{equation}
 
-and, setting one of the blade's reference frame aligned with rotor's referece frame, rotation angle of blade $m=1$ over $z$-axis equals to $Psi_1 = 0$, introducing the rotation matrix, $\boldsymbol{R}^{ot} \in \mathbb{R}^3$, and considering the parallel axis theorem the total inertia tensro of the rotor in rotor frame is
+\noindent and, setting one of the blade's reference frame aligned with rotor's referece frame, rotation angle of blade $b=1$ over $z$-axis equals to $\Psi_1 = 0$, introducing the rotation matrix, $\boldsymbol{R}^{ot} \in \mathbb{R}^{3 \times 3}$, and considering the parallel axis theorem the total inertia tensor of the rotor in rotor frame is
 
 \begin{equation}
-    \left[\mathbf{I}\right]^r = \sum_{m=1}^{N_b} \boldsymbol{R}_n^{ot}\left[(m-1)\delta\psi\right] \left\{ \left[\mathbf{I}\right]' + m_b \epsilon^2 \boldsymbol{I} \right\} \boldsymbol{R}_n^{ot}\left[(m-1)\delta\psi\right]^T
+    \left[\mathbf{I}\right]^r = \sum_{m=1}^{N_b} \boldsymbol{R}_n^{ot}\left[(m-1)\delta\psi\right] \left\{ \left[\mathbf{I}\right]' + m_b \epsilon^2 \boldsymbol{\mathcal{I}} \right\} \boldsymbol{R}_n^{ot}\left[(m-1)\delta\psi\right]^T
 \end{equation}
 
-where $\epsilon$ stands for the distance of the blade's centroid to the rotor’s reference frame, $O^r$, and $\boldsymbol{I} \in \mathbb{R}^3$ identity matrix.
+\noindent where $\epsilon$ stands for the distance of the blade's centroid to the rotor’s reference frame, $O^r$, and $\boldsymbol{\mathcal{I}} \in \mathbb{R}^{3 \times 3}$ is an identity matrix.
 
 
 
@@ -161,7 +161,7 @@ where $\epsilon$ stands for the distance of the blade's centroid to the rotor’
 
 For the rotor's dynamics, further considerations shall be made to properly account for the generation of forces acting on the payload's point-mass model and the moments that provide rotational freedom to the rotor's \gls{cd} model, Fig. \ref{fig:rotor_cd}. In reality, the rotor rotates along its shaft, and this motion is crucial for its aerodynamic analysis. The rotational behavior directly influences the aerodynamic loads, which must be accurately modeled to capture the effects on both the rotor and the payload.
 
-One of the primary concerns is the influence of rotational inertia and the torques that develop due to aerodynamic and inertial effects. The equation concerning the rotor’s rotational dynamics can be expressed as
+One of the primary concerns is the influence of rotational inertia and the torques that develop due to aerodynamic and inertial effects. The equation concerning the rotor’s rotational dynamics over its shaft, can be expressed as
 
 \begin{equation}
     \frac{\mathrm{d}\Omega}{\mathrm{d}t} = \tau_z
@@ -170,28 +170,45 @@ One of the primary concerns is the influence of rotational inertia and the torqu
 
 \noindent where $\Omega$ represents the angular acceleration, in \unit{rad/s}, and $\tau_z$ represents the angular momentum along the $z$-axis fo the rotor's reference frame, $O^r$, computed as 
 \begin{equation}
-    \Omega = \frac{T}{I_{zz}},
+    \tau_z = \frac{T}{I_{zz}},
 \end{equation}
 
 \noindent with, $T$ is the applied torque, in \unit{N/m}, and $I_{zz}$ is the moment of inertia about the rotor’s principal axis of rotation. in \unit{kg/m^2}.
 
-The goal of this approach is to effectively handle the high rotational velocities characteristic of rotor operation. When the rotor is spinning at high speeds, numerical stability becomes a concern, particularly when integrating the equations of motion. The time-step used in the \gls{ode} solver must be carefully selected to maintain accuracy without introducing excessive computational cost. A finer discretization may be required to capture the rapid variations in forces and moments in high speeds while ensuring the solver remains efficient.
+The goal of this approach is to effectively handle the high rotational velocities characteristic of rotor operation. When the rotor is spinning at high speeds, numerical stability becomes a concern, particularly when integrating the equations of motion \cite{arnold_numerical_2011,press_numerical_2007}. The time-step used in the \gls{ode} solver must be carefully selected to maintain accuracy without introducing excessive computational cost. A finer discretization may be required to capture the rapid variations in forces and moments in high speeds while ensuring the solver remains efficient.
 
 So instead of define a more finer discretization it is considered not only an blade load distribution, but also an azimultal load distribution for each time step which will not affect numerical stability or create difficults when the Eqs. \ref{eq:momentum_equation} and \ref{eq:rotation_eq} are uncoupled.
 
-\subsection{Blade Element Theory}
+\subsection{Blade Element Theory (BET)}
 \label{section:bet}
 
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=10cm]{Figures/background/bet/blade.png}
-    \caption{\gls{bet} model with an highlight blade element in red. The blade reference frame (in blue) and the element reference frame (in green) are shown. Also the $n$-element velocity vector $\mathbf{U}_n$ in element reference frame is shown. Note that here the $z$-axis is not presented, hoever applying the right-hand rule it is possible to determine that its direction its towrds the reader.}
+    \caption{\gls{bet} model with an highlight blade element in red. The blade reference frame (in blue) and the element reference frame (in green) are shown. Also the $n$-element velocity vector $\mathbf{U}_n$ in element reference frame is shown. Note that here the $z$-axis is not presented, however applying the right-hand rule it is possible to determine that its direction its towrds the reader.}
     \label{fig:blade_bet}
 \end{figure}
 
-The Blade Element Theory (BET) is a simplefied modern model to study the rotor performance \cite{leishman_principles_2006}. With \gls{bet}, it is possible to make predictions about radiaL and azimuthal aerodynamic load distributions over the rotor disk. Its principel is based in a quasi-2D airfoils blade section which generate the aerodynamic forces and moments that shall be integrated over the blade length. With \gls{bet} methodology is possible to performe a rotor's first designing shape stage in terms of blade geometry.
+The \gls{bet} is a simplified model to study the rotor performance \cite{leishman_principles_2006}. With \gls{bet}, it is possible to make predictions about radial and azimuthal aerodynamic load distributions over the rotor disk. Its principel is based in a quasi-2D airfoils blade section which generate the aerodynamic forces and moments that shall be integrated over the blade length. With \gls{bet} methodology is possible to performe a rotor's first designing shape stage in terms of blade geometry.
 
-Figure \ref{fig:blade_bet} presents the basic idea for the \gls{bet} in which it is possible a blade element $n$ (in red) with a width $\mathrm{d}y$ at a a distance $y$ from the blade root. The element is considered as a 2D airfoil under a flow with a velocity $\mathbf{U}_n$.
+Figure \ref{fig:blade_bet} presents the basic idea for the \gls{bet} in which it is possible a blade element $n$ (in red) with a width $\mathrm{d}y$ at a distance $y$ from the blade root. The $n$-element is considered as a 2D airfoil under a flow with a velocity $\mathbf{U}_n \in \mathbb{R}^3$,
+
+\begin{equation}
+    \mathbf{U}_n = 
+    \begin{bmatrix}
+        U_T \\
+        U_R \\
+        U_P \\
+    \end{bmatrix}
+\end{equation}
+
+\textcolor{purple}{
+\noindent where $U_T$ is the tangential component of the velocity, $U_R$ is the radial component of the velocity and $U_P$ is the vertical component of the velocity. The radial velocity component, $U_R$, is usually not considered for lift, by the independence principle, but it is considered when computing the drag in forward flight \cite{leishman_principles_2006}. So, the resultant velocity at the blade element $n$ is computed as}
+
+\begin{equation}
+    U_n = \sqrt{U_T^2 + U_p^2}
+\end{equation}
+
 
 For each blade element, the general flow and forces applied and the pressure center of the airfoil are presented in figure \ref{fig:element_bet}. All over the blade and azimutal postions this is not a standard configuration for the reference frames, forces and velocities. This influences the way that angles are determined in each element. This is taken into considerantion and the following equations are for all the cases different.
 
@@ -199,38 +216,38 @@ For each blade element, the general flow and forces applied and the pressure cen
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=9cm]{Figures/background/bet/element.png}
-    \caption{Blade element with flow enviroment and forces aplied. Note that here the $y$-axis is not presented, hoever applying the right-hand rule it is possible to determine that its direction its towrds inside the page.}
+    \caption{Blade element with flow enviroment and forces aplied. Note that here the $y$-axis is not presented, however applying the right-hand rule it is possible to determine that its direction its towrds inside the page.}
     \label{fig:element_bet}
 \end{figure}
 
 The aerodynamic loads, in the aerodynamic reference frame, $O^a$, are also represented in figure by \ref{fig:element_bet}, where its horizonal compenent (in $X^a$ axis) or drag force, $\mathrm{d}D_n^a$, is computed as
 
 \begin{equation}
-    \mathrm{d}D^a_n = \frac{1}{2} \rho c ||\mathbf{U}^a_n||^2 C_d,
+    \mathrm{d}D^a_n = \frac{1}{2} \rho c U_n^2 C_d,
     \label{eq:drag_element}
 \end{equation}
 
 \noindent while vertical compenent (in $Z^a$ axis) or lift force is computed as
 
 \begin{equation}
-    \mathrm{d}L^a_n = \frac{1}{2} \rho c ||\mathbf{U}^a_n||^2 C_l,
+    \mathrm{d}L^a_n = \frac{1}{2} \rho c U_n^2 C_l,
     \label{eq:lift_element}
 \end{equation}
 
 \noindent where $\rho$ is air density, in \unit{\kg\per\meter^3}, $c$ is the airfoil cord in \unit{\meter} and $C_l$ and $C_l$ are the lift and drag coefficients, respectively, as functions of the angle of attack, $\alpha$, and number of Reynolds, $Re$,
 
 \begin{equation}
-    Re = \frac{\rho ||\mathbf{U}^a_n|| c}{\mu}
+    Re = \frac{\rho U_n c}{\mu}
     \label{eq:reynolds_number}
 \end{equation}
 
-\noindent where $\mu$ is the dynamic viscosity of the air, meaning that
+\noindent where $\mu$ is the dynamic viscosity of the air in \unit{N s/m^2}, meaning that
 
 \begin{equation}
     C_l \equiv C_l(\alpha, Re) \quad \text{and} \quad C_d\equiv C_d(\alpha, Re).
 \end{equation}
 
-In section \ref{section:aero_model}, a detailed explanation on how the lift, $C_l$, and drag, $C_d$ coefficients are obtained is presented. Keeping focus on the aerodynamic load, it is possible to construct the elementary aerodynamic force in the aerodynamic reference frame $d\mathbf{F}^a_n \in \mathbb{R}^3$ as
+In section \ref{section:aero_model}, a detailed explanation on how the lift, $C_l$, and drag, $C_d$, coefficients are obtained is presented. Keeping focus on the aerodynamic load, it is possible to construct the elementary aerodynamic force, $d\mathbf{F}^a_n \in \mathbb{R}^3$, in the aerodynamic reference frame, $O^a$, as
 
 \begin{equation}
     d\mathbf{F}^a_n = \begin{bmatrix}
@@ -239,7 +256,7 @@ In section \ref{section:aero_model}, a detailed explanation on how the lift, $C_
     \label{eq:vector_aero_force}
 \end{equation}
 
-In the other words, the vector presented in \ref{eq:vector_aero_force} is the force vector of each that shall be writen in Earth-fixed coordinades for equation force equation \ref{eq:force_equation}. For a simpler approach, the choice stands for computing the aerodynamic referece frame forces, denoted with upscript $^a$, and apply a cicle to compute the rotor's total force , $\mathbf{F}^r_{rotor}$, as as function of all the elementary forces, $\mathrm{d}\mathbf{F}^a_n$, along the blade length and azimutal positions. Then, it is necessary to introduce the rotation matrices between the various reference frames. First from the aerodynamic to element frame, then to blade frame and rotor frame, and final to the Earth-fixed frame. From the blade and to the element reference frame there is only a translation due to the element's position, being $O^e$ with the same orientation that $O^b$,which means that the rotation matrix is the identity matrix, $\mathbf{I}$. So equation \ref{eq:aero_to_blade_force} presents the direct transformation of the elementary aerodynamic force, $d\mathbf{F}^a$, from the aerodynamic reference frame to the blade reference frame.
+In the other words, the vector presented in Eq. \ref{eq:vector_aero_force} is the force vector of each element that shall be writen in Earth-fixed coordinades for the force equation, Eq. \ref{eq:force_equation}. For a simple implementation, the choice stands for computing the aerodynamic reference frame's\ forces, denoted with upscript $^a$, and apply a cicle to compute the rotor's total force , $\mathbf{F}^r_{rotor}$, as as function of all the elementary forces, $\mathrm{d}\mathbf{F}^a_n$, along the blade length and azimutal positions. Then, it is necessary to introduce the rotation matrices between the various reference frames. First from the aerodynamic to element frame, then to blade frame and rotor frame, and final to the Earth-fixed frame. From the blade and to the element reference frame there is only a translation due to the element's position, being $O^e$ with the same orientation that $O^b$,which means that the rotation matrix is the identity matrix, $\boldsymbol{\mathcal{I}}$. So equation \ref{eq:aero_to_blade_force} presents the direct transformation of the elementary aerodynamic force, $d\mathbf{F}^a$, from the aerodynamic reference frame to the blade reference frame.
 
 \begin{equation}
     d\mathbf{F}^b = \boldsymbol{R}^{ot}(\hat{y}, \phi_n) d\mathbf{F}^a
@@ -252,7 +269,7 @@ $\boldsymbol{R}^{ot}(\hat{y}, \phi_n)$ states for the rotation matrix along $y$-
     d\mathbf{F}^r_n = \boldsymbol{R}^{ot}(\hat{z}, \psi_n) d\mathbf{F}^b
 \end{equation}
 
-or as a sequence of both rotations, $\phi_n$ and $\psi_m$,
+\noindent or as a sequence of both rotations, $\phi_n$ and $\psi_m$,
 
 \begin{equation}
     d\mathbf{F}^r_n = \boldsymbol{R}^{ot}(\hat{z}, \psi_m) \boldsymbol{R}^{ot}(\hat{y}, \phi_n) d\mathbf{F}^a.
@@ -266,41 +283,41 @@ In terms of applied torque from the aerodynamic forces to the rotor's center, th
     \label{eq:element_torque_rotor_frame}
 \end{equation}
 
-where $\mathbf{r}^r_n$ stand for the force arm from the rotor's center to the blade element. As a simplification of the next formulas, equation  \ref{eq:simplication_rotation_bet} is introduced
+\noindent where $\mathbf{r}^r_n$ stand for the position vector from the rotor's center to the blade $n$-element. As a simplification of the next formulas, equation  \ref{eq:simplication_rotation_bet} is introduced
 
 \begin{equation}
-    \boldsymbol{R}^{ot}(\hat{z}, \psi_m) \boldsymbol{R}^{ot}(\hat{y}, \phi_n) \equiv \underset{a \to r}{\boldsymbol{R}^{ot}}\
+    \boldsymbol{R}^{ot}(\hat{z}, \psi_m) \boldsymbol{R}^{ot}(\hat{y}, \phi_n) \equiv \underset{a \to r}{\boldsymbol{R}^{ot}}
     \label{eq:simplication_rotation_bet}
 \end{equation}
 
-and then, force expression, \ref{eq:element_force_rotor_frame}, can be rewritten as
+\noindent and then, force expression, \ref{eq:element_force_rotor_frame}, can be rewritten as
 
 \begin{equation}
     d\mathbf{F}^r_n = \underset{a \to r}{\boldsymbol{R}^{ot}} d\mathbf{F}^a.
     \label{eq:element_force_rotor_frame_simplified}
 \end{equation}
 
-and for the torque, \ref{eq:element_torque_rotor_frame}, the same expression can be used
+\noindent and for the torque, \ref{eq:element_torque_rotor_frame}, the same expression can be used
 
 \begin{equation}
     d\mathbf{Q}^r_n = \mathbf{r}^r_n \times \left[ \underset{a \to r}{\boldsymbol{R}^{ot}}  d\mathbf{F}^a \right] 
     \label{eq:element_torque_rotor_frame_simplified}
 \end{equation}.
 
-Knowing all the elementary forces and torques, the total force and torque applied to the rotor can be computed by integrating over the blade length between the blade's root, at a distance $\epsilon$, and the blade's tip, at a distance of $\epsilon + L$. For the the $m$-blade's force is given by
+Knowing all the elementary forces and torques, the total force and torque applied to the rotor can be computed by integrating over the blade length between the blade's root, at a distance $\epsilon$, and the blade's tip, at a distance of $L + \epsilon$. For the the $b$-blade's force is given by
 
 \begin{equation}
     \mathbf{F}^r_{m} = \int_\epsilon^{L+\epsilon} d\mathbf{F}^r_n \mathrm{d}y = \int_\epsilon^{L+\epsilon} \underset{a \to r}{\boldsymbol{R}^{ot}}  d\mathbf{F}^a \mathrm{d}y
 \end{equation}
 
 
-while blade's torque is computed as
+\noindent while blade's torque is computed as
 
 \begin{equation}
     \mathbf{Q}^r_{m} = \int_\epsilon^{L+\epsilon} d\mathbf{Q}^r_n  \mathrm{d}y = \int_\epsilon^{L+\epsilon} \mathbf{r} \times \left[ \underset{a \to r}{\boldsymbol{R}^{ot}}  d\mathbf{F}^a \right] \mathrm{d}y
 \end{equation}
 
-As a final step, the forces shall be integrated as a function of the rotor's azimutal discretization, $\psi_m$. To achieve this the integration is assumed as as aritemetic mean of all of the forces and torques producec for the blade in each of the azimutal sections
+As a final step, the forces shall be integrated as a function of the rotor's azimutal discretization, $\psi_m$. To achieve this the integration is assumed as an avarage of all of the forces and torques produced for the blade in each of the azimutal sections
 
 \begin{equation}
     \mathbf{F}_{rotor}^r = \frac{N_b }{N_{\psi}} \sum_{m=1}^{N_{\psi}} \mathbf{F}^r_{m} = \frac{N_b }{N_{\psi}} \sum_{m=1}^{N_{\psi}} \int_\epsilon^{L+\epsilon} \underset{a \to r}{\boldsymbol{R}^{ot}}  d\mathbf{F}^a \mathrm{d}y
@@ -315,7 +332,7 @@ As a final step, the forces shall be integrated as a function of the rotor's azi
 Also, in equations \ref{eq:total_rotor_force_rotor_frame} and \ref{eq:total_rotor_torque_rotor_frame}, it is intoduced the term of the number of blades, $N_b$, as the rotor is composed by multiple blades. $\mathbf{F}_{rotor}^r$ and $\mathbf{Q}_{rotor}^r$ expressions models the rotor's aerodynamic behaviour.
 
 
-\subsection{ Pitch and Incidence Angle, Angle of Attack,}
+\subsection{ Pitch and Incidence Angle, Angle of Attack}
 
 When computing the aerodynamic forces and moments the angle of attack presents a crucial factor for the 2D aerodynamic lift and drag coefficients
 
@@ -328,7 +345,7 @@ When computing the aerodynamic forces and moments the angle of attack presents a
 
 
 
-The velocity component in each blade element, $\mathrm{U}_n$, depends on its radial position due to the rotation motion of the blade - this component is deeply analyzed further in section \ref{section:element_velocity}. The angle between the velocity vector and the horizontal plane of the rotor is called the inflow angle, $\phi$. To compute the inflow angle, $\phi$, one can introduce an auxiliar unitary vector, $\mathrm{e}^e_x = \begin{bmatrix} 1 & 0 & 0 \end{bmatrix}$ aligned with the $X^e$ axis, and writting the velocity vector in element reference frame, $\mathrm{U}_n^e$, the cosine of the inflow angle and the unitary vector is given by equation \ref{eq:cosine_inflow}
+The velocity component in each blade element, $\mathbf{U}_n^e$, \ta{in the elements} depends on its radial position due to the rotation motion of the blade - this component is deeply analyzed further in section \ref{sec:velocity_element_bet}. The angle between the velocity vector and the horizontal plane of the rotor is called the inflow angle, $\phi$. To compute the inflow angle, $\phi$, one can introduce an auxiliar unitary vector, $\mathrm{e}^e_x = \begin{bmatrix} -1 & 0 & 0 \end{bmatrix}$ aligned with the $X^e$ axis, and writting the velocity vector in element reference frame, $\mathrm{U}_n^e$, the cosine of the inflow angle and the unitary vector is given by equation \ref{eq:cosine_inflow}
 
 
 
@@ -403,7 +420,7 @@ Finally, it is necessary to also consider the rotor’s induced velocity, $\math
 \section{Rotation matrices}
 \label{sec:rotation_matrices}
 
-Considering any inertial reference frame $O(\hat{x},\hat{y},\hat{z})$ and a rotated reference frame $O'(\hat{x}',\hat{y}',\hat{z}')$, the Euler angles, $\Xi$ that the define the rotation of $O'$ related to $O$ is presented in figure \ref{fig:rotation_frames_img}
+Considering any inertial reference frame $O(\hat{x},\hat{y},\hat{z})$ and a rotated reference frame $O'(\hat{x}',\hat{y}',\hat{z}')$, the Euler angles, $\boldsymbol{\Omega}_E$ that the define the rotation of $O'$ related to $O$ is presented in figure \ref{fig:rotation_frames_img}
 
 \begin{figure}[!htb]
     \centering

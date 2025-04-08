@@ -17,15 +17,15 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {2.1}{\ignorespaces Vehicle model considered with a four blade rotor}}{13}{figure.caption.26}%
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Illusttration of the reference frame}}{14}{figure.caption.27}%
-\contentsline {figure}{\numberline {2.3}{\ignorespaces Rotor considered as \gls {cd}, with rotor's reference frame, $O^r$, origin in its center}}{15}{figure.caption.28}%
+\contentsline {figure}{\numberline {2.3}{\ignorespaces Rotor considered as CD, with rotor's reference frame, $O^r$, origin in its center}}{15}{figure.caption.28}%
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Thin-plate position according to the principal axes ($O'$) inside the rotor' and blade's coordinate system, $O^r$ and $O^b$, respectively.}}{16}{figure.caption.29}%
-\contentsline {figure}{\numberline {2.5}{\ignorespaces \gls {bet} model with an highlight blade element in red. The blade reference frame (in blue) and the element reference frame (in green) are shown. Also the $n$-element velocity vector $\mathbf {U}_n$ in element reference frame is shown. Note that here the $z$-axis is not presented, hoever applying the right-hand rule it is possible to determine that its direction its towrds the reader.}}{18}{figure.caption.30}%
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Blade element with flow enviroment and forces aplied. Note that here the $y$-axis is not presented, hoever applying the right-hand rule it is possible to determine that its direction its towrds inside the page.}}{19}{figure.caption.31}%
+\contentsline {figure}{\numberline {2.5}{\ignorespaces \gls {bet} model with an highlight blade element in red. The blade reference frame (in blue) and the element reference frame (in green) are shown. Also the $n$-element velocity vector $\mathbf {U}_n$ in element reference frame is shown. Note that here the $z$-axis is not presented, however applying the right-hand rule it is possible to determine that its direction its towrds the reader.}}{18}{figure.caption.30}%
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Blade element with flow enviroment and forces aplied. Note that here the $y$-axis is not presented, however applying the right-hand rule it is possible to determine that its direction its towrds inside the page.}}{19}{figure.caption.31}%
 \contentsline {figure}{\numberline {2.7}{\ignorespaces Blade element with flow enviroment and forces aplied.}}{21}{figure.caption.32}%
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Reference frame rotation Euler angles, adapted from \cite {schwab_how_2006}}}{23}{figure.caption.33}%
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Reference frame rotation Euler angles, adapted from \cite {schwab_how_2006}}}{24}{figure.caption.33}%
 \contentsline {figure}{\numberline {2.9}{\ignorespaces AERODAS model for lift coefficient, from \cite {spera_models_2008}}}{26}{figure.caption.34}%
 \contentsline {figure}{\numberline {2.10}{\ignorespaces AERODAS model for drag coefficient, from \cite {spera_models_2008}}}{26}{figure.caption.34}%
-\contentsline {figure}{\numberline {2.11}{\ignorespaces NeuralFoil confidence level for NACA 0012 airfoil for Reyndols number from $10^3$ to $10^9$}}{28}{figure.caption.39}%
+\contentsline {figure}{\numberline {2.11}{\ignorespaces NeuralFoil confidence level for NACA 0012 airfoil for Reyndols number from $10^3$ to $10^9$}}{29}{figure.caption.39}%
 \contentsline {figure}{\numberline {2.12}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^4$ determined with Neural foil with confidence level}}{29}{figure.caption.40}%
 \contentsline {figure}{\numberline {2.13}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^5$ determined with Neural foil with confidence level}}{29}{figure.caption.40}%
 \contentsline {figure}{\numberline {2.14}{\ignorespaces NACA 0012 airfoil aerodynamic coefficients for $Re=10^6$ determined with Neural foil with confidence level}}{29}{figure.caption.40}%
@@ -33,7 +33,7 @@
 \contentsline {figure}{\numberline {2.16}{\ignorespaces Drag coefficient computed with the presented aerodynamic model for NACA 4412 airfoil}}{30}{figure.caption.41}%
 \contentsline {figure}{\numberline {2.17}{\ignorespaces Temperature Comparison}}{31}{figure.caption.42}%
 \contentsline {figure}{\numberline {2.18}{\ignorespaces Density Comparison}}{31}{figure.caption.42}%
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Prandtl Tip Loss function versus radial position for two- and four-bladed rotor}}{32}{figure.caption.44}%
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Prandtl Tip Loss function versus radial position for two- and four-bladed rotor}}{33}{figure.caption.44}%
 \contentsline {figure}{\numberline {2.20}{\ignorespaces Prandtl Tip Loss Function}}{33}{figure.caption.45}%
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Computational implementation flowchart}}{38}{figure.caption.46}%
