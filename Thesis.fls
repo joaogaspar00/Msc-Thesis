@@ -628,6 +628,11 @@ INPUT .\Figures\background\bet\angles_theta_neg.png
 INPUT .\Figures\background\bet\angles_theta_neg.png
 INPUT .\Figures\background\bet\angles_theta_neg.png
 INPUT .\Figures\background\bet\angles_theta_neg.png
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
 INPUT .\Figures\background\bet\angles-3.png
 INPUT .\Figures\background\bet\angles-3.png
 INPUT .\Figures\background\bet\angles-3.png
@@ -649,6 +654,13 @@ INPUT .\Figures\background\bet\angles-2.png
 INPUT .\Figures\background\bet\angles-2.png
 INPUT .\Figures\background\bet\angles-2.png
 INPUT .\Figures\background\bet\angles-2.png
+INPUT .\Figures\background\bet\angles-4.png
+INPUT .\Figures\background\bet\angles-4.png
+INPUT .\Figures\background\bet\angles-4.png
+INPUT .\Figures\background\bet\angles-4.png
+INPUT .\Figures\background\bet\angles-4.png
+INPUT .\Figures\background\bet\angles-4.png
+INPUT .\Figures\background\bet\angles-4.png
 INPUT .\Figures\background\rotation_matrices\rotation_frames.png
 INPUT .\Figures\background\rotation_matrices\rotation_frames.png
 INPUT .\Figures\background\rotation_matrices\rotation_frames.png
@@ -797,11 +809,6 @@ INPUT .\Figures\comp_method\simulation_flowchart.png
 INPUT .\Figures\comp_method\simulation_flowchart.png
 INPUT .\Figures\comp_method\simulation_flowchart.png
 INPUT .\Figures\comp_method\simulation_flowchart.png
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
-INPUT C:\Program Files\MiKTeX\tex\latex\psnfss\ts1phv.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\helvetic\phvr8c.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\helvetic\phvr8c.vf
 INPUT .\Figures\comp_method\sim_B\comp_paper.eps
 INPUT .\Figures\comp_method\sim_B\comp_paper.eps
 INPUT .\Figures\comp_method\sim_B\comp_paper.eps
