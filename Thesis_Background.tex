@@ -196,22 +196,21 @@ Figure \ref{fig:blade_bet} presents the basic idea for the \gls{bet} in which it
 \begin{equation}
     \mathbf{U}_n^e = 
     \begin{bmatrix}
-        U_T \\
-        U_R \\
-        U_P \\
+        U_t \\
+        U_r \\
+        U_p \\
     \end{bmatrix}
     \label{eq:velocity_vector_in_element}
 \end{equation}
 
-\ta{\noindent where $U_T$ is the tangential component of the velocity, $U_R$ is the radial component of the velocity and $U_P$ is the vertical component of the velocity. The radial velocity component, $U_R$, is usually not considered for lift, by the independence principle, but it is considered when computing the drag in forward flight \cite{leishman_principles_2006}. So, the resultant velocity at the blade element $n$ is computed as}
+\ta{\noindent where $U_t$ is the tangential component of the velocity, $U_r$ is the radial component of the velocity and $U_p$ is the vertical component of the velocity. The radial velocity component, $U_r$, is usually not considered for lift, by the independence principle, but it is considered when computing the drag in forward flight \cite{leishman_principles_2006}. When considering a 2D airfoil discretization of the blade, the radial velocity $U_r$, is not taking into consideration for the 2D analysis. So, the resultant velocity at the blade element $n$ is computed as}
 
 \begin{equation}
-    U_n = \sqrt{U_T^2 + U_p^2}
+    U_n = \sqrt{U_T^2 + U_p^2} \equiv || \mathbf{U}_n^e ||.
+    \label{eq:result_vel_norm}
 \end{equation}
 
-
 For each blade element, the general flow and forces applied and the pressure center of the airfoil are presented in figure \ref{fig:element_bet}. All over the blade and azimutal postions this is not a standard configuration for the reference frames, forces and velocities. This influences the way that angles are determined in each element. This is taken into considerantion and the following equations are for all the cases different.
-
 
 \begin{figure}[!htb]
     \centering
@@ -334,58 +333,101 @@ Also, in equations \ref{eq:total_rotor_force_rotor_frame} and \ref{eq:total_roto
 
 \subsection{ Pitch and Incidence Angle, Angle of Attack}
 
-When computing the aerodynamic forces and moments the angle of attack presents a crucial factor for the 2D aerodynamic lift and drag coefficients
+When computing the aerodynamic forces and moments the angle of attack presents a crucial factor for the 2D aerodynamic lift and drag coefficients \ta{are the flow and airfoil angles. In Fig. \ref{fig:phi_angle_pos} and in Fig. \ref{fig:phi_angle_neg} there are presented two general cases of the angles that will be discussed in this section. The diferent between both figures is the airfoil pitch angle, which is positive for Fig. \ref{fig:phi_angle_pos} and negative for Fig. \ref{fig:phi_angle_neg}. Also, about Figs. \ref{fig:phi_angle_pos} and \ref{fig:phi_angle_neg} the flow velocity for the correspondet airfoil is presented in a diferent direction than in Fig. \ref{fig:element_bet}. }
 
 \begin{figure}[!htb]
     \centering
-    \includegraphics[width=5cm]{Figures/background/bet/phi_angle.png}
-    \caption{Blade element with flow enviroment and forces aplied.}
-    \label{fig:phi_angle}
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=6cm]{Figures/background/bet/angles_theta_pos.png}
+        \caption{Blade element with flow environment and forces applied. Reference, $O^a$ and $O^e$.}
+        \label{fig:phi_angle_pos}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.48\textwidth}
+        \centering
+        \includegraphics[width=6cm]{Figures/background/bet/angles_theta_neg.png}
+        \caption{Blade element with flow environment and reference, $O^a$ and $O^e$.}
+        \label{fig:phi_angle_neg}
+    \end{minipage}
 \end{figure}
 
-The velocity component in each blade element, $\mathbf{U}_n^e$, \ta{in the elements} depends on \tac{its radial position due to the rotation motion of the blade} \ta{several factor that are} tac{- this component} is deeply analyzed further in section \ref{sec:velocity_element_bet}. \ta{In this section it is considered that the velocity vector in element's reference frame, $O^e$ was already obtained.}
+The velocity component in each blade element, $\mathbf{U}_n^e$, \ta{in the elements} depends on \tc{its radial position due to the rotation motion of the blade} \ta{several factor that are} tac{- this component} is deeply analyzed further in section \ref{sec:velocity_element_bet}. \ta{In this section it is considered that the velocity vector in element's reference frame, $O^e$ was already obtained.}
 
-The angle between the velocity vector and the horizontal plane of the rotor is called the inflow angle, $\phi$ \ta{or $\phi_n$ when considering the $n$-element's inflow angle}. To compute the inflow angle $\phi$, one can introduce an auxiliary unitary vector, $\mathbf{e}_x^e = \begin{bmatrix} -1 & 0 & 0 \end{bmatrix}^\mathrm{T}$, aligned with the $X^e$ axis \tac{and with the velocity vector expressed in the element reference frame}. The cosine of the inflow angle \ta{between} the unitary vector and \ta{the velocity vector, $\mathbf{U}_n^e$ (recall Eq.\ref{eq:velocity_vector_in_element})}, is given by Eq. \ref{eq:cosine_inflow}
+The angle between the velocity vector and the horizontal plane of the rotor is called the inflow angle, $\phi$ \ta{or $\phi_n$ when considering the $n$-element's inflow angle}. To compute the inflow angle $\phi$, one can introduce an auxiliary unitary vector, $\mathbf{e}_x^e = \begin{bmatrix} -1 & 0 & 0 \end{bmatrix}^\mathrm{T}$, aligned with the $X^e$ axis \tc{and with the velocity vector expressed in the element reference frame}. The cosine of the inflow angle \ta{between} the unitary vector and \ta{the velocity vector, $\mathbf{U}_n^e$ (recall Eq.\ref{eq:velocity_vector_in_element})}, is given by Eq. \ref{eq:cosine_inflow}
 
 \begin{equation}
     \cos \phi = \frac{\mathbf{U}_n^e \cdot \mathbf{e}^e_x}{||\mathbf{U}_n^e|| ||\mathbf{e}_x^e||}
     \label{eq:cosine_inflow}
 \end{equation}
 
-The dot product between the unitary vector, $\mathbf{e}^e_x$, and the velocity vector, $\mathbf{U}_n^e$, is given by
+\ta{The dot product between the unitary vector, $\mathbf{e}^e_x$, and the velocity vector, $\mathbf{U}_n^e$, is given by}
 
 \begin{equation}
-    \mathbf{U}_n^e \cdot \mathbf{e}^e_x = \sum_ {i=1}^3 (\mathbf{U}_n^e)_i \cdot (\mathbf{e}_x^e)_i = U_T
+    \mathbf{U}_n^e \cdot \mathbf{e}^e_x = \sum_ {i=1}^3 (\mathbf{U}_n^e)_i \cdot (\mathbf{e}_x^e)_i = U_t
 \end{equation}
 
-\noindent and considering Eq. \ref{eq:unitary_vec_norm}
+\noindent \ta{and considering Eq. \ref{eq:unitary_vec_norm}}
 
 \begin{equation}
     || \mathbf{e}^e_x || =  1,
     \label{eq:unitary_vec_norm}
 \end{equation}
 
-\noindent Eq. \ref{eq:cosine_inflow} can be simplified as
+\noindent \ta{and attending to Eq. \ref{eq:result_vel_norm}, the inflow equation,Eq. \ref{eq:cosine_inflow}, can be simplified as}
 
 \begin{equation}
-    \phi = \cos^{-1} \left( \frac{U_T}{||\mathbf{U}_n^e||}\right)
+    \phi_n = \cos^{-1} \left( \frac{U_t}{\sqrt{U_t^2 + U_p^2}}\right)
+    \label{eq:final_eq_inflow}
 \end{equation}
 
-The equation \ref{eq:cosine_inflow} does not take into consideration both the $\mathbf{U}_n$ if it is upwards or downwards in termns of the $U_P$ component. As seen in figure \ref{fig:element_bet}, the inflow angle, $\phi$, is negative but when \ref{eq:cosine_inflow} is used , the angle is positive. For changing this equation \ref{eq:cosine_inflow_corrected} is introduced.
+\ta{Mathematically, the value of Eq. \ref{eq:final_eq_inflow} is in the range of $ 0 \leq \phi_n \leq 180$ \unit{\deg} and in Figs. \ref{fig:phi_angle_pos} and \ref{fig:phi_angle_neg} the positive direction for the angle reference is clockwise, so it is represented a negative inflow angle. So,} the equation \ref{eq:final_eq_inflow} does not take into consideration \tc{both the} \ta{if} $\mathbf{U}_n$ \tc{if it} is upwards or downwards in terms of the $U_p$ component. As seen in \tc{figure \ref{fig:element_bet}} \ta{Figs. \ref{fig:phi_angle_pos} and \ref{fig:phi_angle_neg} }, the inflow angle, $\phi$, is negative but when \ref{eq:cosine_inflow} is used , the angle is positive. For changing this equation \ref{eq:cosine_inflow_corrected} is introduced.
 
 \begin{equation}
     \begin{cases}
-        \phi = \cos^{-1} \left( \frac{\mathbf{U}_n^e|_x}{||\mathbf{U}_n^e||}\right), \text{ if } U_P <= 0\\
-        \phi = - \cos^{-1} \left( \frac{\mathbf{U}_n^e|_x}{||\mathbf{U}_n^e||}\right), \text{ if } U_P > 0
+        \phi_n = -\cos^{-1} \left( \frac{U_t}{\sqrt{U_t^2 + U_p^2}}\right), \text{ if } U_P <= 0 \\
+        \phi_n = \cos^{-1} \left( \frac{U_t}{\sqrt{U_t^2 + U_p^2}}\right), \text{ if } U_P > 0
     \end{cases}
     \label{eq:cosine_inflow_corrected}
 \end{equation}
 
-The angle between the airfoil chordline and the horizonal plane of the rotor is called the pitch angle denoted as $\theta$ in figure \ref{fig:element_bet}. The pitch angle, $\theta$, can be defined as collective or cyclic pitch angle. All of the blade components along the rotor blade have the same collective pitch angle, which means that the pitch changes uniformly throughout the blade. Usually, the pilot regulates this to change the total lift the rotor produces. However, when the rotor rotates, the cyclic pitch angle changes for various blade parts. By controlling the rotor disc's orientation, this variation enables the aircraft to tilt in a certain direction. Asymmetrical lift distribution and directional control are made possible by the cyclic pitch adjustment, which modifies the blade's angle of attack based on its azimuth location. For the present study, the pitch angle is set for each of the blade's element and is the same distribution for all the blades that compose the rotor and does not change over time. 
+The angle between the airfoil chordline and the horizonal plane of the rotor is called the pitch angle denoted as $\theta$ in figure \ref{fig:element_bet}. The pitch angle, $\theta$, can be defined as collective or cyclic pitch angle. \tc{All of the blade components along the rotor blade have the same collective pitch angle, which means that the pitch changes uniformly throughout the blade. Usually, the pilot regulates this to change the total lift the rotor produces.} \ta{The collective pitch is a control input that changes the pitch angle of all the rotor blades equally and simultaneously, allowing the helicopter to increase or decrease overall lift and thus ascend or descend.} However, when the rotor rotates, the cyclic pitch angle changes \tc{for various blade parts} \ta{for diferent blade azimutal postions over the rotation}.  \tc{By controlling the rotor disc's orientation, this variation enables the aircraft to tilt in a certain direction.} \ta{Controllig the cyclic pitch, the pilot controlls the blade's flapping movement changing the rotation plano and so the rotor's orientation} Asymmetrical lift distribution and directional control are made possible by the cyclic pitch adjustment, which modifies the blade's angle of attack based on its azimuth location. For the present study, \ta{the cyclic pitch is not consider, but the collective pitch is consider} \tc{the pitch angle is set} for each of the blade \tc{'s element} \ta{at its root} and is \tc{the same distribution} \ta{kept constant} for all the blades \tc{that compose the rotor} and does not change over \ta{simulation} time. \ta{In other words, the collective pitch angle is not controlable in this study, but the simulation is able to consider blade twist, being the $n$-element's pitch angle, $\theta_n$, given by Eq.}
 
-The angle of attack, denoted as $\alpha$, is the angle between the airfoil chord line and the relative airflow experienced by the blade element. It is a crucial parameter in determining the aerodynamic forces acting on the blade. The angle of attack depends on both the pitch angle,  $\theta$, and the inflow angle, $\phi$, which include the induced velocity generated by the rotor and the forward motion of the aircraft. 
+\begin{equation}
+    \theta_n = \mathcal{T}(\mathbf{r}_n, \theta_0)
+\end{equation}
 
-To determine the angle of attack considering all pitch angle, $\theta$, and inflow angles, $\phi$, over the blade length and azimultal distribution, equation 
+\noindent \ta{$\mathcal{T}$ is a twist distribution function, $\theta_0$ is the collective pitch angle and $\mathbf{r}_n$ the element position}.
+
+The angle of attack, denoted as $\alpha$, is the angle between the airfoil chord line and the relative airflow experienced by the blade element. It is a crucial parameter in determining the aerodynamic forces acting on the blade. The angle of attack depends on both the pitch angle, $\theta$, and the inflow angle, $\phi$, (here, $_n$ Subscripts where omitted though it is considered the $n$-element's pitch and inflow angle) which include \tc{the induced velocity generated by the rotor and the forward motion of the aircraft} all the factors influencing the element's velocity discussed further in Sec. \ref{sec:velocity_element_bet}. 
+
+To determine the angle of attack considering \tc{all} \ta{both }pitch angle, $\theta$, and inflow angles, $\phi$, over the blade \tc{length and azimultal distribution, equation} elements, Figs. \ref{fig:ang-111}-\ref{fig:ang-222}
+
+
+\begin{figure}[!htb]
+    \centering
+    \begin{minipage}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=4cm]{Figures/background/bet/angles-3.png}
+        \caption[Angles case 1]{Angles \textbf{case 1}}
+        \label{fig:ang-111}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=4cm]{Figures/background/bet/angles-1.png}
+        \caption[Angles case 2]{Angles \textbf{case 2}}
+        \label{fig:ang-222}
+    \end{minipage}
+    \hfill
+    \begin{minipage}[b]{0.32\textwidth}
+        \centering
+        \includegraphics[width=4cm]{Figures/background/bet/angles-2.png}
+        \caption[Angles case 3] {Angles \textbf{case 3}}
+        \label{fig:ang-333}
+    \end{minipage}
+\end{figure}
+
 
 \begin{equation}
     \begin{cases}
@@ -395,38 +437,40 @@ To determine the angle of attack considering all pitch angle, $\theta$, and infl
     \label{eq:angle_of_attack}
 \end{equation}
 
+
+
 \section{Velocity Vector in Element's Reference Frame}
 \label{sec:velocity_element_bet}
 
-As previous presented, to compute the elementary drag, Eq. \ref{eq:drag_element}, and elementary lift, Eq. \ref{eq:lift_element}, for each blade element, the velocity vector in element's reference frame, $\mathrm{U}_n^e$, plays a major role to dimensionalize the lift, $C_l$, and drag, $C_d$, coefficents. In this section, the main goal is to analyse how the velocity vector is computed and what are the main factors that influence its magnitude and direction.
+\ta{As previous presented, to compute the elementary drag, Eq. \ref{eq:drag_element}, and elementary lift, Eq. \ref{eq:lift_element}, for each blade element, the velocity vector in element's reference frame, $\mathrm{U}_n^e$, plays a major role to dimensionalize the lift, $C_l$, and drag, $C_d$, coefficents. In this section, the main goal is to analyse how the velocity vector is computed and what are the main factors that influence its magnitude and direction.}
 
-Due to the vehicle dynamics there are two factors: the linear velocity of the point-mass model and the angular velocity of the vehicle,  around its center of mass, coincident with e the point mass model. The linear velocity of the point-mass model, $\mathbf{V}$, is computed considering Eq. \ref{eq:force_equation} and its resultant vector written in the elements reference frame, $\mathbf{V}^e$, as in Eq. \ref{eq:line_vec_element_frame}
+\ta{Due to the vehicle dynamics there are two factors: the linear velocity of the point-mass model and the angular velocity of the vehicle,  around its center of mass, coincident with e the point mass model. The linear velocity of the point-mass model, $\mathbf{V}$, is computed considering Eq. \ref{eq:force_equation} and its resultant vector written in the elements reference frame, $\mathbf{V}^e$, as in Eq. \ref{eq:line_vec_element_frame}}
 
 \begin{equation}
-    \mathbf{V}^e = \underset{i \to e}{\boldsymbol{R}^{ot}} \mathbf{V}^i.
+    \ta{\mathbf{V}^e = \underset{i \to e}{\boldsymbol{R}^{ot}} \mathbf{V}^i.}
     \label{eq:line_vec_element_frame}
 \end{equation}
 
-\noindent where $\underset{i \to e}{\boldsymbol{R}^{ot}}$ is the rotation matrix from the inertial frame to the element reference frame. For instance, the angular velocity of the vehicle, $\boldsymbol{\omega}$, influence should be considered in the velocity vector computation. The linear component from the vehicle’s angular velocity, $\mathbf{V}^e_\omega$, is computed as in Eq. \ref{eq:line_ang_vec_element_frame}
+\ta{\noindent where $\underset{i \to e}{\boldsymbol{R}^{ot}}$ is the rotation matrix from the inertial frame to the element reference frame. For instance, the angular velocity of the vehicle, $\boldsymbol{\omega}$, influence should be considered in the velocity vector computation. The linear component from the vehicle’s angular velocity, $\mathbf{V}^e_\omega$, is computed as in Eq. \ref{eq:line_ang_vec_element_frame}}
 
 \begin{equation}
-    \mathbf{V}^e_\omega = \mathbf{r}^e  \boldsymbol{\omega}^e.
+    \ta{\mathbf{V}^e_\omega = \mathbf{r}^e  \boldsymbol{\omega}^e.}
     \label{eq:line_ang_vec_element_frame}
 \end{equation}
 
-\noindent where, $\mathbf{r}^e$ is the position vector of the element with respect to the center of mass, and $\boldsymbol{\omega}^e$ is the vehicle's angular velocity.
+\ta{\noindent where, $\mathbf{r}^e$ is the position vector of the element with respect to the center of mass, and $\boldsymbol{\omega}^e$ is the vehicle's angular velocity.}
 
-Another factor that influences the velocity vector is rotor's angular velocity, $\Omega$. Its linear component can be computed in the element reference frame as in Eq. \ref{eq:rotor_ang_vel_element},
+\ta{Another factor that influences the velocity vector is rotor's angular velocity, $\Omega$. Its linear component can be computed in the element reference frame as in Eq. \ref{eq:rotor_ang_vel_element},}
 
 \begin{equation}
-    V^e_{\Omega} = \mathbf{r}^e \Omega
+    \ta{V^e_{\Omega} = \mathbf{r}^e \Omega}
     \label{eq:rotor_ang_vel_element}
 \end{equation}
 
-Finally, it is necessary to also consider the rotor’s induced velocity, $\mathbf{v}_i$. The induced velocity is a result of the rotor’s interaction with the surrounding air and is further detailed in Sec. \ref{sec:induced_Velocity}. However, the resultant velocity vector in element $n$ on any blade is computed as Eq. \ref{eq:element_full_velocity}
+\ta{Finally, it is necessary to also consider the rotor’s induced velocity, $\mathbf{v}_i$. The induced velocity is a result of the rotor’s interaction with the surrounding air and is further detailed in Sec. \ref{sec:induced_Velocity}. However, the resultant velocity vector in element $n$ on any blade is computed as Eq. \ref{eq:element_full_velocity}}
 
 \begin{equation}
-    \mathbf{V}_{\infty n}^e = \mathbf{V}^e + \mathbf{V}^e_\omega + V^e_{\Omega} + \mathbf{v}_i
+    \ta{\mathbf{V}_{n}^e = \mathbf{V}^e + \mathbf{V}^e_\omega + V^e_{\Omega} + \mathbf{v}_i^e}
     \label{eq:element_full_velocity}
 \end{equation}
 

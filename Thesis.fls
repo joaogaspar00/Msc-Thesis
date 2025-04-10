@@ -263,6 +263,8 @@ INPUT C:\Program Files\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\algorithmicx\algpseudocode.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\algorithmicx\algorithmicx.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty
+INPUT C:\Program Files\MiKTeX\tex\latex\caption\subcaption.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\colortbl\colortbl.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\siunitx\siunitx.sty
@@ -612,13 +614,41 @@ INPUT .\Figures\background\bet\element.png
 INPUT .\Figures\background\bet\element.png
 INPUT .\Figures\background\bet\element.png
 INPUT .\Figures\background\bet\element.png
-INPUT .\Figures\background\bet\phi_angle.png
-INPUT .\Figures\background\bet\phi_angle.png
-INPUT .\Figures\background\bet\phi_angle.png
-INPUT .\Figures\background\bet\phi_angle.png
-INPUT .\Figures\background\bet\phi_angle.png
-INPUT .\Figures\background\bet\phi_angle.png
-INPUT .\Figures\background\bet\phi_angle.png
+INPUT .\Figures\background\bet\angles_theta_pos.png
+INPUT .\Figures\background\bet\angles_theta_pos.png
+INPUT .\Figures\background\bet\angles_theta_pos.png
+INPUT .\Figures\background\bet\angles_theta_pos.png
+INPUT .\Figures\background\bet\angles_theta_pos.png
+INPUT .\Figures\background\bet\angles_theta_pos.png
+INPUT .\Figures\background\bet\angles_theta_pos.png
+INPUT .\Figures\background\bet\angles_theta_neg.png
+INPUT .\Figures\background\bet\angles_theta_neg.png
+INPUT .\Figures\background\bet\angles_theta_neg.png
+INPUT .\Figures\background\bet\angles_theta_neg.png
+INPUT .\Figures\background\bet\angles_theta_neg.png
+INPUT .\Figures\background\bet\angles_theta_neg.png
+INPUT .\Figures\background\bet\angles_theta_neg.png
+INPUT .\Figures\background\bet\angles-3.png
+INPUT .\Figures\background\bet\angles-3.png
+INPUT .\Figures\background\bet\angles-3.png
+INPUT .\Figures\background\bet\angles-3.png
+INPUT .\Figures\background\bet\angles-3.png
+INPUT .\Figures\background\bet\angles-3.png
+INPUT .\Figures\background\bet\angles-3.png
+INPUT .\Figures\background\bet\angles-1.png
+INPUT .\Figures\background\bet\angles-1.png
+INPUT .\Figures\background\bet\angles-1.png
+INPUT .\Figures\background\bet\angles-1.png
+INPUT .\Figures\background\bet\angles-1.png
+INPUT .\Figures\background\bet\angles-1.png
+INPUT .\Figures\background\bet\angles-1.png
+INPUT .\Figures\background\bet\angles-2.png
+INPUT .\Figures\background\bet\angles-2.png
+INPUT .\Figures\background\bet\angles-2.png
+INPUT .\Figures\background\bet\angles-2.png
+INPUT .\Figures\background\bet\angles-2.png
+INPUT .\Figures\background\bet\angles-2.png
+INPUT .\Figures\background\bet\angles-2.png
 INPUT .\Figures\background\rotation_matrices\rotation_frames.png
 INPUT .\Figures\background\rotation_matrices\rotation_frames.png
 INPUT .\Figures\background\rotation_matrices\rotation_frames.png
@@ -964,8 +994,6 @@ INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbsy10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx7.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cm\cmex10.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\public\amsfonts\cmextra\cmex8.pfb

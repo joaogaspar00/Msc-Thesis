@@ -27,17 +27,17 @@
 \contentsline {section}{\numberline {2.3}Rotor's Dynamics}{17}{section.2.3}%
 \contentsline {subsection}{\numberline {2.3.1}Blade Element Theory (BET)}{18}{subsection.2.3.1}%
 \contentsline {subsection}{\numberline {2.3.2} Pitch and Incidence Angle, Angle of Attack}{21}{subsection.2.3.2}%
-\contentsline {section}{\numberline {2.4}Velocity Vector in Element's Reference Frame}{23}{section.2.4}%
+\contentsline {section}{\numberline {2.4}Velocity Vector in Element's Reference Frame}{24}{section.2.4}%
 \contentsline {subsection}{\numberline {2.4.1}Induced Velocity}{24}{subsection.2.4.1}%
 \contentsline {section}{\numberline {2.5}Rotation matrices}{24}{section.2.5}%
 \contentsline {section}{\numberline {2.6}2D Aerodynamic Model}{25}{section.2.6}%
 \contentsline {subsection}{\numberline {2.6.1}AERODAS}{26}{subsection.2.6.1}%
-\contentsline {subsubsection}{Pre-Stall Maximum Lift and Drag}{26}{section*.36}%
-\contentsline {subsubsection}{Post-Stall Maximum Lift and Drag}{28}{section*.37}%
-\contentsline {subsubsection}{Lift and Drag Model Configurations}{28}{section*.38}%
-\contentsline {subsection}{\numberline {2.6.2}Neuralfoil Dataset}{28}{subsection.2.6.2}%
-\contentsline {section}{\numberline {2.7}Atmosphere Model}{30}{section.2.7}%
-\contentsline {section}{\numberline {2.8}Prandtl Tip Losses Factor}{32}{section.2.8}%
+\contentsline {subsubsection}{Pre-Stall Maximum Lift and Drag}{27}{section*.37}%
+\contentsline {subsubsection}{Post-Stall Maximum Lift and Drag}{28}{section*.38}%
+\contentsline {subsubsection}{Lift and Drag Model Configurations}{29}{section*.39}%
+\contentsline {subsection}{\numberline {2.6.2}Neuralfoil Dataset}{29}{subsection.2.6.2}%
+\contentsline {section}{\numberline {2.7}Atmosphere Model}{31}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Prandtl Tip Losses Factor}{33}{section.2.8}%
 \contentsline {chapter}{\numberline {3}Computational Methods}{35}{chapter.3}%
 \contentsline {section}{\numberline {3.1}Numerical Integration}{35}{section.3.1}%
 \contentsline {subsection}{\numberline {3.1.1}4th Order Runge-Kutta for Vehicle Dynamics}{35}{subsection.3.1.1}%
@@ -56,6 +56,6 @@
 \contentsline {chapter}{\numberline {4}Conclusions}{45}{chapter.4}%
 \contentsline {section}{\numberline {4.1}Achievements}{45}{section.4.1}%
 \contentsline {section}{\numberline {4.2}Future Work}{45}{section.4.2}%
-\contentsline {chapter}{Bibliography}{47}{section*.58}%
+\contentsline {chapter}{Bibliography}{47}{section*.59}%
 \contentsline {chapter}{\numberline {A}Vector calculus}{53}{appendix.A}%
 \contentsline {section}{\numberline {A.1}Vector identities}{53}{section.A.1}%
